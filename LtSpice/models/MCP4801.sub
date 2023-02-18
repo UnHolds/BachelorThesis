@@ -1,0 +1,9 @@
+* MCP4801
+
+.subckt MCP4801 In Out
+
+Ri In 0 {Ri}
+E1 a 0 value={round(V(In,0)/(Vcc / 256)) * Vcc / 256}
+Ro a Out {Ro}
+
+.ends MCP4801

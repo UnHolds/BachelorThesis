@@ -1,0 +1,16 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal 16 16 -16 -16
+WINDOW 40 -6 -29 Left 0
+SYMATTR Prefix X
+SYMATTR SpiceModel MCP4801
+SYMATTR SpiceLine Ri= 10e6 Ro=1
+SYMATTR Description MCP4801 DAC
+SYMATTR ModelFile MCP4801.sub
+SYMATTR SpiceLine2 Vcc=5
+PIN 16 0 NONE 8
+PINATTR PinName Out
+PINATTR SpiceOrder 2
+PIN -16 0 NONE 8
+PINATTR PinName In
+PINATTR SpiceOrder 1
