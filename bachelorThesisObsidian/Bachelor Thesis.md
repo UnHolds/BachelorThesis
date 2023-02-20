@@ -5,6 +5,10 @@
 
 Bauteilliste: [[I2C_Lautsprecher_System/Bauteile|Bauteile]]
 
+### [[Lautsprecherverstäker]]
+
+
+
 
 ## Metastabile NAND-Gatter
 
