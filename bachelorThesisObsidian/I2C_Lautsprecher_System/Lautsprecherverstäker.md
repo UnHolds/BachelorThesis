@@ -1,7 +1,7 @@
 
 ## Idee
 
-![[Functional_Blocks_AMP.svg]]
+![[Functional_Blocks_AMP.svg#invert_W]]
 
 Der DAC erzeugt das Audiosignal welchen das durch einen Tiefpassfilter geht, der die hochfrequenten Anteile des Signales entfernt. Danach geht das Signal durch einen Treiber der verwendet wird um den Lautsprecher zu treiben.
 
@@ -23,7 +23,7 @@ DAC: [[MCP4801]]
 * Für diesen DAC wurde ein eigenes ideals Model für die Simulation erzeugt. Siehe [[Lautsprecherverstäker#LT-Spice Model DAC|LT-Spice Model DAC]] 
 
 ### Verstärker Schematic:
-![[Speaker_Amp_Schematic.svg]]
+![[Speaker_Amp_Schematic.svg#invert_W]]
 
 
 ### Rechnung:
