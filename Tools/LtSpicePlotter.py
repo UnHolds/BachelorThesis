@@ -29,5 +29,15 @@ with open(filename) as f:
 for i in range(1, len(header)):
     plt.plot(data[0], data[i], label = header[i], linestyle="-")
 
+plt.xlabel('Time [s]', fontsize=12)
+
+ylabel = ""
+if header[1][0] == "V":
+    ylabel = "Voltage [V]"
+elif header[1][0] == "I":
+    ylabel = "Current [A]"
+
+
+plt.ylabel(ylabel, fontsize=12)
 plt.legend()
 plt.show()
