@@ -69,3 +69,15 @@ Dies führt zu zwei Möglichkeiten:
 Welche von den beiden Varianten verwendet wird, wird nach dem Bau des Prototyps entschieden. 
 Info: In der Simulation wird der OPV TL1677 verwendet und nicht der OPV [[LM4562]], der Grund hierfür ist das LTSpice diesen nicht in der Bibliothek hat, der einzige Unterschied sollte jedoch nur sein, dass der TL1677 näher an die Versorgungsspannung kommt als der [[LM4562]]
 
+
+## Transient Simulation Tiefpass-Filter
+
+In dieser Simulation wird der Tiefpass-Filter untersucht und welche Auswirkungen er auf das DAC Signal hat.
+![[I2C_Lautsprecher_System/Simulation/Simulation#Parameter]]
+
+Simulations-Zeit: 1ms
+
+![[LowPassFilterTransientSimulation.svg]]
+
+Vergrößerte Version:
+![[LowPassFilterTransientSimulationZoomed.svg]]
