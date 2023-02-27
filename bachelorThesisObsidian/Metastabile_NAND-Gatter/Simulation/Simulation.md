@@ -19,7 +19,7 @@
 
 ## Transient Simulation
 
-Time: 250ms
+Zeit: 250ms
 
 ![[TransientPlot.svg]]
 
