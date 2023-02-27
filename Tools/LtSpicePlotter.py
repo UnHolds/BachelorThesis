@@ -34,7 +34,8 @@ with open(filename) as f:
 
 
 fig, ax1 = plt.subplots()
-ax2 = ax1.twinx()
+if any(x[0] != header[1][0] for x in header[2:]):
+    ax2 = ax1.twinx()
 
 
 #check if ms is better
