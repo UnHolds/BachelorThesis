@@ -32,8 +32,11 @@ with open(filename) as f:
 
     
 
-
 fig, ax1 = plt.subplots()
+fig.set_facecolor('none')
+ax1.set_facecolor('none')
+
+
 if any(x[0] != header[1][0] for x in header[2:]):
     ax2 = ax1.twinx()
 
@@ -72,6 +75,6 @@ ax1.set_ylabel(ylabel, fontsize=12)
 
 lines_labels = [ax.get_legend_handles_labels() for ax in fig.axes]
 lines, labels = [sum(lol, []) for lol in zip(*lines_labels)]
-plt.legend(lines, labels, loc="best")
+plt.legend(lines, labels, loc="best", facecolor='none')
 
 plt.show()
