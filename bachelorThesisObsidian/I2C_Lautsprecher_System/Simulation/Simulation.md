@@ -1,6 +1,5 @@
 ## Aufbau
-#TODO update image
-![[Speaker_Amp_Schematic2.svg]]
+![[Speaker_Amp_Schematic.svg]]
 
 
 ## Parameter
