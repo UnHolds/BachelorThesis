@@ -1,0 +1,1281 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="898.79486pt"
+   height="297.89075pt"
+   viewBox="0 0 898.79485 297.89074"
+   version="1.1"
+   id="svg464"
+   sodipodi:docname="LowPassFilterTransientSimulation19_4kHz.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview466"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="pt"
+     showgrid="false"
+     inkscape:zoom="0.81792125"
+     inkscape:cx="687.71902"
+     inkscape:cy="503.71598"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg464" />
+  <metadata
+     id="metadata2">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:date>2023-02-28T10:53:46.601734</dc:date>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Matplotlib v3.7.0, https://matplotlib.org/</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6">
+    <style
+       type="text/css"
+       id="style4">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  </defs>
+  <path
+     d="M 38.516875,266.512 H 898.39487 V 0.40000001 H 38.516875 Z"
+     style="fill:none"
+     id="path11" />
+  <g
+     id="xtick_1"
+     transform="translate(-100.17313,-41.072)"
+     style="fill:#ffffff">
+    <g
+       id="line2d_1"
+       style="fill:#ffffff">
+      <defs
+         id="defs15">
+        <path
+           id="m912f3f59cd"
+           d="M 0,0 V 3.5"
+           style="stroke:#ffffff;stroke-width:0.8" />
+      </defs>
+      <g
+         id="g19"
+         style="fill:#ffffff">
+        <use
+           xlink:href="#m912f3f59cd"
+           x="177.77536"
+           y="307.58401"
+           style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8"
+           id="use17" />
+      </g>
+    </g>
+    <g
+       id="text_1"
+       style="fill:#ffffff">
+      <!-- 0.00 -->
+      <g
+         transform="matrix(0.1,0,0,-0.1,166.64255,322.18244)"
+         id="g34"
+         style="fill:#ffffff">
+        <defs
+           id="defs24">
+          <path
+             id="DejaVuSans-30"
+             d="m 2034,4250 q -487,0 -733,-480 -245,-479 -245,-1442 0,-959 245,-1439 246,-480 733,-480 491,0 736,480 246,480 246,1439 0,963 -246,1442 -245,480 -736,480 z m 0,500 q 785,0 1199,-621 414,-620 414,-1801 0,-1178 -414,-1799 -414,-620 -1199,-620 -784,0 -1198,620 -414,621 -414,1799 0,1181 414,1801 414,621 1198,621 z"
+             transform="scale(0.015625)" />
+          <path
+             id="DejaVuSans-2e"
+             d="m 684,794 h 660 V 0 H 684 Z"
+             transform="scale(0.015625)" />
+        </defs>
+        <use
+           xlink:href="#DejaVuSans-30"
+           id="use26"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-2e"
+           x="63.623047"
+           id="use28"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-30"
+           x="95.410156"
+           id="use30"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-30"
+           x="159.0332"
+           id="use32"
+           style="fill:#ffffff" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="xtick_2"
+     transform="translate(-100.17313,-41.072)"
+     style="fill:#ffffff">
+    <g
+       id="line2d_2"
+       style="fill:#ffffff">
+      <g
+         id="g40"
+         style="fill:#ffffff">
+        <use
+           xlink:href="#m912f3f59cd"
+           x="308.05991"
+           y="307.58401"
+           style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8"
+           id="use38" />
+      </g>
+    </g>
+    <g
+       id="text_2"
+       style="fill:#ffffff">
+      <!-- 0.05 -->
+      <g
+         transform="matrix(0.1,0,0,-0.1,296.9271,322.18244)"
+         id="g54"
+         style="fill:#ffffff">
+        <defs
+           id="defs44">
+          <path
+             id="DejaVuSans-35"
+             d="M 691,4666 H 3169 V 4134 H 1269 V 2991 q 137,47 274,70 138,23 276,23 781,0 1237,-428 457,-428 457,-1159 Q 3513,744 3044,326 2575,-91 1722,-91 1428,-91 1123,-41 819,9 494,109 v 635 q 281,-153 581,-228 300,-75 634,-75 541,0 856,284 316,284 316,772 0,487 -316,771 -315,285 -856,285 -253,0 -505,-56 -251,-56 -513,-175 z"
+             transform="scale(0.015625)" />
+        </defs>
+        <use
+           xlink:href="#DejaVuSans-30"
+           id="use46"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-2e"
+           x="63.623047"
+           id="use48"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-30"
+           x="95.410156"
+           id="use50"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-35"
+           x="159.0332"
+           id="use52"
+           style="fill:#ffffff" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="xtick_3"
+     transform="translate(-100.17313,-41.072)"
+     style="fill:#ffffff">
+    <g
+       id="line2d_3"
+       style="fill:#ffffff">
+      <g
+         id="g60"
+         style="fill:#ffffff">
+        <use
+           xlink:href="#m912f3f59cd"
+           x="438.34445"
+           y="307.58401"
+           style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8"
+           id="use58" />
+      </g>
+    </g>
+    <g
+       id="text_3"
+       style="fill:#ffffff">
+      <!-- 0.10 -->
+      <g
+         transform="matrix(0.1,0,0,-0.1,427.21164,322.18244)"
+         id="g74"
+         style="fill:#ffffff">
+        <defs
+           id="defs64">
+          <path
+             id="DejaVuSans-31"
+             d="M 794,531 H 1825 V 4091 L 703,3866 v 575 l 1116,225 h 631 V 531 H 3481 V 0 H 794 Z"
+             transform="scale(0.015625)" />
+        </defs>
+        <use
+           xlink:href="#DejaVuSans-30"
+           id="use66"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-2e"
+           x="63.623047"
+           id="use68"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-31"
+           x="95.410156"
+           id="use70"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-30"
+           x="159.0332"
+           id="use72"
+           style="fill:#ffffff" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="xtick_4"
+     transform="translate(-100.17313,-41.072)"
+     style="fill:#ffffff">
+    <g
+       id="line2d_4"
+       style="fill:#ffffff">
+      <g
+         id="g80"
+         style="fill:#ffffff">
+        <use
+           xlink:href="#m912f3f59cd"
+           x="568.62903"
+           y="307.58401"
+           style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8"
+           id="use78" />
+      </g>
+    </g>
+    <g
+       id="text_4"
+       style="fill:#ffffff">
+      <!-- 0.15 -->
+      <g
+         transform="matrix(0.1,0,0,-0.1,557.49619,322.18244)"
+         id="g91"
+         style="fill:#ffffff">
+        <use
+           xlink:href="#DejaVuSans-30"
+           id="use83"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-2e"
+           x="63.623047"
+           id="use85"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-31"
+           x="95.410156"
+           id="use87"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-35"
+           x="159.0332"
+           id="use89"
+           style="fill:#ffffff" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="xtick_5"
+     transform="translate(-100.17313,-41.072)"
+     style="fill:#ffffff">
+    <g
+       id="line2d_5"
+       style="fill:#ffffff">
+      <g
+         id="g97"
+         style="fill:#ffffff">
+        <use
+           xlink:href="#m912f3f59cd"
+           x="698.91357"
+           y="307.58401"
+           style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8"
+           id="use95" />
+      </g>
+    </g>
+    <g
+       id="text_5"
+       style="fill:#ffffff">
+      <!-- 0.20 -->
+      <g
+         transform="matrix(0.1,0,0,-0.1,687.78073,322.18244)"
+         id="g111"
+         style="fill:#ffffff">
+        <defs
+           id="defs101">
+          <path
+             id="DejaVuSans-32"
+             d="M 1228,531 H 3431 V 0 H 469 v 531 q 359,372 979,998 621,627 780,809 303,340 423,576 121,236 121,464 0,372 -261,606 -261,235 -680,235 -297,0 -627,-103 -329,-103 -704,-313 v 638 q 381,153 712,231 332,78 607,78 725,0 1156,-363 431,-362 431,-968 0,-288 -108,-546 -107,-257 -392,-607 -78,-91 -497,-524 Q 1991,1309 1228,531 Z"
+             transform="scale(0.015625)" />
+        </defs>
+        <use
+           xlink:href="#DejaVuSans-30"
+           id="use103"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-2e"
+           x="63.623047"
+           id="use105"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-32"
+           x="95.410156"
+           id="use107"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-30"
+           x="159.0332"
+           id="use109"
+           style="fill:#ffffff" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="xtick_6"
+     transform="translate(-100.17313,-41.072)"
+     style="fill:#ffffff">
+    <g
+       id="line2d_6"
+       style="fill:#ffffff">
+      <g
+         id="g117"
+         style="fill:#ffffff">
+        <use
+           xlink:href="#m912f3f59cd"
+           x="829.19812"
+           y="307.58401"
+           style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8"
+           id="use115" />
+      </g>
+    </g>
+    <g
+       id="text_6"
+       style="fill:#ffffff">
+      <!-- 0.25 -->
+      <g
+         transform="matrix(0.1,0,0,-0.1,818.06528,322.18244)"
+         id="g128"
+         style="fill:#ffffff">
+        <use
+           xlink:href="#DejaVuSans-30"
+           id="use120"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-2e"
+           x="63.623047"
+           id="use122"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-32"
+           x="95.410156"
+           id="use124"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-35"
+           x="159.0332"
+           id="use126"
+           style="fill:#ffffff" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="xtick_7"
+     transform="translate(-100.17313,-41.072)"
+     style="fill:#ffffff">
+    <g
+       id="line2d_7"
+       style="fill:#ffffff">
+      <g
+         id="g134"
+         style="fill:#ffffff">
+        <use
+           xlink:href="#m912f3f59cd"
+           x="959.48267"
+           y="307.58401"
+           style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8"
+           id="use132" />
+      </g>
+    </g>
+    <g
+       id="text_7"
+       style="fill:#ffffff">
+      <!-- 0.30 -->
+      <g
+         transform="matrix(0.1,0,0,-0.1,948.34982,322.18244)"
+         id="g148"
+         style="fill:#ffffff">
+        <defs
+           id="defs138">
+          <path
+             id="DejaVuSans-33"
+             d="m 2597,2516 q 453,-97 707,-404 255,-306 255,-756 0,-690 -475,-1069 -475,-378 -1350,-378 -293,0 -604,58 -311,58 -642,174 v 609 q 262,-153 574,-231 313,-78 654,-78 593,0 904,234 311,234 311,681 0,413 -289,645 -289,233 -804,233 h -544 v 519 h 569 q 465,0 712,186 247,186 247,536 0,359 -255,551 -254,193 -729,193 -260,0 -557,-57 -297,-56 -653,-174 v 562 q 360,100 674,150 314,50 592,50 719,0 1137,-327 419,-326 419,-882 0,-388 -222,-655 -222,-267 -631,-370 z"
+             transform="scale(0.015625)" />
+        </defs>
+        <use
+           xlink:href="#DejaVuSans-30"
+           id="use140"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-2e"
+           x="63.623047"
+           id="use142"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-33"
+           x="95.410156"
+           id="use144"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-30"
+           x="159.0332"
+           id="use146"
+           style="fill:#ffffff" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="text_8"
+     transform="translate(-100.17313,-41.072)"
+     style="fill:#ffffff">
+    <!-- Time [ms] -->
+    <g
+       transform="matrix(0.12,0,0,-0.12,538.38994,337.38025)"
+       id="g180"
+       style="fill:#ffffff">
+      <defs
+         id="defs160">
+        <path
+           id="DejaVuSans-54"
+           d="M -19,4666 H 3928 V 4134 H 2272 V 0 H 1638 V 4134 H -19 Z"
+           transform="scale(0.015625)" />
+        <path
+           id="DejaVuSans-69"
+           d="m 603,3500 h 575 V 0 H 603 Z m 0,1363 h 575 V 4134 H 603 Z"
+           transform="scale(0.015625)" />
+        <path
+           id="DejaVuSans-6d"
+           d="m 3328,2828 q 216,388 516,572 300,184 706,184 547,0 844,-383 297,-382 297,-1088 V 0 h -578 v 2094 q 0,503 -179,746 -178,244 -543,244 -447,0 -707,-297 -259,-296 -259,-809 V 0 h -578 v 2094 q 0,506 -178,748 -178,242 -550,242 -441,0 -701,-298 -259,-298 -259,-808 V 0 H 581 v 3500 h 578 v -544 q 197,322 472,475 275,153 653,153 382,0 649,-194 267,-193 395,-562 z"
+           transform="scale(0.015625)" />
+        <path
+           id="DejaVuSans-65"
+           d="M 3597,1894 V 1613 H 953 q 38,-594 358,-905 320,-311 892,-311 331,0 642,81 311,81 618,244 V 178 Q 3153,47 2828,-22 2503,-91 2169,-91 1331,-91 842,396 353,884 353,1716 q 0,859 464,1363 464,505 1252,505 706,0 1117,-455 411,-454 411,-1235 z m -575,169 q -6,471 -264,752 -258,282 -683,282 -481,0 -770,-272 -289,-272 -333,-766 z"
+           transform="scale(0.015625)" />
+        <path
+           id="DejaVuSans-20"
+           transform="scale(0.015625)"
+           d="" />
+        <path
+           id="DejaVuSans-5b"
+           d="M 550,4863 H 1875 V 4416 H 1125 V -397 h 750 V -844 H 550 Z"
+           transform="scale(0.015625)" />
+        <path
+           id="DejaVuSans-73"
+           d="m 2834,3397 v -544 q -243,125 -506,187 -262,63 -544,63 -428,0 -642,-131 -214,-131 -214,-394 0,-200 153,-314 153,-114 616,-217 l 197,-44 q 612,-131 870,-370 258,-239 258,-667 0,-488 -386,-773 Q 2250,-91 1575,-91 1294,-91 989,-36 684,19 347,128 v 594 q 319,-166 628,-249 309,-82 613,-82 406,0 624,139 219,139 219,392 0,234 -158,359 -157,125 -692,241 l -200,47 q -534,112 -772,345 -237,233 -237,639 0,494 350,762 350,269 994,269 318,0 599,-47 282,-46 519,-140 z"
+           transform="scale(0.015625)" />
+        <path
+           id="DejaVuSans-5d"
+           d="M 1947,4863 V -844 H 622 v 447 h 747 V 4416 H 622 v 447 z"
+           transform="scale(0.015625)" />
+      </defs>
+      <use
+         xlink:href="#DejaVuSans-54"
+         id="use162"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-69"
+         x="57.958984"
+         id="use164"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-6d"
+         x="85.742188"
+         id="use166"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-65"
+         x="183.1543"
+         id="use168"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-20"
+         x="244.67773"
+         id="use170"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-5b"
+         x="276.46484"
+         id="use172"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-6d"
+         x="315.47852"
+         id="use174"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-73"
+         x="412.89062"
+         id="use176"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-5d"
+         x="464.99023"
+         id="use178"
+         style="fill:#ffffff" />
+    </g>
+  </g>
+  <g
+     id="ytick_1"
+     transform="translate(-100.17313,-41.072)"
+     style="fill:#ffffff">
+    <g
+       id="line2d_8"
+       style="fill:#ffffff">
+      <defs
+         id="defs185">
+        <path
+           id="mc0b0ec020d"
+           d="M 0,0 H -3.5"
+           style="stroke:#ffffff;stroke-width:0.8" />
+      </defs>
+      <g
+         id="g189"
+         style="fill:#ffffff">
+        <use
+           xlink:href="#mc0b0ec020d"
+           x="138.69"
+           y="295.9053"
+           style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8"
+           id="use187" />
+      </g>
+    </g>
+    <g
+       id="text_9"
+       style="fill:#ffffff">
+      <!-- 0.5 -->
+      <g
+         transform="matrix(0.1,0,0,-0.1,115.78687,299.70452)"
+         id="g198"
+         style="fill:#ffffff">
+        <use
+           xlink:href="#DejaVuSans-30"
+           id="use192"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-2e"
+           x="63.623047"
+           id="use194"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-35"
+           x="95.410156"
+           id="use196"
+           style="fill:#ffffff" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="ytick_2"
+     transform="translate(-100.17313,-41.072)"
+     style="fill:#ffffff">
+    <g
+       id="line2d_9"
+       style="fill:#ffffff">
+      <g
+         id="g204"
+         style="fill:#ffffff">
+        <use
+           xlink:href="#mc0b0ec020d"
+           x="138.69"
+           y="265.55386"
+           style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8"
+           id="use202" />
+      </g>
+    </g>
+    <g
+       id="text_10"
+       style="fill:#ffffff">
+      <!-- 1.0 -->
+      <g
+         transform="matrix(0.1,0,0,-0.1,115.78687,269.35308)"
+         id="g213"
+         style="fill:#ffffff">
+        <use
+           xlink:href="#DejaVuSans-31"
+           id="use207"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-2e"
+           x="63.623047"
+           id="use209"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-30"
+           x="95.410156"
+           id="use211"
+           style="fill:#ffffff" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="ytick_3"
+     transform="translate(-100.17313,-41.072)"
+     style="fill:#ffffff">
+    <g
+       id="line2d_10"
+       style="fill:#ffffff">
+      <g
+         id="g219"
+         style="fill:#ffffff">
+        <use
+           xlink:href="#mc0b0ec020d"
+           x="138.69"
+           y="235.20242"
+           style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8"
+           id="use217" />
+      </g>
+    </g>
+    <g
+       id="text_11"
+       style="fill:#ffffff">
+      <!-- 1.5 -->
+      <g
+         transform="matrix(0.1,0,0,-0.1,115.78687,239.00164)"
+         id="g228"
+         style="fill:#ffffff">
+        <use
+           xlink:href="#DejaVuSans-31"
+           id="use222"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-2e"
+           x="63.623047"
+           id="use224"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-35"
+           x="95.410156"
+           id="use226"
+           style="fill:#ffffff" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="ytick_4"
+     transform="translate(-100.17313,-41.072)"
+     style="fill:#ffffff">
+    <g
+       id="line2d_11"
+       style="fill:#ffffff">
+      <g
+         id="g234"
+         style="fill:#ffffff">
+        <use
+           xlink:href="#mc0b0ec020d"
+           x="138.69"
+           y="204.85098"
+           style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8"
+           id="use232" />
+      </g>
+    </g>
+    <g
+       id="text_12"
+       style="fill:#ffffff">
+      <!-- 2.0 -->
+      <g
+         transform="matrix(0.1,0,0,-0.1,115.78687,208.6502)"
+         id="g243"
+         style="fill:#ffffff">
+        <use
+           xlink:href="#DejaVuSans-32"
+           id="use237"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-2e"
+           x="63.623047"
+           id="use239"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-30"
+           x="95.410156"
+           id="use241"
+           style="fill:#ffffff" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="ytick_5"
+     transform="translate(-100.17313,-41.072)"
+     style="fill:#ffffff">
+    <g
+       id="line2d_12"
+       style="fill:#ffffff">
+      <g
+         id="g249"
+         style="fill:#ffffff">
+        <use
+           xlink:href="#mc0b0ec020d"
+           x="138.69"
+           y="174.49954"
+           style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8"
+           id="use247" />
+      </g>
+    </g>
+    <g
+       id="text_13"
+       style="fill:#ffffff">
+      <!-- 2.5 -->
+      <g
+         transform="matrix(0.1,0,0,-0.1,115.78687,178.29876)"
+         id="g258"
+         style="fill:#ffffff">
+        <use
+           xlink:href="#DejaVuSans-32"
+           id="use252"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-2e"
+           x="63.623047"
+           id="use254"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-35"
+           x="95.410156"
+           id="use256"
+           style="fill:#ffffff" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="ytick_6"
+     transform="translate(-100.17313,-41.072)"
+     style="fill:#ffffff">
+    <g
+       id="line2d_13"
+       style="fill:#ffffff">
+      <g
+         id="g264"
+         style="fill:#ffffff">
+        <use
+           xlink:href="#mc0b0ec020d"
+           x="138.69"
+           y="144.1481"
+           style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8"
+           id="use262" />
+      </g>
+    </g>
+    <g
+       id="text_14"
+       style="fill:#ffffff">
+      <!-- 3.0 -->
+      <g
+         transform="matrix(0.1,0,0,-0.1,115.78687,147.94732)"
+         id="g273"
+         style="fill:#ffffff">
+        <use
+           xlink:href="#DejaVuSans-33"
+           id="use267"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-2e"
+           x="63.623047"
+           id="use269"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-30"
+           x="95.410156"
+           id="use271"
+           style="fill:#ffffff" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="ytick_7"
+     transform="translate(-100.17313,-41.072)"
+     style="fill:#ffffff">
+    <g
+       id="line2d_14"
+       style="fill:#ffffff">
+      <g
+         id="g279"
+         style="fill:#ffffff">
+        <use
+           xlink:href="#mc0b0ec020d"
+           x="138.69"
+           y="113.79667"
+           style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8"
+           id="use277" />
+      </g>
+    </g>
+    <g
+       id="text_15"
+       style="fill:#ffffff">
+      <!-- 3.5 -->
+      <g
+         transform="matrix(0.1,0,0,-0.1,115.78687,117.59589)"
+         id="g288"
+         style="fill:#ffffff">
+        <use
+           xlink:href="#DejaVuSans-33"
+           id="use282"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-2e"
+           x="63.623047"
+           id="use284"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-35"
+           x="95.410156"
+           id="use286"
+           style="fill:#ffffff" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="ytick_8"
+     transform="translate(-100.17313,-41.072)"
+     style="fill:#ffffff">
+    <g
+       id="line2d_15"
+       style="fill:#ffffff">
+      <g
+         id="g294"
+         style="fill:#ffffff">
+        <use
+           xlink:href="#mc0b0ec020d"
+           x="138.69"
+           y="83.445229"
+           style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8"
+           id="use292" />
+      </g>
+    </g>
+    <g
+       id="text_16"
+       style="fill:#ffffff">
+      <!-- 4.0 -->
+      <g
+         transform="matrix(0.1,0,0,-0.1,115.78687,87.244447)"
+         id="g306"
+         style="fill:#ffffff">
+        <defs
+           id="defs298">
+          <path
+             id="DejaVuSans-34"
+             d="M 2419,4116 825,1625 h 1594 z m -166,550 h 794 V 1625 h 666 V 1100 H 3047 V 0 H 2419 V 1100 H 313 v 609 z"
+             transform="scale(0.015625)" />
+        </defs>
+        <use
+           xlink:href="#DejaVuSans-34"
+           id="use300"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-2e"
+           x="63.623047"
+           id="use302"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-30"
+           x="95.410156"
+           id="use304"
+           style="fill:#ffffff" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="ytick_9"
+     transform="translate(-100.17313,-41.072)"
+     style="fill:#ffffff">
+    <g
+       id="line2d_16"
+       style="fill:#ffffff">
+      <g
+         id="g312"
+         style="fill:#ffffff">
+        <use
+           xlink:href="#mc0b0ec020d"
+           x="138.69"
+           y="53.093788"
+           style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8"
+           id="use310" />
+      </g>
+    </g>
+    <g
+       id="text_17"
+       style="fill:#ffffff">
+      <!-- 4.5 -->
+      <g
+         transform="matrix(0.1,0,0,-0.1,115.78687,56.893008)"
+         id="g321"
+         style="fill:#ffffff">
+        <use
+           xlink:href="#DejaVuSans-34"
+           id="use315"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-2e"
+           x="63.623047"
+           id="use317"
+           style="fill:#ffffff" />
+        <use
+           xlink:href="#DejaVuSans-35"
+           x="95.410156"
+           id="use319"
+           style="fill:#ffffff" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="text_18"
+     transform="translate(-100.17313,-41.072)"
+     style="fill:#ffffff">
+    <!-- Voltage [V] -->
+    <g
+       transform="matrix(0,-0.12,-0.12,0,109.29125,207.72862)"
+       id="g355"
+       style="fill:#ffffff">
+      <defs
+         id="defs331">
+        <path
+           id="DejaVuSans-56"
+           d="M 1831,0 50,4666 H 709 L 2188,738 3669,4666 h 656 L 2547,0 Z"
+           transform="scale(0.015625)" />
+        <path
+           id="DejaVuSans-6f"
+           d="m 1959,3097 q -462,0 -731,-361 -269,-361 -269,-989 0,-628 267,-989 268,-361 733,-361 460,0 728,362 269,363 269,988 0,622 -269,986 -268,364 -728,364 z m 0,487 q 750,0 1178,-488 429,-487 429,-1349 Q 3566,888 3137,398 2709,-91 1959,-91 1206,-91 779,398 353,888 353,1747 q 0,862 426,1349 427,488 1180,488 z"
+           transform="scale(0.015625)" />
+        <path
+           id="DejaVuSans-6c"
+           d="m 603,4863 h 575 V 0 H 603 Z"
+           transform="scale(0.015625)" />
+        <path
+           id="DejaVuSans-74"
+           d="M 1172,4494 V 3500 H 2356 V 3053 H 1172 V 1153 q 0,-428 117,-550 117,-122 477,-122 h 590 V 0 H 1766 Q 1100,0 847,248 594,497 594,1153 V 3053 H 172 v 447 h 422 v 994 z"
+           transform="scale(0.015625)" />
+        <path
+           id="DejaVuSans-61"
+           d="m 2194,1759 q -697,0 -966,-159 -269,-159 -269,-544 0,-306 202,-486 202,-179 548,-179 479,0 768,339 289,339 289,901 v 128 z m 1147,238 V 0 H 2766 V 531 Q 2569,213 2275,61 1981,-91 1556,-91 q -537,0 -855,302 -317,302 -317,808 0,590 395,890 396,300 1180,300 h 807 v 57 q 0,397 -261,614 -261,217 -733,217 -300,0 -585,-72 -284,-72 -546,-216 v 532 q 315,122 612,182 297,61 578,61 760,0 1135,-394 375,-393 375,-1193 z"
+           transform="scale(0.015625)" />
+        <path
+           id="DejaVuSans-67"
+           d="m 2906,1791 q 0,625 -258,968 -257,344 -723,344 -462,0 -720,-344 -258,-343 -258,-968 0,-622 258,-966 258,-344 720,-344 466,0 723,344 258,344 258,966 z M 3481,434 q 0,-893 -397,-1329 -396,-436 -1215,-436 -303,0 -572,45 -269,45 -522,139 v 559 q 253,-137 500,-202 247,-66 503,-66 566,0 847,295 281,295 281,892 V 616 Q 2728,306 2450,153 2172,0 1784,0 1141,0 747,490 353,981 353,1791 q 0,812 394,1302 394,491 1037,491 388,0 666,-153 278,-153 456,-462 v 531 h 575 z"
+           transform="scale(0.015625)" />
+      </defs>
+      <use
+         xlink:href="#DejaVuSans-56"
+         id="use333"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-6f"
+         x="60.658203"
+         id="use335"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-6c"
+         x="121.83984"
+         id="use337"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-74"
+         x="149.62305"
+         id="use339"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-61"
+         x="188.83203"
+         id="use341"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-67"
+         x="250.11133"
+         id="use343"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-65"
+         x="313.58789"
+         id="use345"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-20"
+         x="375.11133"
+         id="use347"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-5b"
+         x="406.89844"
+         id="use349"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-56"
+         x="445.91211"
+         id="use351"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-5d"
+         x="514.32031"
+         id="use353"
+         style="fill:#ffffff" />
+    </g>
+  </g>
+  <path
+     d="m 177.77536,174.49955 h 0.0915 l 0.13018,-1.18559 h 0.0425 l 0.28662,-2.37124 h 0.13029 l 0.28662,-2.37118 h 0.15309 l 0.26871,-2.37123 h 0.13028 l 0.28337,-2.37118 h 0.15634 l 0.30524,-2.37123 h 0.11167 l 0.28663,-2.37118 h 0.13029 l 0.31594,-2.37124 h 0.0977 l 0.28662,-2.37117 h 0.13029 l 0.28663,-2.37124 h 0.15634 l 0.28662,-2.37117 h 0.13029 l 0.30524,-2.37124 h 0.11167 l 0.0782,-1.18559 h 0.15308 l 0.28663,-2.37117 h 0.13028 l 0.21172,-1.18565 h 0.0195 l 0.28825,-2.37118 h 0.13029 l 0.20938,-1.18565 h 0.0219 l 0.28663,-2.37117 h 0.15634 l 0.28663,-2.37118 h 0.16611 l 0.17402,-1.18565 h 0.0181 l 0.15308,-1.18559 h 0.0782 l 0.0782,-1.18558 h 0.15635 l 0.28662,-2.37124 h 0.15634 l 0.21172,-1.18559 h 0.0195 l 0.0879,-1.18559 h 0.14006 l 0.20612,-1.18558 h 0.0219 l 0.0782,-1.18565 h 0.15309 l 0.0782,-1.18559 h 0.15634 l 0.0782,-1.18559 h 0.15634 l 0.0782,-1.18565 h 0.15635 l 0.0782,-1.18559 h 0.15634 l 0.0749,-1.18558 h 0.15634 l 0.0782,-1.18559 h 0.15635 l 0.0782,-1.18559 h 0.15634 l 0.0782,-1.18565 h 0.15634 l 0.0782,-1.18558 h 0.1824 l 0.0782,-1.18559 h 0.15634 l 0.0782,-1.18565 h 0.15634 l 0.0782,-1.18559 h 0.1824 l 0.20194,-1.18559 h 0.0521 l 0.0782,-1.18558 h 0.18565 l 0.12377,-1.18559 h 0.10423 l 0.0782,-1.18565 h 0.1824 l 0.0782,-1.18559 h 0.1824 l 0.0782,-1.18559 h 0.1824 l 0.0782,-1.18565 h 0.1824 l 0.0782,-1.185584 h 0.1824 l 0.0782,-1.185588 h 0.1824 l 0.0782,-1.185588 h 0.20845 l 0.0782,-1.185588 h 0.1824 l 0.15309,-1.185649 h 0.13028 l 0.0782,-1.185588 h 0.20846 l 0.20287,-1.185588 h 0.0935 l 0.18426,-1.185648 h 0.0893 l 0.0782,-1.185588 h 0.20846 l 0.21171,-1.185588 0.0554,0.0095 0.25638,-1.195118 h 0.0661 l 0.0782,-1.185588 h 0.20846 l 0.10423,-1.185648 h 0.20845 l 0.0782,-1.185588 h 0.23452 l 0.20892,-1.185588 h 0.1005 l 0.114,-1.185649 h 0.22148 l 0.0782,-1.185588 h 0.23451 l 0.0749,-1.185588 h 0.28337 l 0.0782,-1.185588 h 0.26057 l 0.0782,-1.185587 h 0.26057 l 0.0782,-1.185649 h 0.28663 l 0.0782,-1.185588 h 0.31268 l 0.11074,-1.185588 0.21032,-0.06629 0.0372,-0.230125 0.10097,-0.889237 h 0.26057 l 0.0782,-1.185587 h 0.31269 l 0.0782,-1.185588 h 0.32896 l 0.18147,-1.185588 h 0.25825 l 0.0782,-1.185588 h 0.35828 l 0.15308,-1.185649 h 0.27523 l 0.21171,-1.185588 0.28895,-0.105744 0.027,-0.09184 0.0782,-0.988 h 0.3876 l 0.18147,-1.185648 h 0.35921 l 0.18147,-1.185588 h 0.35921 l 0.0782,-1.185588 0.4667,0.106776 0.0205,0.0289 0.0205,-0.04911 0.134,-1.27215 h 0.54394 l 0.20659,-1.185588 h 0.51323 l 0.20334,-1.185649 h 0.62071 l 0.0782,-1.185587 h 0.89897 l 0.19821,-1.185588 h 1.08794 L 208.70325,53.568 h 5.44942 l 0.2038,1.185649 h 1.11207 l 0.10376,1.185588 h 0.83266 l 0.15308,1.185587 h 0.7068 l 0.0977,1.185649 h 0.59605 l 0.19729,1.185588 h 0.45414 l 0.20519,1.185588 h 0.3876 l 0.21497,1.185588 h 0.34525 l 0.19729,1.185588 h 0.3434 l 0.20519,1.185648 h 0.31269 l 0.12702,1.185588 h 0.31269 l 0.21218,1.185588 h 0.25033 l 0.21404,1.185649 h 0.23829 l 0.16937,1.185588 h 0.23125 l 0.20846,1.185588 h 0.20845 l 0.20194,1.185588 h 0.17915 l 0.21334,1.185587 h 0.17914 l 0.20845,1.185649 h 0.17914 l 0.20846,1.185588 h 0.15308 l 0.15635,1.185588 h 0.18239 l 0.17915,1.185649 h 0.21822 l 0.10632,1.185587 h 0.20474 l 0.20845,1.185588 h 0.1368 l 0.17449,1.185588 h 0.14471 l 0.0782,1.185588 h 0.23125 l 0.2052,1.185649 h 0.10423 l 0.0782,1.185588 h 0.25731 l 0.16798,1.185588 h 0.11539 l 0.2052,1.185648 h 0.10097 l 0.0782,1.185588 h 0.23777 l 0.18426,1.185588 h 0.0893 l 0.20194,1.185588 h 0.10423 l 0.20519,1.185588 h 0.0749 l 0.12702,1.185648 h 0.15635 l 0.18239,1.185588 h 0.10098 l 0.20479,1.185588 h 0.0521 l 0.18891,1.185649 h 0.0912 l 0.20846,1.185588 h 0.0782 l 0.15308,1.185588 h 0.0977 l 0.17914,1.185588 h 0.10097 l 0.21171,1.185584 h 0.0456 l 0.21543,1.18565 h 0.0549 l 0.17263,1.18559 h 0.0798 l 0.18158,1.18559 h 0.0521 l 0.2052,1.18565 h 0.0814 l 0.14006,1.18559 h 0.0782 l 0.20153,1.18558 h 0.0489 l 0.20706,1.18559 h 0.0503 l 0.0782,1.18559 h 0.19217 l 0.11865,1.18565 h 0.10609 l 0.17728,1.18559 h 0.0703 l 0.0651,1.18558 h 0.15634 l 0.0782,1.18565 h 0.18239 l 0.15635,1.18559 h 0.0782 l 0.15308,1.18559 h 0.0782 l 0.2109,1.18558 h 0.0261 l 0.14982,1.18559 h 0.0782 l 0.16857,1.18565 h 0.0729 l 0.2052,1.18559 h 0.0282 l 0.0558,1.18559 h 0.15634 l 0.20194,1.18565 h 0.026 l 0.0782,1.18558 h 0.15634 l 0.20845,1.18559 h 0.0521 l 0.10097,1.18559 h 0.10423 l 0.28336,2.37124 h 0.15634 l 0.12703,1.18558 h 0.10423 l 0.14657,1.18559 h 0.0521 l 0.0782,1.18565 h 0.15635 l 0.31512,2.37118 h 0.10423 l 0.0912,1.18558 h 0.1824 l 0.0456,1.18559 h 0.13028 l 0.0782,1.18565 h 0.1824 l 0.0228,1.18559 h 0.15634 l 0.28663,2.37124 h 0.17914 l 0.0228,1.18558 h 0.15634 l 0.28337,2.37118 h 0.15634 l 0.28663,2.37124 h 0.13028 l 0.2964,2.37117 0.13214,0.0663 0.0633,0.82295 0.0261,0.29641 h 0.13354 l 0.27034,2.37118 h 0.13843 l 0.26383,2.37117 h 0.17262 l 0.31734,2.37124 h 0.067 l 0.51137,3.55682 h 0.15634 l 0.31269,2.37118 h 0.10748 l 0.32478,2.37123 h 0.11167 l 0.11819,1.18559 h 0.043 l 0.69051,4.34724 0.13773,0.45976 0.0447,0.23183 0.10097,0.88917 h 0.0782 l 0.18984,1.25018 0.0447,0.23182 0.16379,0.95383 0.0447,0.23182 0.16145,0.95826 0.0437,0.22733 0.0521,0.88918 0.1005,-0.016 0.0754,0.21361 0.0814,0.98806 0.0503,-0.0939 0.0754,0.50814 0.16193,0.83594 0.0447,0.23182 0.16379,0.95377 0.0447,0.23182 0.0814,0.88918 0.0763,-0.0198 0.0572,0.21744 0.0619,0.988 0.0558,-0.0474 0.0745,0.34382 0.16379,0.95382 0.0447,0.23183 0.0521,0.88917 0.10423,-0.008 0.0782,0.30491 0.16099,0.88918 h 0.0442 l 0.0228,1.18565 0.0796,-0.0461 0.10609,0.24366 0.0391,0.988 0.0893,-0.007 0.067,0.30364 0.0521,0.88918 0.10423,-0.008 0.0782,0.30491 0.0749,0.88917 h 0.10097 l 0.0782,1.18559 0.0949,-0.0169 0.0712,0.21453 0.0391,0.988 0.0893,-0.007 0.067,0.30363 0.16379,0.95376 0.0447,0.23183 0.0521,0.88917 h 0.1824 l 0.0228,1.18565 0.0782,-0.0509 0.10423,0.34722 0.16379,0.95383 0.0447,0.23182 0.16379,0.95377 0.0447,0.23182 0.0521,0.88918 0.10423,-0.008 0.0782,0.30485 0.0554,0.88918 0.15634,0.19764 0.11912,0.988 h 0.06 l 0.42342,2.43474 0.0521,0.23285 0.0358,0.88924 0.0968,-0.008 0.0726,0.30418 0.15309,0.88924 0.0814,0.19758 0.0196,0.988 0.0782,-0.0508 0.10423,0.34722 0.0521,0.88917 0.10237,-0.0129 0.0768,0.30928 0.15448,0.89531 0.0768,0.29028 0.15959,0.88924 h 0.0196 l 0.17635,1.18559 h 0.0516 l 0.0782,1.18558 0.10236,-0.0129 0.0768,0.30928 0.16378,0.95376 0.0447,0.23182 0.14564,0.89094 0.0824,0.29471 0.0521,0.88918 0.10423,-0.008 0.0782,0.30491 0.0521,0.88918 0.10236,-0.0129 0.0768,0.30928 0.0521,0.88917 0.10423,-0.008 0.0782,0.30485 0.15634,0.88923 h 0.0456 l 0.0782,1.18559 h 0.15309 l 0.0782,1.18559 0.10422,-0.008 0.0782,0.30485 0.0521,0.88924 0.10423,-0.008 0.0782,0.30485 0.0521,0.88924 h 0.114 l 0.0651,0.29641 0.15262,0.88893 0.0754,0.29666 0.0521,0.88917 0.10423,-0.008 0.0782,0.30485 0.12703,0.88918 h 0.0782 l 0.0619,1.18565 h 0.19542 l 0.0358,0.79041 0.013,0.39518 0.0893,-0.0517 0.11911,0.34807 0.0814,0.88917 0.074,-0.0791 0.0986,0.37557 0.15448,0.89615 0.0768,0.28943 0.0521,0.88924 0.0893,-0.0517 0.11911,0.34807 0.0521,0.88918 0.0893,-0.0517 0.11912,0.34807 0.0521,0.88918 0.10422,-0.008 0.0782,0.30485 0.0521,0.88917 0.0879,-0.0321 0.11726,0.32853 0.1596,0.88923 h 0.0456 l 0.61885,3.55683 0.0893,-0.0517 0.11911,0.34801 0.0521,0.88923 0.0893,-0.0517 0.11912,0.34807 0.0521,0.88917 h 0.20846 l 0.13354,1.18559 0.0614,-0.0485 0.0819,0.34491 0.0521,0.88918 0.0991,-0.0514 0.13214,0.24901 0.0782,0.988 0.0521,-0.0636 0.0782,0.12705 0.0521,0.23292 0.13866,0.88918 h 0.1154 l 0.0782,1.18558 h 0.20845 l 0.0782,1.18565 h 0.20846 l 0.17588,1.18559 h 0.13029 l 0.0782,1.18559 h 0.2052 l 0.18146,1.18559 h 0.13773 l 0.0912,1.18558 h 0.1824 l 0.0782,1.18565 h 0.23452 l 0.0782,1.18559 h 0.23451 l 0.0782,1.1856 h 0.23451 l 0.0782,1.18561 h 0.26057 l 0.0782,1.1856 h 0.23451 l 0.0782,1.1856 h 0.26057 l 0.0782,1.1856 h 0.26057 l 0.0782,1.18561 h 0.28337 l 0.15309,1.1856 h 0.18239 l 0.0782,1.18561 h 0.28662 l 0.0782,1.18559 0.30152,0.0663 0.0633,0.8229 0.0261,0.2964 h 0.28662 l 0.0782,1.18561 h 0.33549 l 0.0782,1.1856 h 0.31268 l 0.18054,1.1856 h 0.25591 l 0.0782,1.1856 h 0.36154 l 0.0879,1.18561 h 0.37457 l 0.0782,1.1856 h 0.3876 l 0.0879,1.1856 h 0.40063 l 0.0782,1.18561 h 0.46902 l 0.0782,1.1856 h 0.46577 l 0.15169,1.1856 h 0.4411 l 0.0782,1.1856 h 0.57325 l 0.0782,1.18561 h 0.65794 l 0.17309,1.1856 h 0.6477 l 0.0782,1.18561 h 0.88268 l 0.0782,1.18559 h 1.22141 l 0.0814,1.18561 h 5.59572 l 0.0782,-1.18561 h 1.19861 l 0.0782,-1.18559 h 0.91199 l 0.18194,-1.18561 h 0.62257 l 0.0782,-1.1856 h 0.65143 l 0.0782,-1.18561 h 0.57325 l 0.16053,-1.1856 h 0.43552 l 0.0782,-1.1856 h 0.49183 l 0.0782,-1.1856 h 0.44296 l 0.0782,-1.18561 h 0.41691 l 0.0782,-1.1856 h 0.39086 l 0.0782,-1.1856 h 0.39085 l 0.0782,-1.18561 h 0.3648 l 0.0782,-1.1856 h 0.33548 l 0.0782,-1.1856 h 0.33875 l 0.0782,-1.1856 h 0.30942 l 0.0782,-1.18561 h 0.31268 l 0.0782,-1.18561 h 0.28662 l 0.0782,-1.18559 h 0.28663 l 0.0782,-1.18561 h 0.28337 l 0.0782,-1.1856 h 0.26057 l 0.0782,-1.18561 h 0.26057 l 0.0782,-1.1856 h 0.26057 l 0.0782,-1.1856 h 0.26057 l 0.0782,-1.1856 h 0.26583 l 0.0155,-1.18561 h 0.27985 l 0.21257,-1.1856 h 0.10733 l 0.0651,-1.18559 h 0.23451 l 0.0782,-1.18565 h 0.2052 l 0.0782,-1.18558 h 0.23451 l 0.0782,-1.18559 h 0.20846 l 0.0782,-1.18559 h 0.20846 l 0.0782,-1.18559 h 0.20519 l 0.0782,-1.18565 h 0.20845 l 0.0782,-1.18558 h 0.20846 l 0.0782,-1.18559 h 0.1824 l 0.0782,-1.18565 h 0.20845 l 0.0782,-1.18559 h 0.1824 l 0.0782,-1.18559 h 0.20846 l 0.0782,-1.18559 h 0.18239 l 0.0782,-1.18558 h 0.18239 l 0.0782,-1.18565 h 0.18239 l 0.0782,-1.18559 h 0.1824 l 0.0782,-1.18559 h 0.15635 l 0.0782,-1.18565 h 0.18239 l 0.0782,-1.18558 h 0.1824 l 0.0782,-1.18559 h 0.15309 l 0.0782,-1.18559 h 0.1824 l 0.0782,-1.18559 h 0.15634 l 0.20845,-1.18565 h 0.0521 l 0.0782,-1.18558 h 0.15634 l 0.0814,-1.18559 h 0.18565 l 0.0652,-1.18565 h 0.15634 l 0.0782,-1.18559 h 0.15634 l 0.0782,-1.18559 h 0.15634 l 0.0782,-1.18558 h 0.15634 l 0.0782,-1.18559 h 0.15635 l 0.0782,-1.18565 h 0.15308 l 0.0782,-1.18559 h 0.15634 l 0.0782,-1.18559 h 0.15635 l 0.28662,-2.37123 h 0.15634 l 0.0782,-1.18559 h 0.15634 l 0.0782,-1.18559 h 0.15634 l 0.28662,-2.37124 h 0.15634 l 0.28663,-2.37117 h 0.15308 l 0.28663,-2.37124 h 0.15634 l 0.28663,-2.37117 h 0.15634 l 0.28663,-2.37124 h 0.15634 l 0.0782,-1.18559 h 0.15634 l 0.0228,-1.18559 h 0.15634 l 0.0782,-1.18564 h 0.15634 l 0.28663,-2.37118 h 0.13028 l 0.28663,-2.37118 h 0.13028 l 0.0782,-1.18565 h 0.15634 l 0.28662,-2.37117 h 0.13029 l 0.28662,-2.37124 h 0.13029 l 0.28662,-2.37117 h 0.13029 l 0.0782,-1.18559 h 0.15634 l 0.28663,-2.37124 h 0.13028 l 0.28663,-2.37123 h 0.13028 l 0.28663,-2.37118 h 0.13028 l 0.28663,-2.37118 h 0.13028 l 0.28663,-2.37123 h 0.13028 l 0.31269,-2.37124 0.0372,0.0608 0.0372,-0.0556 0.0558,-0.30151 0.16379,-0.95382 0.0447,-0.23183 0.16378,-0.95376 0.0447,-0.23183 0.16379,-0.95376 0.0447,-0.23183 0.16378,-0.95376 0.0447,-0.23182 0.16379,-0.95383 0.0447,-0.23182 0.16378,-0.95377 0.0447,-0.23182 0.16379,-0.95376 0.0447,-0.23183 0.16378,-0.95376 0.0447,-0.23183 0.16379,-0.95382 0.0447,-0.23182 0.16378,-0.95377 0.0447,-0.23182 0.16379,-0.95377 0.0447,-0.23182 0.16379,-0.95376 0.0447,-0.23183 0.16379,-0.95382 0.0447,-0.23183 0.16378,-0.95376 0.0447,-0.23182 0.16379,-0.95377 0.0447,-0.23182 0.0521,-0.88924 0.10423,0.008 0.0782,-0.30485 0.16379,-0.95382 0.0447,-0.23183 0.16378,-0.95376 0.0447,-0.23183 0.16379,-0.95376 0.0447,-0.23182 0.16378,-0.95377 0.0447,-0.23182 0.16379,-0.95383 0.0447,-0.23182 0.16378,-0.95376 0.0447,-0.23183 0.0521,-0.88917 0.10422,0.008 0.0782,-0.30485 0.15634,-0.88923 3.0226,-16.58992 0.0782,-0.30491 0.0521,-0.88917 0.10423,0.008 0.0782,-0.30485 0.16379,-0.95376 0.0447,-0.23182 0.0521,-0.88924 0.10423,0.008 0.0782,-0.30491 0.0521,-0.88918 h 0.15634 l 0.0358,-1.18559 0.11168,0.009 0.0838,-0.30528 0.0521,-0.88917 0.10423,0.008 0.0782,-0.30485 0.0521,-0.88923 0.10237,0.0385 0.0768,-0.33496 0.0521,-0.88917 0.19217,-0.19759 0.0163,-0.988 0.19869,-0.19759 0.0521,-0.98806 0.10423,0.008 0.0782,-0.30485 0.0521,-0.88924 0.10423,0.008 0.0782,-0.30491 0.0521,-0.88917 0.0879,0.063 0.11726,-0.35936 0.15448,-0.89616 0.0768,-0.28943 0.0521,-0.88918 0.10237,0.0385 0.0768,-0.3349 0.0554,-0.88924 0.1005,0.007 0.0754,-0.30388 0.0521,-0.88917 0.0893,0.0516 0.11912,-0.34807 0.0521,-0.88917 0.10237,0.0385 0.0768,-0.33489 0.0521,-0.88924 0.0893,0.0517 0.11911,-0.34801 0.15448,-0.89531 0.0768,-0.29034 0.0554,-0.88918 0.0865,0.0509 0.11539,-0.34734 0.0521,-0.88917 0.0893,0.0516 0.11912,-0.34807 0.0521,-0.88917 0.2052,-0.19765 0.0521,-0.988 0.0865,0.04 0.1154,-0.33641 0.0521,-0.88918 0.10423,0.008 0.0782,-0.30491 0.0521,-0.88918 0.0893,0.0517 0.11912,-0.34807 0.15215,-0.88924 h 0.04 l 0.0326,0.17634 0.0489,-0.38109 0.1596,-0.980834 h 0.0782 l 0.0782,-1.185588 0.0893,0.05166 0.11912,-0.34807 0.0521,-0.889176 0.0991,0.08225 0.0991,-0.231703 0.033,-0.146961 0.0521,-0.889176 0.0893,0.0516 0.11912,-0.348009 0.0521,-0.889237 0.10051,0.05227 0.1005,-0.216649 0.0335,-0.132029 0.0521,-0.889176 0.0991,0.08225 0.0991,-0.231703 0.033,-0.146962 0.0521,-0.889176 0.1005,0.05221 0.10051,-0.216649 0.0335,-0.131968 0.0521,-0.889236 0.10051,0.05226 0.13401,-0.348617 0.0521,-0.889236 0.23777,-0.197588 0.0195,-0.988 0.0745,0.06501 0.11167,-0.126991 0.0744,-0.234434 0.0521,-0.889176 0.10051,0.05221 0.1005,-0.216649 0.0335,-0.131968 0.0521,-0.889176 0.0745,0.06501 0.11167,-0.127051 0.0745,-0.234374 0.0521,-0.889236 h 0.23777 l 0.22056,-1.175269 0.11167,-0.306731 0.0521,-0.889176 0.0745,0.06501 0.11167,-0.126991 0.0745,-0.234434 0.0521,-0.889237 0.081,0.07248 0.12144,-0.127051 0.081,-0.241779 0.0521,-0.889237 0.0744,0.06507 0.11167,-0.127051 0.0745,-0.234435 0.0521,-0.889176 0.0819,0.06532 0.12284,-0.127051 0.0819,-0.234678 0.0521,-0.889176 0.081,0.06337 0.12145,-0.127051 0.081,-0.232735 0.13308,-0.889175 h 0.2024 l 0.0782,-1.185649 0.0819,0.06532 0.12284,-0.12699 0.0819,-0.234738 0.0521,-0.889176 h 0.28663 l 0.0782,-1.185588 h 0.31268 l 0.16658,-1.185649 h 0.22102 l 0.0782,-1.185587 h 0.31268 l 0.0782,-1.185588 0.1033,0.05038 0.15495,-0.08468 0.10329,-0.16329 0.0521,-0.988 h 0.33874 l 0.0782,-1.185588 0.38759,-0.197649 0.15774,-0.988 0.24987,0.01099 0.27639,-1.196575 0.1005,0.05221 0.0335,-0.04231 0.10051,-0.306307 0.13633,-0.889176 0.32665,0.01099 0.28755,-1.196636 h 0.2494 l 0.0782,-1.185588 h 0.48531 l 0.15542,-1.185588 h 0.44064 l 0.15959,-1.185588 h 0.48857 l 0.0782,-1.185588 h 0.64491 l 0.0782,-1.185649 0.71982,0.02544 0.29314,-1.211022 h 0.69051 l 0.0912,-1.185588 h 1.22793 l 0.0912,-1.185649 h 5.57618 l 0.19124,1.185649 h 1.09858 l 0.2052,1.185588 h 0.76868 l 0.0782,1.185587 h 0.76542 l 0.13307,1.185649 h 0.55744 l 0.19635,1.185588 h 0.4453 l 0.20845,1.185588 h 0.40714 l 0.0782,1.185588 h 0.49183 l 0.18844,1.185588 h 0.31641 l 0.0782,1.185648 h 0.4218 l 0.0782,1.185588 h 0.41365 l 0.2052,1.185588 h 0.27441 l 0.10586,1.185649 h 0.29599 l 0.21502,1.185588 h 0.23812 l 0.12075,1.185588 h 0.24893 l 0.12703,1.185588 h 0.30943 l 0.1457,1.185587 h 0.19915 l 0.20804,1.185649 h 0.20439 l 0.0228,1.185588 h 0.30576 l 0.21124,1.185588 h 0.15518 l 0.18938,1.185649 h 0.15588 l 0.18431,1.185587 h 0.16053 l 0.20846,1.185588 h 0.14872 l 0.12147,1.185588 h 0.19216 l 0.17141,1.185588 h 0.14616 l 0.19031,1.185649 h 0.11912 l 0.19583,1.185588 h 0.10423 l 0.13843,1.185588 h 0.17588 l 0.20846,1.185648 h 0.10097 l 0.1824,1.185588 h 0.10382 l 0.20194,1.185588 h 0.10097 l 0.19729,1.185588 h 0.0893 l 0.20846,1.185588 h 0.0717 l 0.17914,1.185648 h 0.14168 l 0.0977,1.185588 h 0.16123 l 0.21171,1.185588 h 0.0456 l 0.2052,1.185649 h 0.0782 l 0.20613,1.185588 h 0.087 l 0.16286,1.185588 h 0.0782 l 0.17914,1.185588 h 0.0782 l 0.21218,1.185581 h 0.0842 l 0.0879,1.18565 h 0.15308 l 0.21335,1.18559 h 0.026 l 0.13029,1.18559 h 0.13028 l 0.1824,1.18565 h 0.0928 l 0.17588,1.18559 h 0.0651 l 0.0782,1.18558 h 0.15634 l 0.21497,1.18559 h 0.0521 l 0.18566,1.18559 h 0.0521 l 0.15634,1.18565 h 0.10749 l 0.0749,1.18559 h 0.14983 l 0.20357,1.18558 h 0.0391 l 0.21497,1.18565 h 0.013 l 0.0782,1.18559 h 0.18566 l 0.13028,1.18559 h 0.0912 l 0.0782,1.18558 h 0.15634 l 0.17589,1.18559 h 0.0521 l 0.21078,1.18565 h 0.053 l 0.13517,1.18559 h 0.0749 l 0.31431,2.37124 h 0.13517 l 0.0749,1.18558 h 0.15635 l 0.20985,1.18559 h 0.0181 l 0.2052,1.18559 h 0.0261 l 0.2964,2.37124 h 0.1368 l 0.20194,1.18558 h 0.026 l 0.28337,2.37124 h 0.15634 l 0.0782,1.18559 h 0.15309 l 0.21218,1.18559 h 0.0223 l 0.0489,1.18558 h 0.15308 l 0.1596,1.18559 h 0.0879 l 0.11075,1.18565 h 0.0651 l 0.20938,1.18559 h 0.0219 l 0.31315,2.37124 h 0.1005 l 0.0782,1.18558 h 0.15634 l 0.28337,2.37118 h 0.12702 l 0.12703,1.18559 h 0.10423 l 0.28663,2.37123 h 0.13028 l 0.28337,2.37124 h 0.17588 l 0.0228,1.18559 h 0.15634 l 0.28663,2.37117 h 0.13028 l 0.28663,2.37124 h 0.13028 l 0.20846,1.18559 h 0.0195 l 0.3192,2.37123 h 0.10097 l 0.0879,1.18559 0.0745,-0.005 0.0558,0.30157 0.11446,0.95225 0.0354,-0.0631 h 0.0521 l 0.28662,2.37118 h 0.13029 l 0.28337,2.37123 0.1368,0.0361 0.18495,1.14953 h 0.0479 l 0.0749,1.18565 0.0372,-0.0608 0.0558,0.12705 0.0372,0.23006 0.0293,0.88924 h 0.14983 l 0.18984,1.25017 0.0447,0.23183 0.1596,0.88917 h 0.0195 l 0.18985,1.25018 0.0707,0.82465 1.19211,6.22441 0.0107,-0.0236 0.0321,0.23043 0.0842,0.97871 0.0745,-0.005 0.0558,0.30151 0.16146,0.95826 0.0437,0.22733 0.15959,0.88923 h 0.0195 l 0.18984,1.25018 0.0447,0.23182 0.16378,0.95377 0.0447,0.23182 0.13169,0.88924 h 0.0768 l 0.0423,1.18559 0.10423,-0.008 0.0782,0.30491 0.16146,0.95577 0.0437,0.22982 0.15913,0.92778 0.0428,0.15898 0.0782,0.988 0.067,-0.0495 0.0893,0.34594 0.0489,0.88924 0.0893,-0.007 0.067,0.30363 0.16379,0.95376 0.0447,0.23183 0.16379,0.95376 0.0447,0.23183 0.16379,0.95376 0.0447,0.23182 0.0521,0.88924 h 0.1596 l 0.27685,2.37118 0.0447,-0.0625 0.067,0.12705 0.0447,0.23183 0.10749,0.88918 0.0503,-0.0939 0.0754,0.50814 0.12517,0.77135 h 0.0521 l 0.18984,1.25018 0.0447,0.23182 0.0554,0.88918 0.10051,-0.007 0.0754,0.30382 0.16378,0.95377 0.0447,0.23182 0.0521,0.88924 0.10422,-0.008 0.0782,0.30491 0.0619,0.88917 0.0819,-0.006 0.0614,0.30255 0.0521,0.88917 0.10423,-0.008 0.0782,0.30485 0.12702,0.88918 h 0.0521 l 0.21031,1.26681 0.0437,0.21525 0.0521,0.88918 0.10422,-0.008 0.0782,0.30491 0.16379,0.95376 0.0447,0.23183 0.0521,0.88923 0.10423,-0.008 0.0782,0.30485 0.0554,0.88924 0.10051,-0.007 0.0754,0.30388 0.16378,0.95377 0.0447,0.23182 0.0521,0.88918 h 0.16285 l 0.11726,1.18558 0.0256,-0.0927 0.0512,0.0767 0.56488,3.57285 0.0782,-0.0508 0.10423,0.34722 0.12703,0.88924 h 0.0782 l 0.18053,1.19251 0.0768,0.28949 0.0521,0.88917 0.0893,-0.0516 0.11912,0.34807 0.0521,0.88917 0.17914,0.19759 0.0521,0.988 0.10423,-0.008 0.0782,0.30485 0.0521,0.88924 0.10423,-0.008 0.0782,0.30491 0.0879,0.88918 0.0484,-0.063 0.0726,0.12705 0.0484,0.23237 0.0521,0.88917 0.10423,-0.008 0.0782,0.30485 0.10748,0.88923 0.0428,-0.0336 0.0856,0.14897 0.0214,0.0822 0.0195,0.988 0.0893,-0.0517 0.11912,0.34807 0.0521,0.88918 0.0893,-0.0517 0.11912,0.34807 0.0521,0.88918 0.10423,-0.008 0.0782,0.30485 0.0521,0.88917 0.0893,-0.0516 0.11912,0.34801 0.0521,0.88923 0.0893,-0.0517 0.11912,0.34807 0.0521,0.88918 0.2052,0.19759 0.0521,0.988 0.0865,-0.0449 0.1154,0.34133 0.0749,0.88924 0.0782,-0.0509 0.10423,0.34722 0.0521,0.88923 0.10051,-0.0523 0.1005,0.21665 0.0335,0.13203 0.0521,0.88917 0.0893,-0.0517 0.11911,0.34807 0.0521,0.88918 0.0893,-0.0517 0.11912,0.34807 0.0521,0.88918 h 0.20845 l 0.0782,1.18565 h 0.20194 l 0.0782,1.18559 h 0.1824 l 0.0782,1.18558 0.0977,-0.0473 0.13028,0.24493 0.0782,0.98806 h 0.1824 l 0.17728,1.18559 h 0.13215 l 0.18798,1.18559 h 0.0824 l 0.0684,1.18559 h 0.25079 l 0.0782,1.18558 h 0.20846 l 0.16797,1.18565 h 0.13494 l 0.0782,1.18559 h 0.23126 l 0.0782,1.1856 h 0.25731 l 0.0782,1.18561 h 0.23451 l 0.0782,1.1856 h 0.26057 l 0.0782,1.1856 h 0.26057 l 0.0782,1.1856 h 0.25732 l 0.0782,1.18561 0.27034,0.0874 0.0847,1.09823 h 0.26057 l 0.0782,1.18561 h 0.28663 l 0.20799,1.18559 h 0.17309 l 0.0782,1.18561 h 0.30943 l 0.0782,1.18561 h 0.34199 l 0.0456,1.1856 h 0.342 l 0.0651,1.1856 h 0.33874 l 0.20287,1.1856 h 0.23358 l 0.0782,1.18561 h 0.39085 l 0.18891,1.1856 h 0.27686 l 0.0782,1.1856 h 0.43971 l 0.0782,1.18561 h 0.44297 l 0.0782,1.1856 h 0.48856 l 0.0358,1.1856 h 0.56022 l 0.0782,1.1856 h 0.57325 l 0.0782,1.18561 h 0.62536 l 0.0782,1.1856 h 0.7524 l 0.0782,1.18561 h 0.88593 l 0.0782,1.18559 h 1.23119 l 0.0651,1.18561 h 5.58595 l 0.21124,-1.18561 h 1.08509 l 0.0782,-1.18559 h 0.90873 l 0.1824,-1.18561 h 0.62537 l 0.0782,-1.1856 h 0.64816 l 0.16007,-1.18561 h 0.49136 l 0.15261,-1.1856 h 0.44669 l 0.0782,-1.1856 h 0.46902 l 0.2052,-1.1856 h 0.33874 l 0.0814,-1.18561 h 0.40713 l 0.0782,-1.1856 h 0.39085 l 0.0782,-1.1856 h 0.39085 l 0.0782,-1.18561 h 0.36479 l 0.0782,-1.1856 h 0.33874 l 0.21218,-1.1856 h 0.17867 l 0.0782,-1.1856 h 0.33874 l 0.0782,-1.18561 h 0.28662 l 0.0782,-1.18561 h 0.31269 l 0.0782,-1.18559 h 0.28662 l 0.0782,-1.18561 h 0.28663 l 0.0782,-1.1856 h 0.26057 l 0.0782,-1.18561 h 0.26057 l 0.20101,-1.1856 h 0.16379 l 0.0114,-1.1856 h 0.28336 l 0.0519,-1.1856 h 0.27292 l 0.14956,-1.18561 h 0.17915 l 0.0782,-1.1856 h 0.22917 l 0.0782,-1.18559 h 0.20846 l 0.0782,-1.18565 h 0.23125 l 0.0782,-1.18558 h 0.23451 l 0.0782,-1.18559 h 0.20845 l 0.0782,-1.18559 h 0.20846 l 0.0782,-1.18559 h 0.20846 l 0.0782,-1.18565 h 0.20845 l 0.0782,-1.18558 h 0.20846 l 0.0782,-1.18559 h 0.1824 l 0.0782,-1.18565 h 0.20845 l 0.0782,-1.18559 h 0.1824 l 0.0782,-1.18559 h 0.1824 l 0.0782,-1.18559 h 0.1824 l 0.0782,-1.18558 h 0.1824 l 0.0782,-1.18565 h 0.1824 l 0.0782,-1.18559 h 0.1824 l 0.0782,-1.18559 h 0.1824 l 0.0782,-1.18565 h 0.1824 l 0.0782,-1.18558 h 0.15634 l 0.0782,-1.18559 h 0.1824 l 0.0782,-1.18559 h 0.1824 l 0.0782,-1.18559 h 0.15634 l 0.0554,-1.18565 h 0.21171 l 0.14331,-1.18558 h 0.0782 l 0.0782,-1.18559 h 0.15634 l 0.0782,-1.18565 h 0.15308 l 0.0782,-1.18559 h 0.1824 l 0.10097,-1.18559 h 0.13029 l 0.0782,-1.18558 h 0.15634 l 0.0782,-1.18559 h 0.15634 l 0.0782,-1.18565 h 0.15634 l 0.0782,-1.18559 h 0.15635 l 0.28662,-2.37124 h 0.15634 l 0.0782,-1.18558 h 0.15309 l 0.0782,-1.18559 h 0.15634 l 0.28663,-2.37118 h 0.15634 l 0.0782,-1.18565 h 0.15634 l 0.28663,-2.37117 h 0.15634 l 0.28662,-2.37124 h 0.15635 l 0.28662,-2.37117 h 0.13028 l 0.0782,-1.18559 h 0.15634 l 0.28662,-2.37124 h 0.15634 l 0.28663,-2.37123 h 0.13029 l 0.28662,-2.37118 h 0.15634 l 0.28663,-2.37118 h 0.13028 l 0.28663,-2.37123 h 0.13028 l 0.0782,-1.18559 h 0.15634 l 0.28662,-2.37124 h 0.13029 l 0.28662,-2.37117 h 0.13029 l 0.28662,-2.37124 h 0.13029 l 0.28662,-2.37118 h 0.13029 l 0.28662,-2.37123 h 0.13029 l 0.28662,-2.37118 h 0.13029 l 0.0782,-1.18559 h 0.15634 l 0.28663,-2.37123 h 0.13028 l 0.28663,-2.37124 0.0223,0.046 0.0447,0.004 0.0223,-0.0424 0.067,-0.30357 0.16379,-0.95382 0.0447,-0.23183 0.16379,-0.95376 0.0447,-0.23183 0.16379,-0.95376 0.0447,-0.23183 0.16379,-0.95376 0.0447,-0.23182 0.16379,-0.95383 0.0447,-0.23182 0.16378,-0.95377 0.0447,-0.23182 0.16379,-0.95376 0.0447,-0.23183 0.16378,-0.95376 0.0447,-0.23183 0.16379,-0.95382 0.0447,-0.23182 0.16378,-0.95377 0.0447,-0.23182 0.16379,-0.95377 0.0447,-0.23182 0.16378,-0.95376 0.0447,-0.23183 0.16379,-0.95382 0.0447,-0.23183 0.16378,-0.95376 0.0447,-0.23182 0.16379,-0.95377 0.0447,-0.23182 0.16378,-0.95377 0.0447,-0.23182 0.16379,-0.95382 0.0447,-0.23183 0.16378,-0.95376 0.0447,-0.23183 0.0521,-0.88917 0.10423,0.008 0.0782,-0.30485 0.16378,-0.95377 0.0447,-0.23182 0.16379,-0.95383 0.0447,-0.23182 0.16378,-0.95376 0.0447,-0.23183 0.16379,-0.95376 0.0447,-0.23183 0.16378,-0.95376 0.0447,-0.23182 0.0521,-0.88924 0.10422,0.008 0.0782,-0.30491 0.16379,-0.95377 0.0447,-0.23182 0.16379,-0.95376 0.0447,-0.23183 0.16378,-0.95376 0.0447,-0.23183 0.0521,-0.88923 0.10423,0.008 0.0782,-0.30491 0.16379,-0.95376 0.0447,-0.23182 0.16378,-0.95377 0.0447,-0.23182 0.0521,-0.88924 0.10422,0.008 0.0782,-0.30485 0.16378,-0.95382 0.0447,-0.23183 0.0521,-0.88917 0.10423,0.008 0.0782,-0.30491 0.16379,-0.95376 0.0447,-0.23182 0.0521,-0.88918 0.10423,0.008 0.0782,-0.30485 0.16379,-0.95383 0.0447,-0.23182 0.0521,-0.88918 0.10423,0.009 0.0782,-0.30491 0.0521,-0.88917 h 0.13029 l 0.20845,-1.24915 0.0521,-0.23285 0.16378,-0.95383 0.0447,-0.23182 0.0521,-0.88918 0.10423,0.009 0.0782,-0.30491 0.0521,-0.88918 0.17914,-0.19758 0.0521,-0.988 0.10423,0.008 0.0782,-0.30485 0.0521,-0.88923 0.10423,0.008 0.0782,-0.30492 0.0521,-0.88917 0.10422,0.008 0.0782,-0.30491 0.16379,-0.95377 0.0447,-0.23182 0.0521,-0.88924 0.10423,0.008 0.0782,-0.30485 0.0521,-0.88924 0.10422,0.008 0.0782,-0.30491 0.0521,-0.88917 0.0893,0.0517 0.11911,-0.34807 0.0521,-0.88918 h 0.1596 l 0.0977,-1.18559 0.067,0.0495 0.0893,-0.34595 0.0521,-0.88924 0.10237,0.0386 0.0768,-0.33496 0.0521,-0.88917 0.0893,0.0516 0.11911,-0.34807 0.0521,-0.88917 0.10423,0.008 0.0782,-0.30485 0.0521,-0.88924 0.10423,0.008 0.0782,-0.30485 0.0521,-0.88924 0.0879,0.0448 0.11726,-0.34121 0.0521,-0.88918 0.0893,0.0517 0.11912,-0.34807 0.0521,-0.88917 0.10423,0.008 0.0782,-0.30485 0.0521,-0.88917 0.0893,0.0516 0.11912,-0.348 0.0521,-0.88924 0.0893,0.0517 0.11912,-0.34807 0.0521,-0.88918 0.0893,0.0517 0.11912,-0.34807 0.0521,-0.88918 0.0893,0.0517 0.11912,-0.34807 0.0521,-0.88924 0.0879,0.034 0.11726,-0.33035 0.0521,-0.889231 0.0921,0.02762 0.12284,-0.225207 0.0651,-0.988 0.0521,0.0635 0.0782,-0.12699 0.0521,-0.232917 0.0521,-0.889176 0.1005,0.0522 0.10051,-0.216648 0.0335,-0.131968 0.0521,-0.889176 0.0879,0.0825 0.0879,-0.231824 0.0293,-0.147083 0.13029,-0.889237 h 0.0358 l 0.114,-0.197588 0.0521,-0.988 0.1005,0.05221 0.10051,-0.216649 0.0335,-0.131968 0.15309,-0.889176 0.0512,0.0763 0.0256,-0.08632 0.30338,-1.340017 0.0335,-0.131968 0.0521,-0.889236 0.10051,0.05227 0.1005,-0.216648 0.0335,-0.132029 0.0521,-0.889176 0.1005,0.05221 0.10051,-0.216649 0.0335,-0.131968 0.16146,-0.889176 h 0.0437 l 0.10748,-0.197588 0.0652,-0.988 0.0335,0.04723 0.1005,-0.03739 0.10051,-0.306246 0.0521,-0.889236 0.0745,0.06507 0.11167,-0.127051 0.0745,-0.234435 0.0521,-0.889175 0.0745,0.06501 0.11167,-0.12699 0.0745,-0.234434 0.0521,-0.889176 0.0745,0.06501 0.11167,-0.126991 0.0745,-0.234434 0.0521,-0.889237 0.0735,0.05311 0.11027,-0.12699 0.0735,-0.222476 0.0521,-0.889237 0.0819,0.06532 0.12284,-0.126991 0.0819,-0.234738 0.0521,-0.889176 0.0819,0.06532 0.12284,-0.127051 0.0819,-0.234678 0.0749,-0.889176 h 0.21497 l 0.0912,-1.185587 h 0.28663 l 0.0782,-1.185649 0.0819,0.06532 0.12284,-0.12699 0.0819,-0.234738 0.0521,-0.889176 h 0.28663 l 0.0782,-1.185588 h 0.31268 l 0.0782,-1.185649 h 0.30943 l 0.16937,-1.185587 h 0.22799 l 0.0651,-1.185588 h 0.33874 l 0.0782,-1.185588 h 0.33548 l 0.0782,-1.185588 h 0.36154 l 0.0782,-1.185649 h 0.3648 l 0.13633,-1.185588 h 0.34898 l 0.0782,-1.185588 0.43971,-0.197648 0.13168,-0.988 0.34386,-0.07266 0.0586,-0.22369 0.0521,-0.889236 h 0.49508 l 0.1824,-1.185588 h 0.4104 l 0.0782,-1.185588 h 0.56999 l 0.14424,-1.185588 h 0.55604 l 0.29314,-1.185649 h 0.5472 l 0.16797,-1.185587 h 0.81242 l 0.0782,-1.185588 h 1.20839 l 0.114,-1.185649 h 5.55826 l 0.21497,1.185649 h 1.06182 l 0.21171,1.185588 h 0.77845 l 0.17495,1.185587 h 0.6263 l 0.20334,1.185649 h 0.52463 l 0.20752,1.185588 h 0.45693 l 0.0782,1.185588 h 0.51625 l 0.0814,1.185588 h 0.50811 l 0.12377,1.185588 h 0.36805 l 0.0717,1.185648 h 0.41691 l 0.20124,1.185588 h 0.28081 l 0.2052,1.185588 h 0.24265 l 0.20195,1.185649 h 0.24265 l 0.20846,1.185588 h 0.22148 l 0.0782,1.185588 h 0.34525 l 0.17915,1.185588 h 0.22474 l 0.0684,1.185587 h 0.28622 l 0.20845,1.185649 h 0.20357 l 0.11196,1.185588 h 0.24429 l 0.14005,1.185588 h 0.1824 l 0.21131,1.185649 h 0.15308 l 0.17914,1.185587 h 0.14331 l 0.20317,1.185588 h 0.1762 l 0.12603,1.185588 h 0.20194 l 0.10949,1.185588 h 0.18484 l 0.2109,1.185649 h 0.0945 l 0.15308,1.185588 h 0.15634 l 0.18682,1.185588 h 0.13401 l 0.21171,1.185648 h 0.0973 l 0.17914,1.185588 h 0.10423 l 0.21171,1.185588 h 0.0912 l 0.15634,1.185588 h 0.13028 l 0.20567,1.185588 h 0.0744 l 0.18973,1.185648 h 0.10423 l 0.0782,1.185588 h 0.19217 l 0.16611,1.185588 h 0.10667 l 0.20846,1.185649 h 0.0717 l 0.2052,1.185588 h 0.057 l 0.20846,1.185588 h 0.0521 l 0.20846,1.185588 h 0.0749 l 0.20194,1.185579 h 0.0521 l 0.20846,1.18565 h 0.0521 l 0.20846,1.18559 h 0.0521 l 0.14983,1.18559 h 0.10423 l 0.19822,1.18565 h 0.0591 l 0.17914,1.18559 h 0.0782 l 0.20194,1.18558 h 0.0668 l 0.0684,1.18559 h 0.17914 l 0.13541,1.18559 h 0.0893 l 0.20195,1.18565 h 0.0261 l 0.21265,1.18559 h 0.0447 l 0.15635,1.18558 h 0.0749 l 0.15308,1.18565 h 0.0879 l 0.18891,1.18559 h 0.0521 l 0.1596,1.18559 h 0.0717 l 0.17914,1.18558 h 0.0521 l 0.0782,1.18559 h 0.15635 l 0.17588,1.18565 h 0.0814 l 0.0944,1.18559 h 0.12377 l 0.28663,2.37124 h 0.15634 l 0.19217,1.18558 h 0.0684 l 0.0456,1.18559 h 0.15634 l 0.2052,1.18559 h 0.0261 l 0.28662,2.37124 h 0.15634 l 0.0782,1.18558 h 0.15635 l 0.28662,2.37124 h 0.16611 l 0.0879,1.18559 h 0.10423 l 0.0782,1.18559 h 0.15634 l 0.30942,2.37117 h 0.13029 l 0.30617,2.37124 h 0.12377 l 0.28336,2.37124 0.16193,0.0984 0.48461,3.45836 h 0.13029 l 0.20519,1.18559 h 0.0261 l 0.0749,1.18565 h 0.1596 l 0.12052,1.18558 h 0.0521 l 0.16448,1.18559 h 0.0521 l 0.21543,1.18565 h 0.0354 l 0.11213,1.18559 h 0.067 l 0.28337,2.37117 h 0.13028 l 0.10097,1.18559 h 0.13029 l 0.0358,1.18565 h 0.19543 l 0.12377,1.18559 h 0.0521 l 0.28337,2.37123 0.0219,-0.0453 0.0437,-0.0171 0.0437,0.081 0.0437,0.17907 0.12703,0.988 h 0.10422 l 0.11772,1.18559 h 0.0712 l 0.15448,1.18559 h 0.067 l 0.0977,1.18559 h 0.0782 l 0.28337,2.37123 h 0.15309 l 0.28662,2.37124 h 0.12703 l 0.12703,1.18559 h 0.0782 l 0.18984,1.25017 0.0447,0.23183 0.13215,0.88917 h 0.0763 l 0.0456,1.18559 0.0893,-0.007 0.067,0.30357 0.16378,0.95383 0.0447,0.23182 0.16379,0.95377 0.0447,0.23182 0.16378,0.95376 0.0447,0.23183 0.1596,0.88923 0.85104,4.80694 0.0447,0.23183 0.16099,0.88923 h 0.0181 l 0.16937,1.18559 h 0.0684 l 0.0456,1.18559 0.0893,-0.007 0.067,0.30357 0.16379,0.95377 0.0447,0.23182 0.0521,0.88924 0.10237,-0.0298 0.0768,0.22734 0.0782,0.988 0.0521,-0.10587 0.0782,0.50814 0.0521,0.78331 h 0.13354 l 0.28011,2.37124 h 0.13029 l 0.18984,1.25017 0.0707,0.82459 0.0749,0.29641 h 0.13028 l 0.0228,1.18565 0.10236,-0.0129 0.0768,0.30922 0.0521,0.88924 0.10237,-0.0129 0.0768,0.30928 0.0521,0.88918 h 0.13355 l 0.26057,2.37118 h 0.16611 l 0.18984,1.25023 0.0447,0.23183 0.0749,0.88917 0.0656,-0.0757 0.0875,0.3721 0.16378,0.95377 0.0447,0.23182 0.15309,0.88924 0.0112,-0.0219 0.0223,0.006 0.0223,0.0732 0.0289,0.73268 0.11354,0.39481 0.0754,0.29684 0.15449,0.89524 0.0768,0.29035 0.0521,0.88917 0.10423,-0.008 0.0782,0.30485 0.16379,0.95377 0.0447,0.23182 0.0521,0.88924 0.10423,-0.008 0.0782,0.30491 0.16379,0.95376 0.0447,0.23183 0.15959,0.88917 0.0177,-0.007 0.0177,0.0518 0.85615,4.69938 0.0824,0.29471 0.0521,0.88917 0.10423,-0.008 0.0782,0.30485 0.12703,0.88923 h 0.0782 l 0.0782,1.18559 0.10423,-0.008 0.0782,0.30491 0.16379,0.95377 0.0447,0.23182 0.0521,0.88924 0.10423,-0.008 0.0782,0.30485 0.0521,0.88924 0.10423,-0.009 0.0782,0.30491 0.0521,0.88917 0.10423,-0.008 0.0782,0.30492 0.0521,0.88917 0.0865,-0.0586 0.1154,0.35499 0.0521,0.88918 0.10423,-0.008 0.0782,0.30485 0.0554,0.88924 0.1005,-0.007 0.0754,0.30388 0.0521,0.88918 h 0.15634 l 0.45925,2.37123 h 0.0456 l 0.0358,0.19759 0.0619,0.988 0.0521,-0.0636 0.0782,0.12706 0.0521,0.23291 0.0521,0.88918 0.0879,-0.0398 0.11726,0.33617 0.0521,0.88918 0.10981,-0.0148 0.0824,0.2124 0.0651,0.988 0.0521,-0.0635 0.0782,0.12705 0.0521,0.23286 0.0521,0.88923 0.0893,-0.0517 0.11912,0.34807 0.16099,0.88918 h 0.0181 l 0.0782,0.29641 0.0521,0.88918 0.0893,-0.0517 0.11912,0.34807 0.0521,0.88924 0.0893,-0.0517 0.11912,0.34801 0.0521,0.88923 0.0921,-0.0438 0.12284,0.24141 0.0391,0.988 h 0.20845 l 0.0782,1.18559 0.0893,-0.0517 0.11912,0.34807 0.0521,0.88918 0.0893,-0.0516 0.11912,0.34801 0.0521,0.88924 h 0.20846 l 0.0782,1.18559 h 0.20845 l 0.0782,1.18558 h 0.20846 l 0.0782,1.18565 h 0.20846 l 0.16611,1.18559 h 0.11725 l 0.0782,1.18559 h 0.2052 l 0.17589,1.18559 h 0.13028 l 0.0782,1.18558 h 0.20846 l 0.0782,1.18565 h 0.23451 l 0.0782,1.18559 h 0.23451 l 0.0782,1.1856 h 0.23452 l 0.15913,1.18561 h 0.20241 l 0.0228,1.1856 h 0.28662 l 0.0782,1.1856 h 0.23451 l 0.0782,1.1856 h 0.29639 l 0.0651,1.18561 h 0.26057 l 0.0782,1.1856 h 0.28662 l 0.0782,1.18561 h 0.28663 l 0.0782,1.18559 h 0.28662 l 0.0782,1.18561 h 0.31269 l 0.0782,1.18561 h 0.31268 l 0.0782,1.1856 h 0.33874 l 0.2052,1.1856 h 0.20846 l 0.0782,1.1856 h 0.36154 l 0.0782,1.18561 h 0.38759 l 0.0782,1.1856 h 0.39086 l 0.0554,1.1856 h 0.43319 l 0.0782,1.18561 h 0.44296 l 0.0782,1.1856 h 0.49509 l 0.0782,1.1856 h 0.51788 l 0.0782,1.1856 h 0.56999 l 0.0782,1.18561 h 0.65143 l 0.0782,1.1856 h 0.74913 l 0.20381,1.18561 h 0.75378 l 0.0782,1.18559 h 1.21817 l 0.0782,1.18561 h 5.58595 l 0.0782,-1.18561 H 551.23 l 0.0782,-1.18559 h 0.88594 l 0.18612,-1.18561 h 0.6477 l 0.0782,-1.1856 h 0.62537 l 0.16006,-1.18561 h 0.49136 l 0.15262,-1.1856 h 0.44669 l 0.1489,-1.1856 h 0.42435 l 0.2038,-1.1856 h 0.31408 l 0.0782,-1.18561 h 0.41691 l 0.0782,-1.1856 h 0.41691 l 0.0782,-1.1856 h 0.36153 l 0.0782,-1.18561 h 0.36479 l 0.0782,-1.1856 h 0.33874 l 0.21218,-1.1856 h 0.20473 l 0.0782,-1.1856 h 0.31269 l 0.0782,-1.18561 h 0.31268 l 0.0782,-1.18561 h 0.28663 l 0.0782,-1.18559 h 0.28337 l 0.0782,-1.18561 h 0.28662 l 0.0782,-1.1856 h 0.25732 l 0.0782,-1.18561 h 0.28662 l 0.0782,-1.1856 h 0.23452 l 0.0782,-1.1856 h 0.25731 l 0.0747,-1.1856 h 0.25547 l 0.0511,-1.18561 h 0.27279 l 0.0782,-1.1856 h 0.23451 l 0.0782,-1.18559 h 0.20846 l 0.0782,-1.18565 h 0.23451 l 0.0782,-1.18558 h 0.20846 l 0.0782,-1.18559 h 0.23451 l 0.0782,-1.18559 h 0.20846 l 0.0782,-1.18559 h 0.2052 l 0.0782,-1.18565 h 0.20519 l 0.0782,-1.18558 h 0.18239 l 0.0782,-1.18559 h 0.20846 l 0.0782,-1.18565 h 0.20846 l 0.0782,-1.18559 h 0.18239 l 0.0782,-1.18559 h 0.1824 l 0.0782,-1.18559 h 0.1824 l 0.19543,-1.18558 h 0.0879 l 0.0358,-1.18565 h 0.21823 l 0.0782,-1.18559 h 0.1824 l 0.0782,-1.18559 h 0.15634 l 0.0782,-1.18565 h 0.1824 l 0.0782,-1.18558 h 0.1824 l 0.0782,-1.18559 h 0.15634 l 0.0782,-1.18559 h 0.1824 l 0.0782,-1.18559 h 0.15634 l 0.0782,-1.18565 h 0.1824 l 0.20985,-1.18558 h 0.0214 l 0.0782,-1.18559 h 0.15635 l 0.0782,-1.18565 h 0.1824 l 0.0782,-1.18559 h 0.15634 l 0.0782,-1.18559 h 0.15634 l 0.0782,-1.18558 h 0.15634 l 0.0782,-1.18559 h 0.1824 l 0.0228,-1.18565 h 0.17914 l 0.0782,-1.18559 h 0.15634 l 0.0782,-1.18559 h 0.15309 l 0.28663,-2.37123 h 0.15634 l 0.0814,-1.18559 h 0.14983 l 0.0782,-1.18559 h 0.15634 l 0.28663,-2.37124 h 0.15634 l 0.28663,-2.37117 h 0.15634 l 0.0782,-1.18565 h 0.15634 l 0.28663,-2.37118 h 0.15308 l 0.28663,-2.37117 h 0.13028 l 0.0782,-1.18565 h 0.15634 l 0.28663,-2.37118 h 0.13028 l 0.0782,-1.18564 h 0.15634 l 0.28662,-2.37118 h 0.13029 l 0.28662,-2.37118 h 0.15634 l 0.28663,-2.37123 h 0.13029 l 0.28662,-2.37124 h 0.13029 l 0.28662,-2.37117 h 0.13029 l 0.28662,-2.37118 h 0.15634 l 0.28663,-2.37124 h 0.13028 l 0.28663,-2.37123 h 0.13028 l 0.28663,-2.37118 h 0.13028 l 0.28663,-2.37118 h 0.13029 l 0.28662,-2.37123 h 0.13029 l 0.28662,-2.37124 0.0223,0.046 0.0447,0.004 0.0223,-0.0424 0.067,-0.30357 0.16379,-0.95382 0.0447,-0.23183 0.16379,-0.95376 0.0447,-0.23183 0.16379,-0.95376 0.0447,-0.23183 0.16379,-0.95376 0.0447,-0.23182 0.16379,-0.95383 0.0447,-0.23182 0.16379,-0.95377 0.0447,-0.23182 0.16379,-0.95376 0.0447,-0.23183 0.16379,-0.95376 0.0447,-0.23183 0.16378,-0.95382 0.0447,-0.23182 0.16379,-0.95377 0.0447,-0.23182 0.16378,-0.95377 0.0447,-0.23182 0.16379,-0.95376 0.0447,-0.23183 0.16378,-0.95382 0.0447,-0.23183 0.16379,-0.95376 0.0447,-0.23182 0.0521,-0.88918 0.10423,0.008 0.0782,-0.30485 0.16379,-0.95377 0.0447,-0.23182 0.16378,-0.95382 0.0447,-0.23183 0.16379,-0.95376 0.0447,-0.23183 0.16378,-0.95376 0.0447,-0.23182 0.16379,-0.95377 0.0447,-0.23182 0.16378,-0.95383 0.0447,-0.23182 0.16379,-0.95376 0.0447,-0.23183 0.0521,-0.88917 0.10423,0.008 0.0782,-0.30485 0.16378,-0.95376 0.0447,-0.23182 0.16379,-0.95383 0.0447,-0.23182 0.16379,-0.95377 0.0447,-0.23182 0.0521,-0.88918 0.10423,0.008 0.0782,-0.30485 0.16378,-0.95376 0.0447,-0.23183 0.16379,-0.95382 0.0447,-0.23183 0.16378,-0.95376 0.0447,-0.23182 0.0521,-0.88918 0.10422,0.008 0.0782,-0.30485 0.16379,-0.95377 0.0447,-0.23182 0.0521,-0.88924 0.10423,0.008 0.0782,-0.30491 0.16379,-0.95376 0.0447,-0.23183 0.16378,-0.95376 0.0447,-0.23182 0.0521,-0.88918 0.10422,0.008 0.0782,-0.30485 0.16379,-0.95383 0.0447,-0.23182 0.0521,-0.88918 0.10423,0.009 0.0782,-0.30491 0.0521,-0.88917 0.10422,0.008 0.0782,-0.30485 0.16378,-0.95376 0.0447,-0.23182 0.0521,-0.88924 0.10423,0.008 0.0782,-0.30491 0.0521,-0.88918 0.10422,0.009 0.0782,-0.30491 0.16379,-0.95376 0.0447,-0.23183 0.0521,-0.88917 0.10237,0.0128 0.0768,-0.30922 0.0521,-0.88923 0.10423,0.008 0.0782,-0.30492 0.0521,-0.88917 0.10423,0.008 0.0782,-0.30491 0.0521,-0.88918 0.10423,0.008 0.0782,-0.30485 0.0521,-0.88924 0.10423,0.008 0.0782,-0.30485 0.0521,-0.88924 0.10423,0.008 0.0782,-0.30491 0.0521,-0.88917 0.10423,0.009 0.0782,-0.30491 0.0521,-0.88918 0.10423,0.008 0.0782,-0.30485 0.0521,-0.88918 0.10423,0.008 0.0782,-0.30485 0.0521,-0.88924 0.0893,0.0517 0.11912,-0.34807 0.0554,-0.88917 0.10051,0.007 0.0754,-0.30382 0.0521,-0.88917 0.10423,0.008 0.0782,-0.30485 0.0358,-0.88924 0.0949,0.052 0.12656,-0.34831 0.0521,-0.88924 0.10423,0.008 0.0782,-0.30491 0.0782,-0.88918 0.0768,0.0354 0.10236,-0.3318 0.0554,-0.88917 0.0865,0.0509 0.1154,-0.34734 0.0521,-0.88917 0.0893,0.0516 0.11912,-0.348 0.0521,-0.88924 0.10423,0.008 0.0782,-0.30491 0.14703,-0.88918 h 0.0712 l 0.2871,-1.35112 0.0321,-0.13088 0.0521,-0.88924 0.0893,0.0517 0.11912,-0.34801 0.0521,-0.889229 0.0893,0.05166 0.11912,-0.34807 0.0521,-0.889176 0.0879,0.06295 0.11725,-0.359361 0.0521,-0.889176 0.1005,0.0522 0.10051,-0.216648 0.0335,-0.131968 0.0521,-0.889176 0.0893,0.0516 0.11912,-0.348009 0.0521,-0.889237 0.10051,0.05227 0.1005,-0.216649 0.0335,-0.132029 0.0521,-0.889176 0.0893,0.05166 0.11912,-0.348071 0.0521,-0.889176 0.1005,0.05221 0.10051,-0.216649 0.0335,-0.131968 0.0521,-0.889236 0.10051,0.05226 0.134,-0.348617 0.0521,-0.889236 0.10469,0.04061 0.13959,-0.238198 0.0651,-0.988 0.0335,0.04729 0.10051,-0.03739 0.10051,-0.306307 0.0521,-0.889176 0.19775,-0.05482 0.23451,-1.120514 0.11168,-0.306671 0.0521,-0.889236 0.0744,0.06507 0.11167,-0.127051 0.0744,-0.234435 0.0358,-0.889175 0.0782,0.0652 0.11725,-0.127052 0.0782,-0.234555 0.0554,-0.889176 0.10609,0.06459 0.10608,-0.222841 0.0354,-0.138159 0.0521,-0.889237 0.0819,0.06532 0.12284,-0.12699 0.0819,-0.234677 0.0521,-0.889237 0.0745,0.06507 0.11167,-0.127051 0.0744,-0.234435 0.0521,-0.889176 0.081,0.07242 0.12144,-0.126991 0.081,-0.24184 0.0521,-0.889176 0.0819,0.06532 0.12284,-0.127051 0.0819,-0.234678 0.0358,-0.889175 0.32897,-0.197649 0.0195,-0.988 h 0.31269 l 0.0782,-1.185588 h 0.28337 l 0.15913,-1.185588 h 0.20241 l 0.0782,-1.185649 0.0959,0.05129 0.14378,-0.08468 0.0958,-0.164201 0.0521,-0.988 h 0.30943 l 0.0782,-1.185588 h 0.32245 l 0.16937,-1.185588 h 0.26057 l 0.17309,-1.185588 0.22707,-0.07855 0.0624,-0.217862 0.0521,-0.889237 h 0.39085 l 0.114,-1.185588 h 0.35177 l 0.19868,-1.185588 h 0.27686 l 0.0651,-0.296412 0.0521,-0.889236 h 0.4332 l 0.0489,-0.790352 0.15262,-0.395236 0.32106,-0.06234 0.067,-0.23407 0.12563,-0.889176 h 0.4411 l 0.0782,-1.185588 h 0.5928 l 0.0782,-1.185588 h 0.62211 l 0.0782,-1.185649 h 0.75565 l 0.0782,-1.185587 h 0.88268 l 0.114,-1.185588 h 1.1921 L 611.56786,53.568 h 5.54477 l 0.13587,1.185649 h 1.12463 l 0.19869,1.185588 0.72284,-0.09312 0.0177,-0.01979 0.0177,0.05366 0.0968,1.244833 h 0.74588 l 0.2052,1.185649 h 0.51137 l 0.15308,1.185588 h 0.50974 l 0.16937,1.185588 h 0.43645 l 0.16611,1.185588 h 0.37783 l 0.2052,1.185588 h 0.35014 l 0.0456,1.185648 h 0.42993 l 0.0782,1.185588 h 0.38759 l 0.15309,1.185588 h 0.30942 l 0.2052,1.185649 h 0.23125 l 0.20986,1.185588 h 0.22334 l 0.17914,1.185588 h 0.23451 l 0.19078,1.185588 h 0.19356 l 0.21218,1.185587 h 0.17868 l 0.19403,1.185649 h 0.19682 l 0.13494,1.185588 h 0.22009 l 0.1596,1.185588 h 0.21008 l 0.114,1.185649 h 0.20845 l 0.20195,1.185587 h 0.17018 l 0.124,1.185588 h 0.16751 l 0.19303,1.185588 h 0.15792 l 0.0637,1.185588 h 0.27238 l 0.0651,1.185649 h 0.23696 l 0.21497,1.185588 h 0.0912 l 0.21415,1.185588 h 0.0945 l 0.20845,1.185648 h 0.0831 l 0.15553,1.185588 h 0.13517 l 0.21218,1.185588 h 0.1005 l 0.21264,1.185588 h 0.0699 l 0.15309,1.185588 h 0.13028 l 0.20846,1.185648 h 0.0749 l 0.0782,1.185588 h 0.20846 l 0.21171,1.185588 h 0.0912 l 0.0977,1.185649 h 0.15309 l 0.19054,1.185588 h 0.0928 l 0.0651,1.185588 h 0.1824 l 0.20845,1.185588 h 0.0521 l 0.17588,1.185588 h 0.0879 l 0.0652,1.18565 h 0.18239 l 0.0782,1.18559 h 0.1824 l 0.0782,1.18559 h 0.1824 l 0.17589,1.18565 h 0.0782 l 0.20938,1.18559 h 0.0479 l 0.14983,1.18558 h 0.10422 l 0.21172,1.18559 h 0.0342 l 0.17588,1.18559 h 0.0651 l 0.20846,1.18565 h 0.0456 l 0.10097,1.18559 h 0.13028 l 0.0782,1.18558 h 0.15634 l 0.15309,1.18565 h 0.0782 l 0.0782,1.18559 h 0.1824 l 0.0782,1.18559 h 0.15634 l 0.1824,1.18558 h 0.0619 l 0.17682,1.18559 h 0.0447 l 0.30617,2.37124 h 0.15634 l 0.17914,1.18559 h 0.0521 l 0.0782,1.18565 h 0.15634 l 0.28337,2.37117 h 0.1824 l 0.0684,1.18559 h 0.13029 l 0.15634,1.18559 h 0.0782 l 0.31268,2.37123 h 0.1368 l 0.0651,1.18559 h 0.15634 l 0.28663,2.37124 h 0.16611 l 0.17914,1.18559 h 0.0326 l 0.28337,2.37117 h 0.13843 l 0.0782,1.18565 h 0.15309 l 0.27685,2.37118 h 0.15309 l 0.3057,2.37123 h 0.13401 l 0.31314,2.37118 h 0.10051 l 0.2964,2.37124 h 0.14331 l 0.28337,2.37117 h 0.15634 l 0.0456,1.18565 h 0.13028 l 0.0782,1.18559 h 0.15308 l 0.28662,2.37117 h 0.14006 l 0.0651,1.18559 h 0.13029 l 0.2964,2.37124 h 0.11725 l 0.19217,1.18559 0.0126,-0.04 0.0377,0.21404 0.18333,1.07936 0.45367,2.50096 0.0163,0.988 h 0.18565 l 0.14332,1.18559 h 0.0489 l 0.28663,2.37123 h 0.13028 l 0.30943,2.37124 0.0372,-0.0608 0.0372,0.0556 0.0558,0.30151 0.16379,0.95382 0.0447,0.23183 0.0521,0.88918 h 0.1596 l 0.0456,1.18558 0.0893,-0.007 0.067,0.30358 0.10097,0.88917 h 0.0782 l 0.18985,1.25024 0.0447,0.23182 0.0521,0.88918 h 0.13354 l 0.28011,2.37123 0.0447,-0.0625 0.067,0.12699 0.0447,0.23183 0.16379,0.95382 0.0447,0.23182 0.0749,0.88918 0.0447,-0.0625 0.067,0.12705 0.0447,0.23182 0.16146,0.97222 0.0437,0.21337 0.114,0.88918 h 0.0651 l 0.18985,1.25023 0.0447,0.23183 0.16378,0.95376 0.0447,0.23182 0.16379,0.95377 0.0447,0.23182 0.16378,0.95377 0.0447,0.23182 0.12703,0.88924 h 0.0456 l 0.90873,5.53282 0.007,0.39518 0.0838,-0.0512 0.11167,0.34765 0.16379,0.95376 0.0447,0.23183 0.0749,0.88923 h 0.13029 l 0.2736,2.37118 0.067,-0.0495 0.0893,0.34594 0.0521,0.88918 0.17914,0.19758 0.13587,0.98801 h 0.0433 l 0.0879,1.18564 0.0712,-0.0405 0.0949,0.33697 0.16378,0.95376 0.0447,0.23182 0.16379,0.95377 0.0447,0.23182 0.0521,0.88924 0.10423,-0.008 0.0782,0.30485 0.16379,0.95382 0.0447,0.23183 0.15448,0.89609 0.0768,0.2895 0.16379,0.95376 0.0447,0.23182 0.16146,0.88918 h 0.0437 l 0.0358,0.79041 0.013,0.39524 0.10423,-0.008 0.0782,0.30491 0.0521,0.88918 0.10423,-0.008 0.0782,0.30491 0.0521,0.88917 0.10422,-0.008 0.0782,0.30485 0.0521,0.88923 0.15308,0.19759 0.15448,1.00123 0.0768,0.28318 0.0521,0.88918 0.10237,-0.0385 0.0768,0.3349 0.0521,0.88918 0.10236,-0.0129 0.0768,0.30928 0.0749,0.88917 0.0893,-0.007 0.067,0.30358 0.1368,0.88923 h 0.0651 l 0.114,1.18559 0.0558,-0.12426 0.0838,0.50815 0.0558,0.8017 0.10423,-0.008 0.0782,0.30485 0.0521,0.88924 0.17914,0.19759 0.0521,0.988 0.10422,-0.009 0.0782,0.30491 0.0554,0.88917 0.1005,-0.007 0.0754,0.30382 0.0521,0.88917 0.19217,0.19759 0.0619,0.988 h 0.15634 l 0.14983,1.18565 h 0.0782 l 0.0782,1.18559 0.10423,-0.008 0.0782,0.30491 0.0521,0.88917 0.0893,-0.0516 0.11912,0.34807 0.0521,0.88923 0.10423,-0.008 0.0782,0.30485 0.15308,0.88924 h 0.0782 l 0.0358,0.79041 0.013,0.39518 0.0893,-0.0517 0.11912,0.34807 0.12702,0.88918 0.0261,-0.0974 0.0261,-0.008 0.0261,0.0805 0.3648,2.39661 0.0893,-0.0517 0.11912,0.34807 0.0521,0.88918 0.0893,-0.0517 0.11912,0.34807 0.0521,0.88918 0.0893,-0.0517 0.11911,0.34807 0.0521,0.88924 0.0893,-0.0517 0.11911,0.34801 0.0521,0.88923 0.0907,-0.0359 0.12098,0.23346 0.0195,0.988 h 0.20846 l 0.0782,1.18559 h 0.20845 l 0.0782,1.18559 0.0893,-0.0516 0.11912,0.34801 0.0521,0.88924 h 0.2052 l 0.0782,1.18559 h 0.20846 l 0.18053,1.18558 h 0.0768 l 0.0782,1.18565 h 0.228 l 0.0782,1.18559 h 0.20845 l 0.0782,1.18559 h 0.20195 l 0.0782,1.18559 h 0.23125 l 0.20055,1.18558 h 0.10888 l 0.0782,1.18565 h 0.23125 l 0.1503,1.18559 h 0.15587 l 0.0782,1.1856 h 0.23452 l 0.20799,1.18561 h 0.11446 l 0.0782,1.1856 h 0.23451 l 0.0782,1.1856 h 0.26057 l 0.0782,1.1856 h 0.28337 l 0.0782,1.18561 h 0.26057 l 0.19962,1.1856 h 0.16192 l 0.0782,1.18561 h 0.28337 l 0.0782,1.18559 h 0.28337 l 0.21078,1.18561 h 0.17682 l 0.0782,1.18561 h 0.31268 l 0.0782,1.1856 h 0.33874 l 0.0782,1.1856 h 0.33874 l 0.0782,1.1856 h 0.36154 l 0.0782,1.18561 h 0.3876 l 0.0782,1.1856 h 0.3876 l 0.19635,1.1856 h 0.29547 l 0.0782,1.18561 h 0.46903 l 0.0782,1.1856 h 0.46902 l 0.0782,1.1856 h 0.52114 l 0.0782,1.1856 h 0.57325 l 0.0782,1.18561 h 0.65143 l 0.0782,1.1856 h 0.72959 l 0.0879,1.18561 h 0.89571 l 0.0554,1.18559 h 1.2377 l 0.0782,1.18561 5.57385,-0.0131 0.23591,-1.17246 h 1.06927 l 0.0782,-1.18559 h 0.90222 l 0.1824,-1.18561 h 0.62536 l 0.0879,-1.1856 h 0.63514 l 0.16007,-1.18561 h 0.49135 l 0.15681,-1.1856 h 0.47182 l 0.0456,-1.1856 h 0.49508 l 0.20473,-1.1856 h 0.31641 l 0.0782,-1.18561 h 0.41691 l 0.0782,-1.1856 h 0.39085 l 0.0782,-1.1856 h 0.39086 l 0.0782,-1.18561 h 0.36479 l 0.0358,-1.1856 h 0.37457 l 0.21218,-1.1856 h 0.20473 l 0.0782,-1.1856 h 0.31268 l 0.0782,-1.18561 h 0.31268 l 0.0782,-1.18561 h 0.28662 l 0.0782,-1.18559 H 694.61 l 0.0782,-1.18561 h 0.28337 l 0.0782,-1.1856 h 0.26057 l 0.0782,-1.18561 h 0.26057 l 0.0782,-1.1856 h 0.26057 l 0.0782,-1.1856 h 0.26057 l 0.0549,-1.1856 h 0.29265 l 0.0178,-1.18561 h 0.26689 l 0.0782,-1.1856 h 0.22905 l 0.0782,-1.18559 h 0.23125 l 0.0782,-1.18565 h 0.23451 l 0.0782,-1.18558 h 0.20846 l 0.0782,-1.18559 h 0.20846 l 0.0782,-1.18559 h 0.20845 l 0.0782,-1.18559 h 0.20846 l 0.0782,-1.18565 h 0.20845 l 0.0782,-1.18558 h 0.20846 l 0.0782,-1.18559 h 0.20846 l 0.0554,-1.18565 h 0.19542 l 0.0782,-1.18559 h 0.20519 l 0.0782,-1.18559 h 0.1824 l 0.0782,-1.18559 h 0.1824 l 0.0782,-1.18558 h 0.1824 l 0.0782,-1.18565 h 0.1824 l 0.0782,-1.18559 h 0.1824 l 0.0782,-1.18559 h 0.1824 l 0.0782,-1.18565 h 0.1824 l 0.0782,-1.18558 h 0.15634 l 0.0782,-1.18559 h 0.1824 l 0.0782,-1.18559 h 0.17914 l 0.0782,-1.18559 h 0.15634 l 0.0782,-1.18565 h 0.15634 l 0.20846,-1.18558 h 0.0521 l 0.0782,-1.18559 h 0.15635 l 0.0782,-1.18565 h 0.15634 l 0.0782,-1.18559 h 0.15308 l 0.0782,-1.18559 h 0.1824 l 0.0782,-1.18558 h 0.15634 l 0.0782,-1.18559 h 0.15635 l 0.28662,-2.37124 h 0.15634 l 0.0782,-1.18559 h 0.15634 l 0.0782,-1.18565 h 0.15634 l 0.0782,-1.18558 h 0.15634 l 0.28663,-2.37118 h 0.15634 l 0.0782,-1.18559 h 0.15634 l 0.28663,-2.37123 h 0.15634 l 0.28337,-2.37124 h 0.15634 l 0.28662,-2.37118 h 0.15634 l 0.28663,-2.37117 h 0.15634 l 0.21497,-1.18565 h 0.0228 l 0.0456,-1.18559 h 0.13029 l 0.0782,-1.18559 h 0.15634 l 0.28662,-2.37123 h 0.13029 l 0.0782,-1.18559 h 0.15634 l 0.28663,-2.37118 h 0.13028 l 0.28663,-2.37123 h 0.13028 l 0.28663,-2.37124 h 0.15634 l 0.28663,-2.37117 h 0.13028 l 0.28663,-2.37118 h 0.13028 l 0.28663,-2.37124 h 0.13028 l 0.28663,-2.37123 h 0.13028 l 0.28663,-2.37118 h 0.13028 l 0.28663,-2.37118 h 0.13028 l 0.28663,-2.37123 h 0.13028 l 0.28663,-2.37124 0.0223,0.046 0.0447,0.004 0.0223,-0.0424 0.067,-0.30357 0.16379,-0.95382 0.0447,-0.23183 0.16378,-0.95376 0.0447,-0.23183 0.0521,-0.88917 h 0.15634 l 0.18984,-1.25018 0.0447,-0.23182 0.16378,-0.95383 0.0447,-0.23182 0.16379,-0.95377 0.0447,-0.23182 0.16379,-0.95376 0.0447,-0.23183 0.16379,-0.95376 0.0447,-0.23183 0.16379,-0.95382 0.0447,-0.23182 0.16378,-0.95377 0.0447,-0.23182 0.16379,-0.95377 0.0447,-0.23182 0.16378,-0.95376 0.0447,-0.23183 0.16379,-0.95382 0.0447,-0.23183 0.16378,-0.95376 0.0447,-0.23182 0.16379,-0.95377 0.0447,-0.23182 0.16378,-0.95377 0.0447,-0.23182 0.16379,-0.95382 0.0447,-0.23183 0.16378,-0.95376 0.0447,-0.23183 0.16379,-0.95376 0.0447,-0.23182 0.0521,-0.88918 0.10423,0.008 0.0782,-0.30485 0.16379,-0.95383 0.0447,-0.23182 0.16378,-0.95376 0.0447,-0.23183 0.16379,-0.95376 0.0447,-0.23183 0.16378,-0.95376 0.0447,-0.23182 0.16379,-0.95383 0.0447,-0.23182 0.0521,-0.88918 0.10423,0.008 0.0782,-0.30491 0.16379,-0.95376 0.0447,-0.23183 0.16379,-0.95376 0.0447,-0.23183 0.0521,-0.88923 0.10423,0.008 0.0782,-0.30491 0.16379,-0.95376 0.0447,-0.23182 0.16378,-0.95377 0.0447,-0.23182 0.0521,-0.88924 0.10422,0.008 0.0782,-0.30485 0.16379,-0.95382 0.0447,-0.23183 0.16379,-0.95376 0.0447,-0.23183 0.0521,-0.88917 0.10423,0.008 0.0782,-0.30485 0.16378,-0.95377 0.0447,-0.23182 0.0521,-0.88924 0.10422,0.008 0.0782,-0.30491 0.16379,-0.95376 0.0447,-0.23183 0.0521,-0.88917 0.10423,0.008 0.0782,-0.30485 0.0521,-0.88923 0.10422,0.008 0.0782,-0.30485 0.16379,-0.95383 0.0447,-0.23182 0.0521,-0.88918 0.10423,0.009 0.0782,-0.30491 0.0489,-0.88918 0.0782,0.0508 0.10423,-0.34722 0.0358,-0.88917 0.0838,0.0512 0.11167,-0.34759 0.0521,-0.88923 0.17914,-0.19759 0.0521,-0.988 0.10423,0.008 0.0782,-0.30491 0.0521,-0.88918 0.10423,0.008 0.0782,-0.30485 0.14331,-0.88924 h 0.0684 l 0.30617,-2.37117 0.0261,0.0466 0.0521,0.004 0.0261,-0.0423 0.0782,-0.30491 0.0521,-0.88918 0.10237,0.0385 0.0768,-0.3349 0.0521,-0.88918 0.10423,0.008 0.0782,-0.30485 0.0521,-0.88924 0.0879,0.0448 0.11726,-0.34121 0.0521,-0.88917 0.10423,0.008 0.0782,-0.30491 0.0521,-0.88917 0.10422,0.008 0.0782,-0.30485 0.0521,-0.88924 0.0893,0.0517 0.11911,-0.34801 0.0521,-0.88924 0.10422,0.008 0.0782,-0.30491 0.0521,-0.88918 0.0893,0.0517 0.11911,-0.34807 0.0521,-0.88917 0.10423,0.008 0.0782,-0.30485 0.15634,-0.88917 h 0.0195 l 0.0782,-0.29641 0.0521,-0.88924 0.2052,-0.19759 0.0521,-0.988 0.0893,0.0517 0.11911,-0.34807 0.0521,-0.88918 0.0893,0.0517 0.11912,-0.34807 0.0521,-0.88924 0.0893,0.0517 0.11912,-0.34801 0.0521,-0.889238 0.0893,0.05166 0.11912,-0.34807 0.0879,-0.889176 0.0558,0.06386 0.0838,-0.127051 0.0558,-0.23322 0.0521,-0.889176 0.0893,0.05166 0.11912,-0.34807 0.0554,-0.889176 0.0963,0.03818 0.12842,-0.334594 0.0521,-0.889237 0.0893,0.05166 0.11912,-0.34807 0.0521,-0.889176 0.10051,0.05221 0.1005,-0.216649 0.0335,-0.131968 0.0521,-0.889176 0.0991,0.03533 0.13214,-0.331742 0.0521,-0.889236 0.1005,0.05226 0.13401,-0.348617 0.0521,-0.889236 0.24429,-0.197588 0.0651,-0.988 0.0335,0.04729 0.10051,-0.03739 0.1005,-0.306307 0.0521,-0.889176 0.1005,0.05221 0.10051,-0.216649 0.0335,-0.131968 0.10422,-0.889176 0.0298,0.04698 0.0893,-0.0377 0.0893,-0.3057 0.0521,-0.889236 0.0717,0.08547 0.10749,-0.127051 0.0716,-0.254831 0.0521,-0.889175 0.0744,0.06501 0.11168,-0.12699 0.0744,-0.234434 0.10097,-0.889176 0.0298,0.04698 0.0893,-0.0377 0.0893,-0.305699 0.0521,-0.889237 0.0744,0.06507 0.11167,-0.127051 0.0745,-0.234374 0.0749,-0.889237 0.0726,0.0743 0.10888,-0.127052 0.0726,-0.243661 0.0521,-0.889176 0.081,0.08189 0.12144,-0.127052 0.081,-0.251249 0.0554,-0.889176 h 0.28011 l 0.0782,-1.185587 0.081,0.07242 0.12144,-0.127051 0.081,-0.24178 0.0521,-0.889236 h 0.28337 l 0.0782,-1.185588 h 0.28337 l 0.0782,-1.185588 h 0.28663 l 0.0782,-1.185649 h 0.31268 l 0.15355,-1.185587 h 0.20799 l 0.0521,-0.296413 0.1368,-0.889175 0.20706,-0.06258 0.0633,-0.233828 0.15309,-0.889175 0.16006,0.02295 0.12005,-0.220594 0.0521,-0.987939 h 0.36154 l 0.17635,-1.185649 h 0.28616 l 0.0782,-1.185588 h 0.3876 l 0.16658,-1.185588 0.29919,0.02537 0.10422,-1.211022 0.49509,-0.197588 0.11818,-0.988 0.38993,-0.0635 0.0521,-0.232917 0.0521,-0.889176 h 0.52114 l 0.0782,-1.185588 h 0.37457 l 0.21823,-0.197649 0.11399,-0.987939 0.5472,-0.07272 0.0586,-0.22369 0.0521,-0.889237 0.73332,-0.04012 0.0875,-1.145463 0.85663,0.02543 0.25219,-1.211022 h 1.07019 l 0.1717,-1.185649 h 5.51197 l 0.20194,1.185649 h 1.08787 l 0.0782,1.185588 h 0.8729 l 0.2052,1.185587 0.64305,0.07357 0.15867,1.112077 h 0.54998 l 0.0782,1.185588 h 0.56674 l 0.19217,1.185588 h 0.40063 l 0.19542,1.185588 h 0.37457 l 0.10748,1.185588 h 0.44134 l 0.0945,1.185648 h 0.4161 l 0.0749,1.185588 h 0.37131 l 0.15541,1.185588 h 0.3071 l 0.18891,1.185649 h 0.23126 l 0.0782,1.185588 h 0.34362 l 0.20613,1.185588 h 0.20427 l 0.0782,1.185588 h 0.35485 l 0.10653,1.185587 h 0.27604 l 0.094,1.185649 h 0.25406 l 0.18613,1.185588 h 0.18484 l 0.0782,1.185588 h 0.25731 l 0.12703,1.185649 h 0.23125 l 0.21416,1.185587 h 0.13476 l 0.20846,1.185588 h 0.12377 l 0.20805,1.185588 h 0.11237 l 0.21218,1.185588 h 0.1005 l 0.19729,1.185649 h 0.14145 l 0.19729,1.185588 h 0.12517 l 0.18937,1.185588 h 0.085 l 0.21497,1.185648 h 0.11074 l 0.12703,1.185588 h 0.15308 l 0.19853,1.185588 h 0.10795 l 0.21456,1.185588 h 0.0627 l 0.19705,1.185588 h 0.0977 l 0.20805,1.185648 h 0.0684 l 0.15634,1.185588 h 0.13028 l 0.17914,1.185588 h 0.114 l 0.14332,1.185649 h 0.10422 l 0.0554,1.185588 h 0.228 l 0.20148,1.185588 h 0.0558 l 0.19054,1.185588 h 0.0782 l 0.20846,1.18558 h 0.0521 l 0.20764,1.18565 h 0.0586 l 0.17915,1.18559 h 0.0651 l 0.20519,1.18559 h 0.0521 l 0.21031,1.18565 h 0.0437 l 0.2052,1.18559 h 0.0586 l 0.0733,1.18558 h 0.15635 l 0.0782,1.18559 h 0.1824 l 0.14982,1.18559 h 0.10423 l 0.10097,1.18565 h 0.13029 l 0.21217,1.18559 h 0.0223 l 0.21171,1.18558 h 0.0489 l 0.1482,1.18565 h 0.0782 l 0.17751,1.18559 h 0.0651 l 0.21497,1.18559 h 0.013 l 0.12703,1.18558 h 0.10422 l 0.2052,1.18559 h 0.0261 l 0.21171,1.18565 h 0.0195 l 0.0782,1.18559 h 0.15635 l 0.12702,1.18559 h 0.10423 l 0.21218,1.18565 h 0.0223 l 0.20846,1.18558 h 0.0195 l 0.11074,1.18559 h 0.14657 l 0.0456,1.18559 h 0.15634 l 0.20195,1.18559 h 0.0261 l 0.30896,2.37123 h 0.13401 l 0.2052,1.18559 h 0.0261 l 0.28663,2.37124 h 0.13029 l 0.0782,1.18559 h 0.15634 l 0.28011,2.37117 h 0.15634 l 0.28663,2.37124 h 0.15634 l 0.28662,2.37124 h 0.13029 l 0.0782,1.18558 h 0.15308 l 0.28663,2.37118 h 0.13028 l 0.31269,2.37124 h 0.11725 l 0.2052,1.18558 h 0.0375 l 0.10423,1.18559 h 0.0684 l 0.28662,2.37124 h 0.15634 l 0.28663,2.37117 h 0.13028 l 0.26057,2.37124 h 0.14983 l 0.28663,2.37118 h 0.13028 l 0.0554,1.18564 h 0.17589 l 0.28662,2.37118 h 0.13029 l 0.28662,2.37118 0.0219,-0.059 0.0437,-0.0167 0.0219,0.0424 0.0656,0.32974 0.0749,0.88923 0.0744,-0.005 0.0558,0.30157 0.0521,0.88917 h 0.13028 l 0.28663,2.37124 h 0.1596 l 0.0554,1.18559 0.0819,-0.006 0.0614,0.30254 0.16379,0.95376 0.0447,0.23183 0.1354,0.88917 h 0.0796 l 0.16006,1.18559 h 0.0158 l 0.2964,2.37124 h 0.15308 l 0.13308,1.18382 0.0656,0.29818 0.0716,0.88923 h 0.13029 l 0.18984,1.25018 0.0447,0.23182 0.0521,0.88918 h 0.15634 l 0.11214,1.18559 h 0.067 l 0.18984,1.25017 0.0447,0.23183 0.16378,0.95382 0.0447,0.23183 0.16379,0.95376 0.0447,0.23182 0.15634,0.88918 h 0.0293 l 0.30292,2.37124 0.0223,-0.046 0.0447,-0.004 0.0223,0.0423 0.067,0.30364 0.16378,0.95376 0.0447,0.23183 0.15309,0.88917 0.70353,4.34724 0.007,0.39517 0.0838,-0.0512 0.11167,0.34765 0.16146,0.90775 0.0437,0.17907 0.13354,0.988 h 0.0456 l 2.61872,14.29073 0.0521,0.23292 0.16378,0.95376 0.0447,0.23183 0.0521,0.88917 0.10422,-0.008 0.0782,0.30485 0.16379,0.95376 0.0447,0.23182 0.0521,0.88924 0.10423,-0.008 0.0782,0.30491 0.0521,0.88918 0.10422,-0.008 0.0782,0.30491 0.0521,0.88918 0.10236,-0.0129 0.0768,0.30928 0.16379,0.95376 0.0447,0.23183 0.0521,0.88923 0.10423,-0.008 0.0782,0.30492 0.0521,0.88917 0.10423,-0.008 0.0782,0.30491 0.0521,0.88918 0.10237,-0.0385 0.0768,0.3349 0.0554,0.88924 0.10051,-0.007 0.0754,0.30382 0.15448,0.90247 0.0768,0.28318 0.0521,0.88917 0.10422,-0.008 0.0782,0.30492 0.0521,0.88917 0.0893,-0.0517 0.11912,0.34807 0.16145,0.88918 h 0.0437 l 0.0782,1.18565 0.10423,-0.008 0.0782,0.30491 0.15448,0.8961 0.0768,0.28949 0.0521,0.88917 0.0893,-0.0516 0.11912,0.34807 0.0521,0.88923 0.10423,-0.008 0.0782,0.30485 0.0521,0.88924 0.0865,-0.0327 0.11539,0.32913 0.0521,0.88918 0.0893,-0.0517 0.11912,0.34807 0.16286,0.88918 h 0.0651 l 0.0782,1.18558 0.10423,-0.008 0.0782,0.30485 0.0521,0.88923 h 0.17915 l 0.18053,1.18559 h 0.0768 l 0.19728,1.1763 0.0893,0.3057 0.0521,0.88924 0.0893,-0.0517 0.11911,0.34801 0.0814,0.88923 0.0754,-0.0498 0.1005,0.34619 0.0521,0.88917 h 0.20845 l 0.0782,1.18559 0.0879,-0.0339 0.11725,0.33034 0.0521,0.88918 h 0.20845 l 0.0782,1.18565 0.0893,-0.0517 0.11912,0.34807 0.0521,0.88918 h 0.20846 l 0.0782,1.18558 h 0.20519 l 0.0782,1.18565 h 0.20845 l 0.0782,1.18559 0.0991,-0.0514 0.13215,0.24901 0.0782,0.988 h 0.1824 l 0.0782,1.18559 H 799.27 l 0.0782,1.18558 h 0.23451 l 0.0879,1.18565 h 0.19543 l 0.1824,1.18559 0.13121,0.0646 0.0447,0.23182 0.0521,0.88919 h 0.23451 l 0.0782,1.18561 h 0.23451 l 0.0782,1.1856 h 0.26057 l 0.0782,1.1856 h 0.25731 l 0.0782,1.1856 h 0.26057 l 0.0782,1.18561 h 0.26057 l 0.114,1.1856 h 0.24754 l 0.0782,1.18561 h 0.28663 l 0.0782,1.18559 h 0.28663 l 0.0782,1.18561 h 0.30617 l 0.0782,1.18561 h 0.33874 l 0.0782,1.1856 h 0.30942 l 0.0554,1.1856 h 0.39412 l 0.0651,1.1856 h 0.36479 l 0.0782,1.18561 h 0.35828 l 0.19635,1.1856 h 0.29547 l 0.0879,1.1856 h 0.40389 l 0.20287,1.18561 h 0.31175 l 0.0782,1.1856 h 0.49508 l 0.0782,1.1856 h 0.52114 l 0.0782,1.1856 h 0.57325 l 0.0782,1.18561 h 0.64817 l 0.0782,1.1856 h 0.72959 l 0.20567,1.18561 h 0.77798 l 0.19264,1.18559 h 1.10044 l 0.0782,1.18561 h 5.59246 l 0.0782,-1.18561 h 1.19211 l 0.0782,-1.18559 h 0.90873 l 0.18566,-1.18561 h 0.6449 l 0.0782,-1.1856 h 0.6221 l 0.1596,-1.18561 h 0.48857 l 0.15634,-1.1856 h 0.46903 l 0.0879,-1.1856 h 0.45599 l 0.0782,-1.1856 h 0.44297 l 0.0782,-1.18561 h 0.41691 l 0.0782,-1.1856 h 0.41691 l 0.0782,-1.1856 h 0.36154 l 0.0782,-1.18561 h 0.36479 l 0.0782,-1.1856 h 0.34851 l 0.16193,-1.1856 h 0.24196 l 0.0782,-1.1856 h 0.31268 l 0.0782,-1.18561 h 0.31268 l 0.0782,-1.18561 h 0.30943 l 0.0782,-1.18559 h 0.28663 l 0.0782,-1.18561 h 0.26057 l 0.0782,-1.1856 h 0.28662 l 0.0782,-1.18561 h 0.26057 l 0.0782,-1.1856 h 0.26057 l 0.0782,-1.1856 h 0.23452 l 0.0712,-1.1856 h 0.26353 l 0.0703,-1.18561 h 0.22845 l 0.0782,-1.1856 h 0.23451 l 0.0782,-1.18559 h 0.23451 l 0.0782,-1.18565 h 0.23451 l 0.0782,-1.18558 h 0.20846 l 0.0782,-1.18559 h 0.20846 l 0.0782,-1.18559 h 0.23451 l 0.0782,-1.18559 h 0.1824 l 0.0782,-1.18565 h 0.20845 l 0.0782,-1.18558 h 0.2052 l 0.0782,-1.18559 h 0.20846 l 0.0782,-1.18565 h 0.1824 l 0.0782,-1.18559 h 0.20845 l 0.0782,-1.18559 h 0.1824 l 0.0782,-1.18559 h 0.17914 l 0.0782,-1.18558 h 0.1824 l 0.0782,-1.18565 h 0.1824 l 0.0782,-1.18559 h 0.1824 l 0.0782,-1.18559 h 0.1824 l 0.0814,-1.18565 h 0.17588 l 0.0782,-1.18558 h 0.15634 l 0.0782,-1.18559 h 0.19217 l 0.0651,-1.18559 h 0.18239 l 0.0782,-1.18559 h 0.15634 l 0.0782,-1.18565 h 0.15634 l 0.20845,-1.18558 h 0.0521 l 0.0782,-1.18559 h 0.15634 l 0.0782,-1.18565 h 0.15634 l 0.0782,-1.18559 h 0.15635 l 0.0782,-1.18559 h 0.15634 l 0.0782,-1.18558 h 0.15634 l 0.0782,-1.18559 h 0.15634 l 0.0782,-1.18565 h 0.15634 l 0.0782,-1.18559 h 0.15635 l 0.0782,-1.18559 h 0.15634 l 0.0782,-1.18565 h 0.15634 l 0.28663,-2.37117 h 0.15634 l 0.0782,-1.18559 h 0.15634 l 0.28663,-2.37124 h 0.15634 l 0.0782,-1.18558 h 0.15634 l 0.28663,-2.37124 h 0.15634 l 0.28662,-2.37118 h 0.13029 l 0.0782,-1.18558 h 0.15634 l 0.28663,-2.37124 h 0.15634 l 0.28662,-2.37118 h 0.13029 l 0.0782,-1.18564 h 0.15634 l 0.28663,-2.37118 h 0.13028 l 0.28663,-2.37118 h 0.13028 l 0.0782,-1.18565 h 0.15634 l 0.28663,-2.37117 h 0.13028 l 0.28663,-2.37124 h 0.13028 l 0.28663,-2.37117 h 0.13028 l 0.0782,-1.18559 h 0.15634 l 0.28662,-2.37124 h 0.13029 l 0.28662,-2.37123 h 0.13029 l 0.28662,-2.37118 h 0.13029 l 0.28662,-2.37118 h 0.13029 l 0.28663,-2.37123 h 0.13028 l 0.28663,-2.37124 0.0223,0.046 0.0447,0.004 0.0223,-0.0424 0.067,-0.30357 0.16378,-0.95382 0.0447,-0.23183 0.16379,-0.95376 0.0447,-0.23183 0.16378,-0.95376 0.0447,-0.23183 0.16379,-0.95376 0.0447,-0.23182 0.16378,-0.95383 0.0447,-0.23182 0.16379,-0.95377 0.0447,-0.23182 0.16378,-0.95376 0.0447,-0.23183 0.16379,-0.95376 0.0447,-0.23183 0.16379,-0.95382 0.0447,-0.23182 0.16379,-0.95377 0.0447,-0.23182 0.16379,-0.95377 0.0447,-0.23182 0.16378,-0.95376 0.0447,-0.23183 0.16379,-0.95382 0.0447,-0.23183 0.16378,-0.95376 0.0447,-0.23182 0.16379,-0.95377 0.0447,-0.23182 0.0521,-0.88924 0.10423,0.008 0.0782,-0.30485 0.16379,-0.95382 0.0447,-0.23183 0.16379,-0.95376 0.0447,-0.23183 0.16378,-0.95376 0.0447,-0.23182 0.16379,-0.95377 0.0447,-0.23182 0.16379,-0.95383 0.0447,-0.23182 0.16379,-0.95376 0.0447,-0.23183 0.0521,-0.88917 0.10423,0.008 0.0782,-0.30485 0.16379,-0.95376 0.0447,-0.23182 0.16378,-0.95383 0.0447,-0.23182 0.16379,-0.95377 0.0447,-0.23182 0.16378,-0.95376 0.0447,-0.23183 0.0521,-0.88917 0.10422,0.008 0.0782,-0.30485 0.16378,-0.95382 0.0447,-0.23183 0.16379,-0.95376 0.0447,-0.23182 0.0521,-0.88918 0.10423,0.008 0.0782,-0.30485 0.16378,-0.95377 0.0447,-0.23182 0.0521,-0.88924 0.10422,0.008 0.0782,-0.30491 0.16378,-0.95376 0.0447,-0.23183 0.16379,-0.95376 0.0447,-0.23182 0.0521,-0.88918 0.10423,0.008 0.0782,-0.30485 0.16378,-0.95383 0.0447,-0.23182 0.0521,-0.88918 0.10422,0.009 0.0782,-0.30491 0.0521,-0.88917 0.10423,0.008 0.0782,-0.30485 0.16378,-0.95376 0.0447,-0.23182 0.0521,-0.88924 0.10422,0.008 0.0782,-0.30491 0.0521,-0.88918 0.10423,0.009 0.0782,-0.30491 0.16378,-0.95376 0.0447,-0.23183 0.0521,-0.88917 0.10422,0.008 0.0782,-0.30485 0.0521,-0.88923 0.10423,0.008 0.0782,-0.30492 0.0521,-0.88917 0.10423,0.008 0.0782,-0.30491 0.0521,-0.88918 0.10423,0.008 0.0782,-0.30485 0.0521,-0.88924 0.10422,0.008 0.0782,-0.30485 0.0358,-0.88924 0.0838,0.0512 0.11167,-0.34765 0.15262,-0.89427 0.0754,-0.29131 0.0521,-0.88918 0.10423,0.008 0.0782,-0.30485 0.0521,-0.88918 0.10423,0.008 0.0782,-0.30485 0.0521,-0.88924 0.0879,0.0398 0.11725,-0.33623 0.15448,-0.89524 0.0768,-0.29035 0.0521,-0.88917 0.0893,0.0517 0.11912,-0.34806 0.0521,-0.88924 0.19217,-0.19759 0.0651,-0.988 0.0521,0.0636 0.0782,-0.12706 0.0521,-0.23291 0.0521,-0.88918 0.10422,0.008 0.0782,-0.30491 0.0521,-0.88917 0.0893,0.0516 0.11911,-0.34807 0.0554,-0.88917 0.0866,0.0509 0.11539,-0.34734 0.0521,-0.88924 0.0893,0.0517 0.11911,-0.34807 0.0521,-0.88918 0.10423,0.008 0.0782,-0.30491 0.0521,-0.88918 0.0893,0.0517 0.11912,-0.34807 0.0521,-0.88924 0.0991,0.043 0.13214,-0.33939 0.0521,-0.88923 0.0893,0.05166 0.11911,-0.34807 0.0521,-0.889176 0.0893,0.05166 0.11911,-0.34807 0.0521,-0.889176 h 0.16611 l 0.0651,-0.296412 0.0521,-0.889176 0.0893,0.0516 0.11912,-0.348009 0.0521,-0.889237 0.10051,0.05227 0.1005,-0.216649 0.0335,-0.132029 0.0521,-0.889176 0.0893,0.05166 0.11912,-0.348071 0.0521,-0.889176 0.10469,0.04055 0.13959,-0.238137 0.0489,-0.988061 0.0633,0.06447 0.0949,-0.12699 0.0633,-0.233828 0.0521,-0.889236 0.1005,0.05227 0.10051,-0.216648 0.0335,-0.132029 0.0521,-0.889176 0.0744,0.06501 0.11167,-0.126991 0.0745,-0.234434 0.1582,-0.889176 h 0.0796 l 0.0977,-1.185588 0.26383,-0.197648 0.0651,-0.988 0.0335,0.04729 0.1005,-0.03739 0.10051,-0.306307 0.0521,-0.889175 0.0726,0.06501 0.10888,-0.12699 0.0726,-0.234434 0.0521,-0.889176 0.0744,0.06501 0.11167,-0.126991 0.0744,-0.234434 0.0521,-0.889237 0.0819,0.06532 0.12284,-0.12699 0.0819,-0.234677 0.0358,-0.889237 0.0782,0.06519 0.11725,-0.127051 0.0782,-0.234556 0.13029,-0.889176 0.18426,-0.06908 0.0437,-0.227332 0.0521,-0.889176 0.081,0.07242 0.12145,-0.12699 0.081,-0.241841 0.0521,-0.889175 0.0819,0.06525 0.12283,-0.12699 0.0819,-0.234678 0.0521,-0.889236 h 0.28663 l 0.0782,-1.185588 0.30291,-0.197588 0.0521,-0.988 h 0.31269 l 0.0782,-1.185649 h 0.28337 l 0.0619,-1.185587 h 0.35177 l 0.0782,-1.185588 h 0.33548 l 0.10423,-1.185588 h 0.31268 l 0.1703,-1.185588 0.26895,6.07e-4 0.12098,-1.186256 h 0.33874 l 0.0782,-1.185588 h 0.39085 l 0.0782,-1.185588 0.40202,-0.05827 0.2522,-1.127374 0.2815,-0.06453 0.0447,-0.231825 0.0521,-0.889236 h 0.46576 l 0.0782,-1.185588 h 0.51463 l 0.18798,-1.185588 h 0.48298 l 0.17124,-1.185588 h 0.55836 l 0.20008,-1.185649 h 0.59465 l 0.0782,-1.185587 h 0.9348 l 0.12377,-1.185588 h 1.09764 l 0.0969,-1.181428 h 5.63155 l 0.0456,1.185649 h 1.2149 l 0.17403,1.185588 h 0.80962 l 0.0651,1.185587 h 0.74588 l 0.21497,1.185649 h 0.49834 l 0.0782,1.185588 h 0.61397 l 0.0456,1.185588 0.51672,0.06805 0.14121,1.11754 h 0.4218 l 0.21334,1.185588 h 0.342 l 0.12796,1.185648 h 0.35083 l 0.20846,1.185588 h 0.28662 l 0.0456,1.185588 h 0.38759 l 0.20846,1.185649 h 0.25731 l 0.13028,1.185588 h 0.28663 l 0.1425,1.185588 h 0.24265 l 0.19799,1.185588 h 0.23032 l 0.0904,1.185587 h 0.24754 l 0.2052,1.185649 h 0.18728 l 0.2109,1.185588 h 0.15797 l 0.18984,1.185588 h 0.1489 l 0.16408,1.185649 h 0.18239 l 0.17915,1.185587 h 0.17914 l 0.18158,1.185588 h 0.15634 l 0.19338,1.185588 h 0.12662 l 0.15634,1.185588 h 0.15634 l 0.19624,1.185649 h 0.14006 l 0.18891,1.185588 h 0.11074 l 0.11074,1.185588 h 0.20846 l 0.21497,1.185648 h 0.0749 l 0.16612,1.185588 h 0.15416 l 0.0771,1.185588 h 0.19739 l 0.17896,1.185588 h 0.0977 l 0.19216,1.185588 h 0.0912 l 0.17589,1.185648 h 0.13028 l 0.21497,1.185588 h 0.0619 l 0.0782,1.185588 h 0.1824 l 0.20799,1.185649 h 0.0754 l 0.2052,1.185588 h 0.0521 l 0.15308,1.185588 h 0.13029 l 0.21089,1.185588 h 0.0489 l 0.2052,1.185582 h 0.0749 l 0.0456,1.18565 h 0.2052 l 0.0782,1.18559 h 0.15634 l 0.17914,1.18559 h 0.0782 l 0.21172,1.18565 h 0.0554 l 0.16285,1.18559 h 0.0782 l 0.17915,1.18558 h 0.0782 l 0.0782,1.18559 h 0.15634 l 0.20194,1.18559 h 0.0489 l 0.2131,1.18565 h 0.067 l 0.10097,1.18559 h 0.13354 l 0.12377,1.18558 h 0.0863 l 0.19054,1.18565 h 0.0521 l 0.20845,1.18559 h 0.0358 l 0.14006,1.18559 h 0.10423 l 0.17914,1.18558 h 0.0521 l 0.0782,1.18559 h 0.15634 l 0.20194,1.18565 h 0.0261 l 0.20846,1.18559 h 0.0195 l 0.20892,1.18559 h 0.0223 l 0.16123,1.18565 h 0.0668 l 0.18403,1.18558 h 0.0521 l 0.28663,2.37118 h 0.15634 l 0.20194,1.18559 h 0.0261 l 0.2038,1.18565 h 0.0503 l 0.0228,1.18558 h 0.17914 l 0.31594,2.37124 h 0.12377 l 0.28663,2.37118 h 0.15634 l 0.29314,2.37117 h 0.14006 l 0.30617,2.37124 h 0.1368 l 0.28011,2.37124 h 0.1596 l 0.0456,1.18558 h 0.15634 l 0.21357,1.18559 h 0.0209 l 0.0977,1.18559 h 0.10749 l 0.30942,2.37124 0.0163,-0.0492 0.0326,-0.007 0.0163,0.0423 0.0489,0.31013 0.10097,0.88917 h 0.10097 l 0.28663,2.37124 h 0.13028 l 0.28337,2.37118 h 0.15634 l 0.28663,2.37117 h 0.13028 l 0.28337,2.37124 h 0.13029 l 0.28662,2.37123 h 0.14006 l 0.12051,1.18559 0.0335,-0.0592 0.0503,0.12705 2.47238,14.15937 h 0.0447 l 0.18984,1.25018 0.0447,0.23182 0.16379,0.95376 0.0447,0.23183 0.0521,0.88923 h 0.13028 l 0.0358,1.18559 h 0.19543 l 0.12051,1.18559 h 0.0521 l 0.16751,1.18559 h 0.067 l 0.13214,1.18559 h 0.0503 l 0.41784,2.37123 h 0.0381 l 0.0456,1.18559 0.0893,-0.007 0.067,0.30357 0.15216,0.88924 h 0.04 l 0.0912,1.18559 0.067,-0.0495 0.0893,0.34595 0.16146,0.90775 0.0437,0.17901 0.0293,0.988 0.1005,-0.007 0.0754,0.30382 0.16286,0.88917 0.41179,2.36407 0.067,0.30358 0.16379,0.95376 0.0447,0.23183 0.16378,0.95376 0.0447,0.23182 0.16379,0.95383 0.0447,0.23182 0.0521,0.88918 0.10423,-0.009 0.0782,0.30491 0.16379,0.95376 0.0447,0.23183 0.15494,0.88596 0.0502,0.29963 0.0489,0.88923 0.0768,-0.0363 0.10236,0.33272 0.16379,0.95376 0.0447,0.23182 0.15448,0.89525 0.0768,0.29034 0.16379,0.95377 0.0447,0.23182 0.14331,0.88924 h 0.0684 l 0.30291,2.37117 0.0223,-0.0459 0.0447,-0.004 0.0223,0.0424 0.067,0.30357 0.16379,0.95377 0.0447,0.23182 0.0358,0.88924 0.0838,-0.0512 0.11167,0.34764 0.1596,0.88918 h 0.0195 l 0.0782,1.18558 0.10236,-0.0385 0.0768,0.3349 0.16006,0.88923 h 0.0419 l 0.0782,1.18559 0.10422,-0.008 0.0782,0.30491 0.16378,0.95377 0.0447,0.23182 0.0358,0.88918 0.0837,-0.0512 0.11168,0.34765 0.0521,0.88917 0.10423,-0.008 0.0782,0.30485 0.0521,0.88923 0.10051,-0.0127 0.0754,0.21027 0.0521,0.988 0.10237,-0.0385 0.0768,0.33489 0.0554,0.88918 0.10051,-0.007 0.0754,0.30382 0.0489,0.88924 0.0782,-0.0509 0.10423,0.34722 0.0521,0.88924 0.10422,-0.009 0.0782,0.30491 0.0521,0.88917 0.10422,-0.008 0.0782,0.30492 0.0521,0.88917 h 0.1824 l 0.10097,1.18559 0.0447,-0.0624 0.067,0.12699 0.0447,0.23182 0.0358,0.88924 0.0838,-0.0512 0.11167,0.34765 0.0521,0.88918 0.0879,-0.0339 0.11726,0.33035 0.0521,0.88917 0.10423,-0.008 0.0782,0.30485 0.0521,0.88923 0.10423,-0.008 0.0782,0.30485 0.0358,0.88924 0.0949,-0.052 0.12656,0.34837 0.10097,0.88918 0.0447,-0.0625 0.067,0.12705 0.0447,0.23182 0.0521,0.88918 0.10423,-0.008 0.0782,0.30485 0.0521,0.88917 0.0893,-0.0516 0.11912,0.34801 0.0521,0.88923 0.0879,-0.063 0.11726,0.35942 0.0521,0.88918 0.21823,0.19759 0.0651,0.988 0.0521,-0.0635 0.0782,0.12705 0.0521,0.23286 0.0521,0.88924 0.0893,-0.0517 0.11912,0.34801 0.14285,0.88923 h 0.12098 l 0.0456,1.18559 h 0.20846 l 0.0782,1.18559 0.0893,-0.0517 0.11912,0.34807 0.0521,0.88918 0.0893,-0.0516 0.11912,0.34801 0.0521,0.88924 h 0.20845 l 0.0619,1.18559 h 0.21823 l 0.0782,1.18558 h 0.20845 l 0.0782,1.18565 h 0.20846 l 0.0782,1.18559 h 0.20845 l 0.0782,1.18559 h 0.20846 l 0.0782,1.18559 h 0.23126 l 0.0782,1.18558 h 0.20845 l 0.18426,1.18565 h 0.14471 l 0.0358,1.18559 0.25498,0.0646 0.0447,0.23182 0.0521,0.88919 h 0.23451 l 0.0554,1.18561 h 0.2508 l 0.18007,1.28008 0.0256,-0.0293 0.0628,-0.12588 0.0558,0.12702 0.0633,0.8229 0.0261,0.2964 h 0.25731 l 0.0782,1.1856 h 0.26057 l 0.0782,1.18561 h 0.28663 l 0.0782,1.1856 h 0.26057 l 0.0782,1.18561 h 0.28663 l 0.0782,1.18559 h 0.31268 l 0.0782,1.18561 h 0.28663 l 0.0782,1.18561 h 0.33548 l 0.0782,1.1856 h 0.31268 l 0.21497,1.1856 h 0.22149 l 0.0782,1.1856 h 0.36479 l 0.0782,1.18561 h 0.36154 l 0.0782,1.1856 h 0.39086 l 0.0782,1.1856 h 0.43645 l 0.0782,1.18561 H 941.59 l 0.0782,1.1856 h 0.49508 l 0.0782,1.1856 h 0.51788 l 0.0782,1.1856 h 0.57325 l 0.0782,1.18561 h 0.62211 l 0.0879,1.1856 h 0.73936 l 0.0782,1.18561 h 0.90547 l 0.0782,1.18559 h 1.19536 l 0.0782,1.18561 h 5.60875 l 0.0782,-1.18561 h 1.19537 l 0.0782,-1.18559 h 0.90547 l 0.18566,-1.18561 h 0.64491 l 0.0782,-1.1856 h 0.62211 l 0.16332,-1.18561 h 0.5109 l 0.15262,-1.1856 h 0.44669 l 0.0782,-1.1856 h 0.46902 l 0.21032,-1.1856 h 0.33036 l 0.0782,-1.18561 h 0.37377 v 0"
+     clip-path="url(#pc554b41d2e)"
+     style="fill:none;stroke:#1f77b4;stroke-width:1.5;stroke-linecap:square"
+     id="path359"
+     transform="translate(-100.17313,-41.072)" />
+  <path
+     d="m 177.77536,174.49955 1.25087,-0.11073 0.73471,-0.32099 1.27353,-0.86356 1.09439,-0.93155 1.06508,-1.26675 1.90704,-2.68319 1.38427,-2.43479 2.03896,-4.01215 2.28323,-5.19933 2.18553,-5.51437 2.80111,-7.57353 4.68048,-13.34456 5.20323,-14.69155 3.94815,-10.11292 1.284,-3.11048 1.2035,-2.907117 2.1174,-4.042872 1.13673,-2.537806 0.56837,-0.679629 0.69702,-0.777118 0.63188,-1.140365 1.44616,-2.543207 0.56906,-0.380183 0.65049,-0.463952 0.55232,-0.741546 1.06182,-1.484489 0.48693,-0.286639 1.34316,-0.490176 1.29796,-1.063818 0.58139,-0.0072 1.05205,0.128083 1.54387,-0.286639 0.66771,0.380607 0.94456,0.527933 1.38712,0.532971 0.61234,0.617287 1.2544,1.304748 0.9869,0.914368 0.80451,1.15475 1.74485,2.625825 0.87942,1.476172 2.64396,5.343918 1.17722,2.856184 3.0554,8.01273 3.05867,9.26277 3.29433,11.16702 3.0682,11.28503 3.78803,14.76124 4.77632,19.361 6.12524,24.52123 3.70008,13.89926 2.94489,10.24197 2.62849,8.36 2.26137,6.43633 2.19576,5.62904 1.91286,4.28908 1.43034,2.8327 1.81747,3.09506 1.48524,2.10178 1.32564,1.54397 1.19537,1.11943 1.37775,0.95692 1.06834,0.50225 1.25893,0.31262 1.16931,0.027 1.11719,-0.21998 1.09439,-0.43949 1.22467,-0.75423 1.19536,-1.01095 1.29633,-1.38391 1.37776,-1.80524 1.58622,-2.48882 1.50804,-2.7675 1.74581,-3.66208 1.90216,-4.53748 2.08455,-5.57247 2.29301,-6.80066 2.57591,-8.38107 2.89604,-10.21326 3.4651,-13.06641 5.03503,-19.94035 7.64864,-30.20102 3.29945,-12.16674 3.1166,-10.62913 2.52659,-7.84409 2.25532,-6.25895 1.85003,-4.66848 2.25067,-4.95129 1.70021,-3.196427 1.7165,-2.743102 1.43069,-1.878269 1.3403,-1.439508 1.30081,-1.075776 1.22915,-0.728071 1.18986,-0.445316 1.03175,-0.161105 1.15261,0.05135 1.04553,0.258473 1.10091,0.501224 1.17907,0.779789 1.14325,1.004754 1.39242,1.544585 1.38264,1.872987 1.56016,2.519777 1.63367,3.076185 1.73093,3.7348 1.89517,4.61822 2.10619,5.73223 2.25904,6.804 2.53543,8.33596 2.94769,10.47993 3.58934,13.62434 5.18207,20.60553 6.82365,26.95796 3.39717,12.58074 3.20174,10.95893 2.48797,7.75643 2.18925,6.12092 2.24508,5.6484 1.93054,4.23281 1.71277,3.25076 1.4336,2.34847 1.3745,1.90571 1.59692,1.79966 1.26934,1.09198 1.09439,0.70792 1.24494,0.53449 1.00085,0.21361 1.19536,0.0179 1.12045,-0.2334 1.06833,-0.43797 1.22468,-0.76838 1.27027,-1.08701 1.24422,-1.3459 1.38101,-1.82273 1.5341,-2.41433 1.58947,-2.92327 1.69371,-3.57152 1.90215,-4.5393 2.13294,-5.72027 2.19623,-6.51834 2.54985,-8.28558 2.94443,-10.37649 3.50931,-13.23547 4.94988,-19.61674 7.45833,-29.5101 3.6019,-13.31584 2.91372,-9.96147 2.57824,-8.05527 2.1362,-5.97929 1.98568,-5.06062 2.12829,-4.73482 1.72138,-3.306067 1.50828,-2.487543 1.59598,-2.196412 1.45268,-1.605834 1.26661,-1.090406 1.26434,-0.781792 1.17534,-0.472147 1.08625,-0.196981 1.26498,0.0451 1.05693,0.264847 1.08625,0.500859 1.15953,0.765767 1.23747,1.091984 1.32099,1.480604 1.38102,1.874141 1.56016,2.524875 1.67136,3.152485 1.77141,3.84401 1.89889,4.65391 2.12969,5.82784 2.27719,6.89451 2.53078,8.35854 2.99096,10.67048 3.57863,13.62136 5.69344,22.67125 6.20806,24.47564 3.32225,12.29907 3.21059,10.9899 2.60336,8.09794 2.26137,6.28226 2.16272,5.39503 1.9324,4.20738 1.73092,3.25173 1.63833,2.61824 1.45593,1.92489 1.3289,1.4321 1.42988,1.17399 1.14324,0.66998 1.2501,0.45096 0.9641,0.1503 1.16931,-0.0528 1.11719,-0.29155 1.02273,-0.47051 1.28656,-0.86988 1.24747,-1.13423 1.40382,-1.61184 1.3973,-1.95269 1.56342,-2.59001 1.7165,-3.31159 1.71975,-3.7949 1.90216,-4.72475 2.15155,-5.96035 2.36374,-7.2373 2.71736,-9.09341 3.10077,-11.21298 3.84293,-14.7857 14.15774,-55.32655 3.01563,-10.40174 2.64338,-8.33074 2.04127,-5.7777 2.29325,-5.88654 1.9075,-4.27002 1.74907,-3.41849 1.80933,-2.991377 1.44453,-1.976365 1.54061,-1.700591 1.27493,-1.082939 1.11417,-0.691042 1.21385,-0.502923 1.16931,-0.214949 1.09113,0.02999 1.10091,0.252646 1.09439,0.480645 1.18047,0.768256 1.23142,1.07438 1.34844,1.492016 1.36799,1.84731 1.41684,2.257843 1.72139,3.20153 1.72627,3.69547 1.90867,4.62095 2.15155,5.8367 2.28045,6.86028 2.54381,8.35805 2.98118,10.59666 3.6731,13.95153 5.62829,22.40567 6.35556,25.06689 3.30271,12.2235 3.20547,10.97477 2.50565,7.81204 2.18087,6.09578 2.18832,5.51516 1.98404,4.35974 1.70952,3.24536 1.70905,2.75998 1.49642,1.98717 1.34844,1.45511 1.43313,1.17593 1.11719,0.65675 1.25759,0.45679 0.98143,0.15273 1.14651,-0.0512 1.11068,-0.28919 1.06507,-0.48768 1.25073,-0.84996 1.27353,-1.15415 1.37776,-1.5838 1.40708,-1.96191 1.56015,-2.58152 1.74256,-3.363 1.8761,-4.16877 1.92821,-4.83953 2.22228,-6.23042 2.33768,-7.22207 2.72108,-9.17403 3.13148,-11.3901 3.94483,-15.24049 13.2304,-51.85307 3.12032,-10.90739 2.6692,-8.54096 1.64321,-4.80026 2.74575,-7.24604 1.8533,-4.2628 1.73604,-3.518584 1.8412,-3.171119 1.38416,-2.020981 1.7037,-1.965195 1.16509,-1.099147 1.25365,-0.806377 1.40545,-0.67453 0.90955,-0.180834 1.26773,-0.0085 1.07281,0.178527 0.92712,0.386191 1.46442,0.885534 1.05693,0.883045 1.43639,1.563827 1.35821,1.771492 1.56342,2.491368 1.5569,2.847268 1.85818,3.954795 1.7165,4.11699 2.3293,6.25798 2.34699,7.04821 2.40793,7.9023 2.85696,10.10564 3.47162,13.11073 4.7619,18.87192 7.64444,30.24532 3.34831,12.39772 2.78484,9.59123 2.92442,9.18532 2.2288,6.2218 2.17994,5.48014 1.9431,4.26134 1.69695,3.22484 1.3289,2.18889 1.5113,2.1127 1.58668,1.78205 1.29587,1.11099 1.38102,0.85008 1.00431,0.39287 1.21862,0.21877 1.09439,-0.0357 0.93479,-0.21264 1.06507,-0.44058 1.24748,-0.78149 1.22142,-1.04804 1.25073,-1.34924 1.40707,-1.86097 1.56342,-2.46448 1.69369,-3.14416 1.77188,-3.78507 1.90215,-4.60547 2.10689,-5.70941 2.33767,-7.01949 2.64292,-8.69788 2.98538,-10.64073 3.6689,-13.96384 6.14199,-24.47965 5.73345,-22.56381 3.68147,-13.57061 2.90767,-9.89057 2.52798,-7.85216 2.21996,-6.1651 2.05152,-5.15483 2.01429,-4.41759 1.1693,-2.26161 2.19692,-3.670703 1.1172,-1.492259 2.05442,-2.266221 0.97713,-0.758239 1.64669,-0.934218 0.92031,-0.318508 1.00971,-0.09682 1.42192,0.08262 0.89896,0.275773 1.20432,0.634467 1.25725,0.877095 1.18396,1.159304 1.62693,1.940671 1.27981,1.889923 1.6923,2.899413 1.5569,3.115572 2.0585,4.67109 1.97823,5.11658 2.02639,5.79185 2.62198,8.23944 2.93791,10.1114 3.4786,12.91466 4.69769,18.4527 9.1939,36.35702 3.56654,13.04068 3.07471,10.32538 2.48518,7.55933 2.46378,6.6741 2.0115,4.83304 1.81421,3.82191 1.97381,3.53534 1.46164,2.19726 v 0"
+     clip-path="url(#pc554b41d2e)"
+     style="fill:none;stroke:#ff7f0e;stroke-width:1.5;stroke-linecap:square"
+     id="path362"
+     transform="translate(-100.17313,-41.072)" />
+  <path
+     d="M 38.516875,266.512 V 0.40000001"
+     style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;stroke-linecap:square;stroke-linejoin:miter"
+     id="path365" />
+  <path
+     d="M 898.39487,266.512 V 0.40000001"
+     style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;stroke-linecap:square;stroke-linejoin:miter"
+     id="path368" />
+  <path
+     d="M 38.516875,266.512 H 898.39487"
+     style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;stroke-linecap:square;stroke-linejoin:miter"
+     id="path371" />
+  <path
+     d="M 38.516875,0.40000001 H 898.39487"
+     style="fill:#ffffff;stroke:#ffffff;stroke-width:0.8;stroke-linecap:square;stroke-linejoin:miter"
+     id="path374" />
+  <g
+     id="patch_7"
+     transform="translate(-100.17313,-41.072)">
+    <path
+       d="m 145.69,302.584 h 98.5625 q 2,0 2,-2 v -40.11031 q 0,-2 -2,-2 H 145.69 q -2,0 -2,2 V 300.584 q 0,2 2,2 z"
+       style="opacity:0.8;fill:none;stroke:#cccccc;stroke-linejoin:miter"
+       id="path377" />
+  </g>
+  <g
+     id="line2d_19"
+     transform="translate(-100.17313,-41.072)">
+    <path
+       d="m 147.69,266.57213 h 10 10"
+       style="fill:none;stroke:#1f77b4;stroke-width:1.5;stroke-linecap:square"
+       id="path380" />
+  </g>
+  <g
+     id="text_19"
+     transform="translate(-100.17313,-41.072)"
+     style="fill:#ffffff">
+    <!-- V(dac_out) -->
+    <g
+       transform="matrix(0.1,0,0,-0.1,175.69,270.07213)"
+       id="g411"
+       style="fill:#ffffff">
+      <defs
+         id="defs389">
+        <path
+           id="DejaVuSans-28"
+           d="m 1984,4856 q -418,-718 -622,-1422 -203,-703 -203,-1425 0,-721 205,-1429 205,-708 620,-1424 h -500 q -468,735 -701,1444 -233,709 -233,1409 0,697 231,1403 232,707 703,1444 z"
+           transform="scale(0.015625)" />
+        <path
+           id="DejaVuSans-64"
+           d="m 2906,2969 v 1894 h 575 V 0 H 2906 V 525 Q 2725,213 2448,61 2172,-91 1784,-91 1150,-91 751,415 353,922 353,1747 q 0,825 398,1331 399,506 1033,506 388,0 664,-152 277,-151 458,-463 z M 947,1747 q 0,-634 261,-995 261,-361 717,-361 456,0 718,361 263,361 263,995 0,634 -263,995 -262,361 -718,361 -456,0 -717,-361 -261,-361 -261,-995 z"
+           transform="scale(0.015625)" />
+        <path
+           id="DejaVuSans-63"
+           d="m 3122,3366 v -538 q -244,135 -489,202 -245,67 -495,67 -560,0 -870,-355 -309,-354 -309,-995 0,-641 309,-996 310,-354 870,-354 250,0 495,67 245,67 489,202 V 134 Q 2881,22 2623,-34 2366,-91 2075,-91 1284,-91 818,406 353,903 353,1747 q 0,856 470,1346 471,491 1290,491 265,0 518,-55 253,-54 491,-163 z"
+           transform="scale(0.015625)" />
+        <path
+           id="DejaVuSans-5f"
+           d="m 3263,-1063 v -446 H -63 v 446 z"
+           transform="scale(0.015625)" />
+        <path
+           id="DejaVuSans-75"
+           d="m 544,1381 v 2119 h 575 V 1403 q 0,-497 193,-746 194,-248 582,-248 465,0 735,297 271,297 271,810 v 1984 h 575 V 0 H 2900 V 538 Q 2691,219 2414,64 2138,-91 1772,-91 1169,-91 856,284 544,659 544,1381 Z m 1447,2203 z"
+           transform="scale(0.015625)" />
+        <path
+           id="DejaVuSans-29"
+           d="m 513,4856 h 500 q 468,-737 701,-1444 233,-706 233,-1403 0,-700 -233,-1409 -233,-709 -701,-1444 H 513 q 415,716 620,1424 205,708 205,1429 0,722 -205,1425 -205,704 -620,1422 z"
+           transform="scale(0.015625)" />
+      </defs>
+      <use
+         xlink:href="#DejaVuSans-56"
+         id="use391"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-28"
+         x="68.408203"
+         id="use393"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-64"
+         x="107.42188"
+         id="use395"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-61"
+         x="170.89844"
+         id="use397"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-63"
+         x="232.17773"
+         id="use399"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-5f"
+         x="287.1582"
+         id="use401"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-6f"
+         x="337.1582"
+         id="use403"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-75"
+         x="398.33984"
+         id="use405"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-74"
+         x="461.71875"
+         id="use407"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-29"
+         x="500.92773"
+         id="use409"
+         style="fill:#ffffff" />
+    </g>
+  </g>
+  <g
+     id="line2d_20"
+     transform="translate(-100.17313,-41.072)">
+    <path
+       d="m 147.69,288.30619 h 10 10"
+       style="fill:none;stroke:#ff7f0e;stroke-width:1.5;stroke-linecap:square"
+       id="path414" />
+  </g>
+  <g
+     id="text_20"
+     transform="translate(-100.17313,-41.072)"
+     style="fill:#ffffff">
+    <!-- V(after_filter) -->
+    <g
+       transform="matrix(0.1,0,0,-0.1,175.69,285.02837)"
+       id="g451"
+       style="fill:#ffffff">
+      <defs
+         id="defs419">
+        <path
+           id="DejaVuSans-66"
+           d="m 2375,4863 v -479 h -550 q -309,0 -430,-125 -120,-125 -120,-450 v -309 h 947 V 3053 H 1275 V 0 H 697 V 3053 H 147 v 447 h 550 v 244 q 0,584 272,851 272,268 862,268 z"
+           transform="scale(0.015625)" />
+        <path
+           id="DejaVuSans-72"
+           d="m 2631,2963 q -97,56 -211,82 -114,27 -251,27 -488,0 -749,-317 -261,-317 -261,-911 V 0 H 581 v 3500 h 578 v -544 q 182,319 472,473 291,155 707,155 59,0 131,-8 72,-7 159,-23 z"
+           transform="scale(0.015625)" />
+      </defs>
+      <use
+         xlink:href="#DejaVuSans-56"
+         id="use421"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-28"
+         x="68.408203"
+         id="use423"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-61"
+         x="107.42188"
+         id="use425"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-66"
+         x="168.70117"
+         id="use427"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-74"
+         x="202.15625"
+         id="use429"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-65"
+         x="241.36523"
+         id="use431"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-72"
+         x="302.88867"
+         id="use433"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-5f"
+         x="344.00195"
+         id="use435"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-66"
+         x="394.00195"
+         id="use437"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-69"
+         x="429.20703"
+         id="use439"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-6c"
+         x="456.99023"
+         id="use441"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-74"
+         x="484.77344"
+         id="use443"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-65"
+         x="523.98242"
+         id="use445"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-72"
+         x="585.50586"
+         id="use447"
+         style="fill:#ffffff" />
+      <use
+         xlink:href="#DejaVuSans-29"
+         x="626.61914"
+         id="use449"
+         style="fill:#ffffff" />
+    </g>
+    <!--  -->
+    <g
+       transform="matrix(0.1,0,0,-0.1,175.69,296.50431)"
+       id="g453"
+       style="fill:#ffffff" />
+  </g>
+  <defs
+     id="defs462">
+    <clipPath
+       id="pc554b41d2e">
+      <rect
+         x="138.69"
+         y="41.472"
+         width="859.87799"
+         height="266.112"
+         id="rect459" />
+    </clipPath>
+  </defs>
+</svg>
