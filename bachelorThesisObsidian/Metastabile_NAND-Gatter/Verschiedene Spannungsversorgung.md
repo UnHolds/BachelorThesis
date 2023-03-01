@@ -7,7 +7,7 @@ Diese Spannungen werden dann verwenden, um zwei 74HC00 Quad-Nand-Gatter mit vers
 
 ### Zweite Spannungsversorgung
 
-![[Schemati_PowerSupply.svg]]
+![[Schemati_PowerSupply.svg#invert_W]]
 
 RP1 ist ein Timmer mit 10k.
 
