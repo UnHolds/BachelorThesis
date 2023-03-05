@@ -35,4 +35,9 @@ E1 Out 0 value={round(V(In,0)/(Vcc / States)) * Vcc / States}
 
 ## Simulation
 
-![[Metastabile_NAND-Gatter/Simulation/Simulation]]
+[[Metastabile_NAND-Gatter/Simulation/Simulation|Simulation]]
+
+## Experimente
+
+[[Metastabile_NAND-Gatter/Experiments/Experimente|Experimente]]
+

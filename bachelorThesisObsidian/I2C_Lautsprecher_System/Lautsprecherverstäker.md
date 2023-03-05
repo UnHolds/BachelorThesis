@@ -65,4 +65,12 @@ E1 Out 0 value={round(V(In,0)/(Vcc / States)) * Vcc / States}
 .ends MCP4801
 ```
 
+
 ## Simulation
+
+[[I2C_Lautsprecher_System/Simulation/Simulation|Simulation]]
+
+
+## Experimente
+
+[[Metastabile_NAND-Gatter/Experiments/Experimente|Experimente]]
