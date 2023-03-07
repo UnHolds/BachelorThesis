@@ -8,6 +8,7 @@ SPIClass *vspi = new SPIClass(VSPI);
 #define ACTIVE 0x1000
 
 #define INPUT_DAC_CS 17
+#define VCC_DAC_CS 16
 
 void setVoltage(uint8_t cs, uint8_t value)
 {
@@ -25,10 +26,13 @@ void setup()
 {
     pinMode(INPUT_DAC_CS, OUTPUT);
     digitalWrite(INPUT_DAC_CS, HIGH);
+    pinMode(VCC_DAC_CS, OUTPUT);
+    digitalWrite(VCC_DAC_CS, HIGH);
     vspi->begin();
 
     setVoltage(INPUT_DAC_CS, 128);
-}
+    setVoltage(VCC_DAC_CS, 255);
+} 
 
 void loop()
 {
