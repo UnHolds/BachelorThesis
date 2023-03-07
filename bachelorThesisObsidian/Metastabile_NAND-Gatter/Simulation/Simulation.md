@@ -1,10 +1,10 @@
 
 ## Aufbau
 
-![[Schematic_74HC00_DAC.svg|1000]]
+![[Schematic_74HC00_DAC.svg#invert_W|500]]
 
 
-![[Schemati_PowerSupply.svg|300]]
+![[Schemati_PowerSupply.svg#invert_W|300]]
 
 
 ## Parameter
@@ -21,7 +21,7 @@
 
 Zeit: 250ms
 
-![[TransientPlot.svg]]
+![[TransientPlot.svg#invert_W]]
 
 Hier können wir sehen, dass die zwei NAND-Gatter zu verschiedenen Zeitpunkten schalten. Somit existiert eine Spannung, wo eines des Gatter HIGH ausgibt und das andere LOW.
 
@@ -30,7 +30,7 @@ Hier können wir sehen, dass die zwei NAND-Gatter zu verschiedenen Zeitpunkten s
 
 In dieser Simulation wird der metastabile Zeitraum genauer untersucht, um herauszufinden, wie groß der metastabile Spannungsraum ist.
 
-![[TransientPlotMetastablePoint.svg]]
+![[TransientPlotMetastablePoint.svg#invert_W]]
 
 
 | | Time | Voltage |

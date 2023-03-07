@@ -1,5 +1,5 @@
 ## Aufbau
-![[Speaker_Amp_Schematic.svg]]
+![[Speaker_Amp_Schematic.svg#invert_W]]
 
 
 ## Parameter
@@ -14,7 +14,7 @@
 
 Zeit: 3ms
 
-![[BasicTransientInputOutputCurrent.svg]]
+![[BasicTransientInputOutputCurrent.svg#invert_W]]
 
 In dieser Simulation ist zu erkennen, dass das Signal sauber vom Eingang an den Ausgang weitergegeben wird. Auch der Strom durch den Lautsprecher befindet sich im erwartetem Rahmen.
 In dieser Simulation wurden die Erwartungswerte simuliert und ein "Proof-Of-Concept"
@@ -38,7 +38,7 @@ Für diese Simulation werden die Werte der Signalquelle erhört auf folgende Wer
 
 In diesem Fall sollte die Endstufe nicht mehr nachkommen und das Signal übersteuerten. 
 
-![[OverdriveTransientInputOutputCurrent.svg]]
+![[OverdriveTransientInputOutputCurrent.svg#invert_W]]
 
 In dieser Simulation sieht man nun die Grenzen der Schaltung.
 
@@ -53,13 +53,13 @@ In dieser Simulation sieht man nun die Grenzen der Schaltung.
 Dieses neu erlangte Wissen wird jetzt verwendet, um die maximale und minimale Spannung herauszufinden, die der Endstufe übergeben werden darf, ohne dass diese übersteuert.
 Um das Finden etwas einfacher zu gestalten, wird das Input-Signal auf ein Dreieckssignal angepasst.
 
-![[TriangleFindMinMaxVoltageTransientInputOutput.svg]]
+![[TriangleFindMinMaxVoltageTransientInputOutput.svg#invert_W]]
 
 Minimale Eingangsspannung: ca. __300mV__ 
 
 Die maximale Eingangsspannung wird vom OPV vorgegeben [[LM4562]], dieser folgt folgendem Diagramm:
 
-![[LM4562_Supply_Output_Voltage.svg|400]]
+![[LM4562_Supply_Output_Voltage.svg#invert_W|400]]
 
 Dies führt zu zwei Möglichkeiten:
 1. Es wird eine Versorgungsspannung für den OPV von > 7.5V gewählt
@@ -78,10 +78,10 @@ In dieser Simulation wird der Tiefpass-Filter untersucht und welche Auswirkungen
 
 Simulations-Zeit: 1ms
 
-![[LowPassFilterTransientSimulation.svg]]
+![[LowPassFilterTransientSimulation.svg#invert_W]]
 
 Vergrößerte Version:
-![[LowPassFilterTransientSimulationZoomed.svg]]
+![[LowPassFilterTransientSimulationZoomed.svg#invert_W]]
 
 Es ist zu erkennen, dass das Signal nach dem Filter wesentlich weniger "Störungen" beinhaltet als nach dem DAC.
 
@@ -89,7 +89,7 @@ Es ist zu erkennen, dass das Signal nach dem Filter wesentlich weniger "Störung
 
 19.4kHz ist die errechnete Grenzfrequenz des Tiefpasses. Hier sollte das Signal 3dB (30%) kleiner sein als das Eingangsignal.
 
-![[LowPassFilterTransientSimulation19_4kHz.svg]]
+![[LowPassFilterTransientSimulation19_4kHz.svg#invert_W]]
 
 | Parameter | Wert |
 | --|-|
@@ -102,7 +102,7 @@ Der Filter passt nicht genau, jedoch ist diese Abweichung nicht so tragisch in d
 
 ### FFT Simulation 19.4kHz
 
-![[LowPassFilterFFT19_4kHz.svg]]
+![[LowPassFilterFFT19_4kHz.svg#invert_W]]
 
 Vergrößerte Ansicht: [[LowPassFilterFFT19_4kHz.svg]]
 
