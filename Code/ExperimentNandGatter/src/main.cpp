@@ -12,12 +12,13 @@ SPIClass *vspi = new SPIClass(VSPI);
 #define INPUT_DAC_CS 17
 #define VCC_DAC_CS 16
 
-#define ADC_4_OUTPUT_PIN -1
-#define ADC_4_VCC_PIN -1
-#define ADC_4_INPUT_PIN -1
+#define ADC_4_OUTPUT_DAC_VCC_PIN 1
+#define ADC_4_OUTPUT_VCC_VCC_PIN 0
+#define ADC_4_VCC_PIN 2
+#define ADC_4_INPUT_PIN 3
 
-#define MAX_VCC_DAC_VALUE -1
-#define MIN_VCC_DAC_VALUE -1
+#define MAX_VCC_DAC_VALUE 255
+#define MIN_VCC_DAC_VALUE 128
 
 ADS1115 ADS(0x48);
 char buffer[248];
@@ -39,31 +40,13 @@ double measureVoltage(uint8_t pin){
 }
 
 
-
-void setup()
-{
-
-    Serial.begin(115200);
-
-    pinMode(INPUT_DAC_CS, OUTPUT);
-    digitalWrite(INPUT_DAC_CS, HIGH);
-    pinMode(VCC_DAC_CS, OUTPUT);
-    digitalWrite(VCC_DAC_CS, HIGH);
-    vspi->begin();
-
-    ADS.begin();
-    ADS.setGain(0);
-
-    setVoltage(INPUT_DAC_CS, 128);
-    setVoltage(VCC_DAC_CS, 255);
-}
-
 void reportMeasurement(int vcc, int input){
-    double vOut = measureVoltage(ADC_4_OUTPUT_PIN);
+    double vOutVcc = measureVoltage(ADC_4_OUTPUT_VCC_VCC_PIN);
+    double vOutDac = measureVoltage(ADC_4_OUTPUT_DAC_VCC_PIN);
     double vIn = measureVoltage(ADC_4_INPUT_PIN);
     double vVcc = measureVoltage(ADC_4_VCC_PIN);
 
-    sprintf(buffer, "%d;%lf;%d;%lf;%lf", vcc, vVcc, input, vIn, vOut);
+    sprintf(buffer, "%d,%lf,%d,%lf,%lf,%lf", vcc, vVcc, input, vIn, vOutVcc, vOutDac);
     Serial.println(buffer);
 }
 
@@ -83,11 +66,30 @@ void runVccRamp(){
     }
 }
 
+
+void setup()
+{
+
+    Serial.begin(115200);
+
+    pinMode(INPUT_DAC_CS, OUTPUT);
+    digitalWrite(INPUT_DAC_CS, HIGH);
+    pinMode(VCC_DAC_CS, OUTPUT);
+    digitalWrite(VCC_DAC_CS, HIGH);
+    vspi->begin();
+
+    ADS.begin();
+    ADS.setGain(0);
+
+    setVoltage(INPUT_DAC_CS, 128);
+    setVoltage(VCC_DAC_CS, 255);
+
+    delay(5000);
+
+    runVccRamp();
+}
+
 void loop()
 {
-    String data = Serial.readStringUntil('\n');
 
-    if(data.equals("start")){
-        runVccRamp();
-    }
 }
