@@ -2,11 +2,12 @@
 ## Normalbetrieb
 
 ### Beschreibung
-In diesem Experiment wird der Normalbetrieb getestet und verglichen, ob das Ausgangssignal der [[I2C_Lautsprecher_System/Simulation/Simulation#Transient Simulation Normalbetrieb| Simulation]] entspricht. 
+In diesem Experiment wird der Normalbetrieb getestet und verglichen, ob das Ausgangssignal der [[I2C_Lautsprecher_System/Simulation/Simulation#Transient Simulation Normalbetrieb|Simulation]] entspricht. 
 
 ### Parameter
+
 | Parameter | Wert |
-|-|-|
+|----|------|
 | Eingangssignal | Sinus 1kHz , 4V Vpp, 2.5V Offset |
 
 ### Ergebnis
