@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 from scipy import signal
 
 sample_rate = 44100 #Hz
-signal_frequency = 2000 #Hz
-time = 1/2000 * 2 #sec
+signal_frequency = 100 #Hz
+time = 1/signal_frequency * 2 #sec
 amplitude = 1.5
 offset = 2.5
 
@@ -51,4 +51,5 @@ uint8_t data[] = {REPLACE};
 
     print(header_data)
 
-print_header_file(triangle_wave)
+print_header_file(sin_wave)
+#show_plot()
