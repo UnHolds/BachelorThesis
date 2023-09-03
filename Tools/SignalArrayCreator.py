@@ -3,9 +3,9 @@ import matplotlib.pyplot as plt
 from scipy import signal
 
 sample_rate = 44100 #Hz
-signal_frequency = 100 #Hz
-time = 1/signal_frequency * 2 #sec
-amplitude = 1.5
+signal_frequency = 1000 #Hz
+time = 1/signal_frequency * 3 #sec
+amplitude = 0.5
 offset = 2.5
 
 def sin_wave(x):

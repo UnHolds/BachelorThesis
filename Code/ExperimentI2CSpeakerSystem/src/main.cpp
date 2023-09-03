@@ -6,7 +6,7 @@
 SPIClass *vspi = new SPIClass(VSPI);
 
 
-long sampleRate = 44100;
+long sampleRate = SAMPLE_RATE;
 
 //ADS1115 ADS(0x48);
 long timing = micros();
