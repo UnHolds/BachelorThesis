@@ -3,7 +3,7 @@ from scipy.io import wavfile
 max_amplitude = 1.5
 offset = 2.5
 
-samplerate, data = wavfile.read('../Code/ExperimentI2CSpeakerSystem/audio/PinkPanther30.wav')
+samplerate, data = wavfile.read('../Code/ExperimentI2CSpeakerSystem/audio/CantinaBand60.wav')
 
 
 #scale the data to 8bit / set amplitdue
@@ -37,4 +37,4 @@ uint8_t data[] = {REPLACE};
 
     print(header_data)
 
-print_header_file(data, samplerate)
+print_header_file(data[:80000], samplerate)
