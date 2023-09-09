@@ -8,7 +8,7 @@
 #define CS_PIN_DAC 17
 #define BUFFER_SIZE 1000
 
-SPIClass *vspi = new SPIClass(VSPI);
+SPIClass *hspi = new SPIClass(HSPI);
 
 long sampleRate = 22050;
 File audio_file;
@@ -32,7 +32,7 @@ void get_data(){
 
 void setup() {
 
-  vspi->begin();
+  hspi->begin();
   pinMode(CS_PIN_DAC, OUTPUT);
   digitalWrite(CS_PIN_DAC, HIGH);
   pinMode(LED_BUILTIN, OUTPUT);
@@ -59,14 +59,14 @@ void setup() {
 
 
 void send(){
-    vspi->beginTransaction(SPISettings(14000000, MSBFIRST, SPI_MODE0));
+    hspi->beginTransaction(SPISettings(14000000, MSBFIRST, SPI_MODE0));
     digitalWrite(CS_PIN_DAC, LOW);
     uint16_t tdata = audio_buffer[audio_index] << 4;
     tdata |= ACTIVE;
     tdata &= MASK;
-    vspi->transfer16(tdata);
+    hspi->transfer16(tdata);
     digitalWrite(CS_PIN_DAC, HIGH);
-    vspi->endTransaction();
+    hspi->endTransaction();
     audio_index++;
 }
 
