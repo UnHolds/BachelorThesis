@@ -4,8 +4,7 @@
 #include "SPI.h"
 #include "ESP32DMASPISlave.h"
 
-#define CS_PIN_SD_CARD 16
-#define CS_PIN_DAC 17
+#define CS_PIN_SD_CARD 5
 #define BUFFER_SIZE 1024
 #define N_QUEUES 2
 
@@ -13,8 +12,8 @@ File audio_file;
 ESP32DMASPI::Slave slave;
 
 uint8_t *audio_buffer[N_QUEUES];
-uint8_t rx_buffer[BUFFER_SIZE];
-int next_free_buffer = 0;
+uint8_t *rx_buffer;
+int next_buffer = 0;
 
 void fill_buffer(int queue_id)
 {
@@ -32,7 +31,7 @@ void fill_buffer(int queue_id)
         bytes_to_read = available_data;
         remaining_data = BUFFER_SIZE - available_data;
     }
-
+    
     audio_file.read(audio_buffer[queue_id], bytes_to_read);
 
     if (remaining_data > 0)
@@ -44,6 +43,7 @@ void fill_buffer(int queue_id)
 
 void setup_buffers()
 {
+    rx_buffer = slave.allocDMABuffer(BUFFER_SIZE);
     // create and fill buffer
     for (int i = 0; i < N_QUEUES; i++)
     {
@@ -58,7 +58,7 @@ void setup_buffers()
     slave.begin(HSPI);
 
     for(int i = 0; i < N_QUEUES; i++){
-       slave.queue(audio_buffer[i], rx_buffer, BUFFER_SIZE); 
+       slave.queue(rx_buffer, audio_buffer[i], BUFFER_SIZE); 
     }
 }
 
@@ -88,19 +88,24 @@ void setup()
 {
     setup_sd_card();
     setup_buffers();
+    delay(1000);
 }
 
 void loop()
 {
-
-    while (slave.available() <= 0){
-        __asm__("nop");
+    if(slave.available() > 0){
+        slave.pop();
     }
 
-    fill_buffer(next_free_buffer);
-    slave.queue(audio_buffer[next_free_buffer], rx_buffer, BUFFER_SIZE);
+    if(slave.remained() >= N_QUEUES){
+        return;
+    }
+
+    fill_buffer(next_buffer);
+    slave.queue(rx_buffer, audio_buffer[next_buffer], BUFFER_SIZE);
+    delay(10);
 
     //fill up the next buffer
-    next_free_buffer++;
-    next_free_buffer %= N_QUEUES;
+    next_buffer++;
+    next_buffer %= N_QUEUES;
 }
