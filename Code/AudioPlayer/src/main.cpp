@@ -61,8 +61,6 @@ void send()
     vspi->beginTransaction(SPISettings(14000000, MSBFIRST, SPI_MODE0));
     digitalWrite(vspi->pinSS(), LOW);
     uint16_t tdata = audio_buffer[current_buffer][audio_index] << 4;
-    //Serial.println(audio_buffer[current_buffer][audio_index], HEX);
-    //delay(100);
     tdata |= ACTIVE;
     tdata &= MASK;
     vspi->transfer16(tdata);

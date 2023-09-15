@@ -18,7 +18,7 @@ int next_buffer = 0;
 void fill_buffer(int queue_id)
 {
 
-    if (audio_file.available() == false)
+    if (audio_file.available() <= 0)
     {
         audio_file.seek(0);
     }
@@ -37,18 +37,20 @@ void fill_buffer(int queue_id)
     if (remaining_data > 0)
     {
         audio_file.seek(0);
-        audio_file.read(audio_buffer[queue_id], bytes_to_read);
+        audio_file.read(audio_buffer[queue_id] + bytes_to_read, remaining_data);
     }
 }
 
 void setup_buffers()
 {
     rx_buffer = slave.allocDMABuffer(BUFFER_SIZE);
+
     // create and fill buffer
     for (int i = 0; i < N_QUEUES; i++)
     {
         audio_buffer[i] = slave.allocDMABuffer(BUFFER_SIZE);
         fill_buffer(i);
+
     }
 
     // setup spi
