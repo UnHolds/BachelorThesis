@@ -5,7 +5,7 @@
 #include "ESP32DMASPISlave.h"
 
 #define CS_PIN_SD_CARD 5
-#define BUFFER_SIZE 1024
+#define BUFFER_SIZE 10024
 #define N_QUEUES 2
 
 File audio_file;

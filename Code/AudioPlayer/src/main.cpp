@@ -2,7 +2,7 @@
 #include "SPI.h"
 #include <ESP32DMASPIMaster.h>
 
-#define BUFFER_SIZE 1024
+#define BUFFER_SIZE 10024
 #define N_QUEUES 2
 
 SPIClass *vspi = new SPIClass(VSPI);
