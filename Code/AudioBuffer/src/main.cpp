@@ -17,7 +17,7 @@ int next_buffer = 0;
 
 void fill_buffer(int queue_id)
 {
-
+    digitalWrite(LED_BUILTIN, HIGH);
     if (audio_file.available() <= 0)
     {
         audio_file.seek(0);
@@ -39,6 +39,7 @@ void fill_buffer(int queue_id)
         audio_file.seek(0);
         audio_file.read(audio_buffer[queue_id] + bytes_to_read, remaining_data);
     }
+    digitalWrite(LED_BUILTIN, LOW);
 }
 
 void setup_buffers()
@@ -66,7 +67,7 @@ void setup_buffers()
 
 void setup_sd_card()
 {
-    if (!SD.begin(CS_PIN_SD_CARD, SPI, 16000000))
+    if (!SD.begin(CS_PIN_SD_CARD, SPI, 4000000))
     {
         return;
     }
@@ -88,6 +89,8 @@ void setup_sd_card()
 
 void setup()
 {
+    pinMode(LED_BUILTIN, OUTPUT);
+    digitalWrite(LED_BUILTIN, LOW);
     setup_sd_card();
     setup_buffers();
     delay(1000);
@@ -95,6 +98,7 @@ void setup()
 
 void loop()
 {
+    
     if(slave.available() > 0){
         slave.pop();
     }
