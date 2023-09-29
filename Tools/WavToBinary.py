@@ -1,11 +1,12 @@
 from scipy.io import wavfile
 
-max_amplitude = 1.5
+max_amplitude = 0.7
 offset = 2.5
-path = '../Code/ExperimentI2CSpeakerSystem/audio/CantinaBand60.wav'
+path = '../Code/AudioPlayer/audio/nanowar.wav'
 
 samplerate, data = wavfile.read(path)
 
+print("Sample Rate: ", samplerate)
 
 #scale the data to 8bit / set amplitdue
 max_amp = max(max(data), abs(min(data)))
