@@ -2,9 +2,9 @@ import math
 import matplotlib.pyplot as plt
 from scipy import signal
 
-sample_rate = 44100 #Hz
+sample_rate = 22050 #Hz
 signal_frequency = 1000 #Hz
-time = 1/signal_frequency * 3 #sec
+time = 1/signal_frequency * 1000 #sec
 amplitude = 0.5
 offset = 2.5
 
@@ -33,6 +33,13 @@ def show_plot():
 def voltage_to_binary(voltage):
     return int(255 * voltage / 4.096)
 
+
+def create_binary_file(function):
+    data = list(map(lambda x:  voltage_to_binary(x), get_signal_array(function)))
+    with open("output.bwav", "wb") as f:
+        f.write(bytes(data))
+
+
 def print_header_file(function):
     header_data = """
 #ifndef AUDIO_DATA_H
@@ -51,5 +58,5 @@ uint8_t data[] = {REPLACE};
 
     print(header_data)
 
-print_header_file(sin_wave)
+create_binary_file(sin_wave)
 #show_plot()
