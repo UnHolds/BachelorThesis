@@ -2,8 +2,8 @@
 #include "SPI.h"
 #include <ESP32DMASPIMaster.h>
 
-#define BUFFER_SIZE 10024
-#define N_QUEUES 2
+#define BUFFER_SIZE 1024
+#define N_QUEUES 4
 
 SPIClass *vspi = new SPIClass(VSPI);
 ESP32DMASPI::Master master;
@@ -58,7 +58,7 @@ void setup()
 
 void send()
 {
-    vspi->beginTransaction(SPISettings(14000000, MSBFIRST, SPI_MODE0));
+    vspi->beginTransaction(SPISettings(4000000, MSBFIRST, SPI_MODE0));
     digitalWrite(vspi->pinSS(), LOW);
     uint16_t tdata = audio_buffer[current_buffer][audio_index] << 4;
     tdata |= ACTIVE;
@@ -79,7 +79,7 @@ void loop()
 
         //queue new music data
         if(audio_index == BUFFER_SIZE){
-            audio_index = 1;
+            audio_index = 8;
             master.queue(tx_buffer, audio_buffer[current_buffer], BUFFER_SIZE);
             current_buffer++;
             current_buffer %= N_QUEUES;

@@ -5,8 +5,8 @@
 #include "ESP32DMASPISlave.h"
 
 #define CS_PIN_SD_CARD 5
-#define BUFFER_SIZE 10024
-#define N_QUEUES 2
+#define BUFFER_SIZE 1024
+#define N_QUEUES 4
 
 File audio_file;
 ESP32DMASPI::Slave slave;
@@ -23,21 +23,25 @@ void fill_buffer(int queue_id)
         audio_file.seek(0);
     }
 
+    for(int i = 0; i < 8; i++){
+        audio_buffer[queue_id][i] = 0;
+    }
+
     int available_data = audio_file.available();
-    int bytes_to_read = BUFFER_SIZE;
+    int bytes_to_read = BUFFER_SIZE - 8;
     int remaining_data = 0;
-    if (available_data < BUFFER_SIZE)
+    if (available_data < BUFFER_SIZE - 8)
     {
         bytes_to_read = available_data;
-        remaining_data = BUFFER_SIZE - available_data;
+        remaining_data = BUFFER_SIZE - 8 - available_data;
     }
     
-    audio_file.read(audio_buffer[queue_id], bytes_to_read);
+    audio_file.read(audio_buffer[queue_id] + 8, bytes_to_read);
 
     if (remaining_data > 0)
     {
         audio_file.seek(0);
-        audio_file.read(audio_buffer[queue_id] + bytes_to_read, remaining_data);
+        audio_file.read(audio_buffer[queue_id] + bytes_to_read + 8, remaining_data);
     }
     digitalWrite(LED_BUILTIN, LOW);
 }
@@ -67,7 +71,7 @@ void setup_buffers()
 
 void setup_sd_card()
 {
-    if (!SD.begin(CS_PIN_SD_CARD, SPI, 4000000))
+    if (!SD.begin(CS_PIN_SD_CARD, SPI, 1000000))
     {
         return;
     }
