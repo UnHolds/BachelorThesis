@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SD_Card_Reader")(type "KiCad")(uri "${KIPRJMOD}/Symbols/SD_Card_Reader.kicad_sym")(options "")(descr ""))
+  (lib (name "AudioController")(type "KiCad")(uri "${KIPRJMOD}/Symbols/AudioController.kicad_sym")(options "")(descr ""))
+)
