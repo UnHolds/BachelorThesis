@@ -145,33 +145,7 @@ Timestamp: 17_47_00
 Timestamp: 17_42_55
 Timestamp: 17_43_30
 Timestamp: 17_44_50
-Timestamp: 17_45_10#
-
-| Parameter | Wert |
-|----|------|
-| Form | DAC-Sinus |
-| Abtastrate | 44100 Hz |
-| Frequenz | 10000 Hz |
-| Amplitude | 1.5V |
-| Offset | 2.5V |
-
-Timestamp: 17_42_55
-Timestamp: 17_43_30
-Timestamp: 17_44_50
 Timestamp: 17_45_10
-
-
-
-| Parameter | Wert |
-|----|------|
-| Form | Sinus |
-| Frequenz | 1000 Hz |
-| Amplitude | 1.5V |
-| Offset | 2.5V |
-
-Timestamp: 18_13_10
-Timestamp: 18_14_20
-
 
 
 ## Maximale Werte
