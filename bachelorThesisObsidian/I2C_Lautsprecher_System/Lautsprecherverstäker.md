@@ -77,4 +77,4 @@ E1 Out 0 value={round(V(In,0)/(Vcc / States)) * Vcc / States}
 
 ## PCB
 
-[[I2C_Lautsprecher_System/PCB/PCB|PCB]]
+[[PCB V1.0|PCB V1.0]]
