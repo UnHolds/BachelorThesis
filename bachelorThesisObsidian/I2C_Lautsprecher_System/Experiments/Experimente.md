@@ -13,9 +13,9 @@ mit dem DAC [[MCP4801]] erzeugt und gemessen.
 | Amplitude | 1.5V |
 | Offset | 2.5V |
 
-Timestamp: 17_28_45 2023-08-25
-Timestamp: 17_28_50 2023-08-25
-Timestamp: 18_10_00 2023-08-25
+![[Sinus_44100Hz_100Hz_1V5_2V5_Amplitude.JPG]]
+![[I2C_Lautsprecher_System/Experiments/pictures/oszi/DAC_Signal/Sinus_44100Hz_100Hz_1V5_2V5_Frequency.JPG]]
+![[Sinus_44100Hz_100Hz_1V5_2V5_Offset.JPG]]
 
 | Parameter | Wert |
 |----|------|
@@ -25,9 +25,12 @@ Timestamp: 18_10_00 2023-08-25
 | Amplitude | 1.5V |
 | Offset | 2.5V |
 
-Timestamp: 17_31_30 2023-08-25
-Timestamp: 17_32_00 2023-08-25
-Timestamp: 18_09_15 2023-08-25
+
+![[Sinus_44100Hz_1kHz_1V5_2V5_Amplitude.JPG]]
+![[I2C_Lautsprecher_System/Experiments/pictures/oszi/DAC_Signal/Sinus_44100Hz_1kHz_1V5_2V5_Frequency.JPG]]
+![[Sinus_44100Hz_1kHz_1V5_2V5_Offset.JPG]]
+
+
 
 | Parameter | Wert |
 |----|------|
@@ -37,9 +40,9 @@ Timestamp: 18_09_15 2023-08-25
 | Amplitude | 1.5V |
 | Offset | 2.5V |
 
-Timestamp: 17_36_00 2023-08-25
-Timestamp: 17_37_00 2023-08-25
-Timestamp: 18_08_10 2023-08-25
+![[Sinus_44100Hz_10kHz_1V5_2V5_Amplitude.JPG]]
+![[I2C_Lautsprecher_System/Experiments/pictures/oszi/DAC_Signal/Sinus_44100Hz_10kHz_1V5_2V5_Frequency.JPG]]
+![[Sinus_44100Hz_10kHz_1V5_2V5_Offset.JPG]]
 
 ### Triangle
 
@@ -51,9 +54,10 @@ Timestamp: 18_08_10 2023-08-25
 | Amplitude | 1.5V |
 | Offset | 2.5V |
 
-Timestamp: 17_43_00 2023-08-25
-Timestamp: 17_43_30 2023-08-25
-Timestemp: 18_05_00 2023-08-25
+
+![[Triangle_44100Hz_100Hz_1V5_2V5_Amplitude.JPG]]
+![[I2C_Lautsprecher_System/Experiments/pictures/oszi/DAC_Signal/Triangle_44100Hz_100Hz_1V5_2V5_Frequency.JPG]]
+![[Triangle_44100Hz_100Hz_1V5_2V5_Offset.JPG]]
 
 | Parameter | Wert |
 |----|------|
@@ -63,9 +67,10 @@ Timestemp: 18_05_00 2023-08-25
 | Amplitude | 1.5V |
 | Offset | 2.5V |
 
-Timestamp: 17_44_45 2023-08-25
-Timestamp: 17_45_05 2023-08-25
-Timestamp: 18_05_55 2023-08-25
+
+![[Triangle_44100Hz_1kHz_1V5_2V5_Amplitude.JPG]]
+![[I2C_Lautsprecher_System/Experiments/pictures/oszi/DAC_Signal/Triangle_44100Hz_1kHz_1V5_2V5_Frequency.JPG]]
+![[Triangle_44100Hz_1kHz_1V5_2V5_Offset.JPG]]
 
 
 | Parameter | Wert |
@@ -76,15 +81,18 @@ Timestamp: 18_05_55 2023-08-25
 | Amplitude | 1.5V |
 | Offset | 2.5V |
 
-Timestamp: 17_46_30 2023-08-25
-Timestamp: 17_47_00 2023-08-25
-Timestamp: 18_07_10 2023-08-25
+
+![[Triangle_44100Hz_10kHz_1V5_2V5_Amplitude.JPG]]
+![[I2C_Lautsprecher_System/Experiments/pictures/oszi/DAC_Signal/Triangle_44100Hz_10kHz_1V5_2V5_Frequency.JPG]]
+![[Triangle_44100Hz_10kHz_1V5_2V5_Offset.JPG]]
 
 ### Rechteck Abtastfrequenz
 Dies Simulation gibt ein Rechtecksignal mit der halben Abtastgeschwindigkeit aus 
 
-Timestamp: 17_50_15 2023-08-25
-Timestamp: 17_50_35 2023-08-25
+![[Rectangle_44100Hz_22k05Hz_1V5_2V5_Frequency.JPG]]
+
+![[Rectangle_44100Hz_22k05Hz_1V5_2V5_Frequency_Half.JPG]]
+
 
 ### Sinus-Abtastfrequenz
 
@@ -96,7 +104,8 @@ Timestamp: 17_50_35 2023-08-25
 | Amplitude | 1.5V |
 | Offset | 2.5V |
 
-Timestamp: 17_52_30 2023-08-25
+![[Abtastfrequenz_Measurement_Zoom.JPG]]
+
 
 ## Signaltest Filter
 
@@ -116,9 +125,10 @@ In diesem Experiment wird der Normalbetrieb getestet und verglichen, ob das Ausg
 | Amplitude | 1.5V |
 | Offset | 2.5V |
 
-Timestamp: 17_39_20
-Timestamp: 17_39_55
-Timestamp: 17_55_15
+![[Sinus_44100Hz_100Hz_1V5_2V5_Amplitude.JPG]]
+![[I2C_Lautsprecher_System/Experiments/pictures/oszi/DAC_Signal/Sinus_44100Hz_100Hz_1V5_2V5_Frequency.JPG]]
+![[Sinus_44100Hz_100Hz_1V5_2V5_Zoom.JPG]]
+
 
 
 | Parameter | Wert |
@@ -129,10 +139,13 @@ Timestamp: 17_55_15
 | Amplitude | 1.5V |
 | Offset | 2.5V |
 
-Timestamp: 17_41_10
-Timestamp: 17_41_25
-Timestamp: 17_46_30
-Timestamp: 17_47_00
+
+
+![[Sinus_44100Hz_1kHz_1V5_2V5_Amplitude.JPG]]
+![[I2C_Lautsprecher_System/Experiments/pictures/oszi/DAC_Signal/Sinus_44100Hz_1kHz_1V5_2V5_Frequency.JPG]]
+![[Sinus_44100Hz_1kHz_1V5_2V5_Zoom.JPG]]
+![[Sinus_44100Hz_1kHz_1V5_2V5_ZoomZoom.JPG]]
+
 
 | Parameter | Wert |
 |----|------|
@@ -142,36 +155,11 @@ Timestamp: 17_47_00
 | Amplitude | 1.5V |
 | Offset | 2.5V |
 
-Timestamp: 17_42_55
-Timestamp: 17_43_30
-Timestamp: 17_44_50
-Timestamp: 17_45_10#
 
-| Parameter | Wert |
-|----|------|
-| Form | DAC-Sinus |
-| Abtastrate | 44100 Hz |
-| Frequenz | 10000 Hz |
-| Amplitude | 1.5V |
-| Offset | 2.5V |
-
-Timestamp: 17_42_55
-Timestamp: 17_43_30
-Timestamp: 17_44_50
-Timestamp: 17_45_10
-
-
-
-| Parameter | Wert |
-|----|------|
-| Form | Sinus |
-| Frequenz | 1000 Hz |
-| Amplitude | 1.5V |
-| Offset | 2.5V |
-
-Timestamp: 18_13_10
-Timestamp: 18_14_20
-
+![[Sinus_44100Hz_10kHz_1V5_2V5_Amplitude.JPG]]
+![[I2C_Lautsprecher_System/Experiments/pictures/oszi/DAC_Signal/Sinus_44100Hz_10kHz_1V5_2V5_Frequency.JPG]]
+![[Sinus_44100Hz_10kHz_1V5_2V5_Zoom.JPG]]
+![[Sinus_44100Hz_10kHz_1V5_2V5_ZoomZoom.JPG]]
 
 
 ## Maximale Werte
@@ -190,7 +178,7 @@ Vergleiche: [[I2C_Lautsprecher_System/Simulation/Simulation#Transient Simulation
 | Amplitude | 2.048V |
 | Offset | 2.048V |
 
-Timestamp: 17_59_20  2023-08-25
+![[Triangle_44100Hz_100Hz_2V048_2V048_MaxValue.JPG]]
 
 | Parameter | Wert |
 |----|------|
@@ -199,8 +187,9 @@ Timestamp: 17_59_20  2023-08-25
 | Amplitude | 2.5V |
 | Offset | 2.5V |
 
-Timestamp: 18_21_30
-Timestamp: 18_21_50
+![[Sinus_1kHz_2V5_2V5_MaxValuesFilter_Amplitude.JPG]]
+![[Sinus_1kHz_2V5_2V5_MaxValuesFilter_ClipVoltage.JPG]]
+
 ## Filter-Test
 
 ### Beschreibung
@@ -216,7 +205,7 @@ In diesem Experiment wird der Filter getestet, ob er die gewünschte Grenzfreque
 | Amplitude | 1.5V |
 | Offset | 2.5V |
 
-Timestamp: 18_09_15
-Timestamp: 18_10_20
-Timestamp: 18_10_45
-Timestamp: 18_11_40
+![[Sinus_19k4_1V5_2V5_AmplitudeInput.JPG]]
+![[Sinus_19k4_1V5_2V5_AmplitudeOutput.JPG]]
+![[Sinus_19k4_1V5_2V5_Frequency.JPG]]
+![[Sinus_19k4_1V5_2V5_PhaseShift.JPG]]

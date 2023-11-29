@@ -45,7 +45,7 @@ line5V, = ax.plot(vInput, getVout5V(255), lw=2)
 lineDac, = ax.plot(vInput, getVoutDac(255), lw=2)
 ax.set_xlabel('Input [V]')
 ax.set_ylabel('Output [V]')
-vccDacText = ax.text(3, 5, 'VCC DAC [V]:' + str(vVccDac[255]))
+vccDacText = ax.text(3, 4.5, 'VCC DAC [V]:' + str(vVccDac[255]))
 
 # adjust the main plot to make room for the sliders
 fig.subplots_adjust(left=0.25, bottom=0.25)
@@ -73,6 +73,9 @@ def update(val):
 # register the update function with each slider
 vcc_slider.on_changed(update)
 
+line5V.set_label("NAND with 5V VCC")
+lineDac.set_label("NAND with DAC VCC")
+ax.legend()
 
 
 plt.show()
