@@ -87,6 +87,7 @@ void setup()
     delay(5000);
 
     runVccRamp();
+    //runInputRamp(256);
 }
 
 void loop()
