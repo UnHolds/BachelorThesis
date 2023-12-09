@@ -8,6 +8,26 @@
 #define BUFFER_SIZE 1024
 #define N_QUEUES 4
 
+//Buttons
+#define SW1 35
+#define SW2 34
+#define SW3 4
+#define SW4 21
+
+// LEDs
+bool D1_on = false;
+bool D1_change = false;
+bool D2_on = false;
+bool D2_change = false;
+bool D3_on = false;
+bool D3_change = false;
+bool D4_on = false;
+bool D4_change = false;
+#define D1 27
+#define D2 26
+#define D3 25
+#define D4 22
+
 File audio_file;
 ESP32DMASPI::Slave slave;
 
@@ -35,7 +55,7 @@ void fill_buffer(int queue_id)
         bytes_to_read = available_data;
         remaining_data = BUFFER_SIZE - 8 - available_data;
     }
-    
+
     audio_file.read(audio_buffer[queue_id] + 8, bytes_to_read);
 
     if (remaining_data > 0)
@@ -65,7 +85,7 @@ void setup_buffers()
     slave.begin(HSPI);
 
     for(int i = 0; i < N_QUEUES; i++){
-       slave.queue(rx_buffer, audio_buffer[i], BUFFER_SIZE); 
+       slave.queue(rx_buffer, audio_buffer[i], BUFFER_SIZE);
     }
 }
 
@@ -93,19 +113,112 @@ void setup_sd_card()
 
 void setup()
 {
-    pinMode(LED_BUILTIN, OUTPUT);
-    digitalWrite(LED_BUILTIN, LOW);
+    //Buttons
+    pinMode(SW1, INPUT);
+    pinMode(SW2, INPUT);
+    pinMode(SW3, INPUT);
+    pinMode(SW4, INPUT);
+
+    // LEDs
+    pinMode(D1, OUTPUT);
+    pinMode(D2, OUTPUT);
+    pinMode(D3, OUTPUT);
+    pinMode(D4, OUTPUT);
+
+    //pinMode(LED_BUILTIN, OUTPUT);
+    //digitalWrite(LED_BUILTIN, LOW);
     setup_sd_card();
     setup_buffers();
     delay(1000);
 }
 
+void handleButtons() {
+
+    int sw1_press = digitalRead(SW1);
+    int sw2_press = digitalRead(SW2);
+    int sw3_press = digitalRead(SW3);
+    int sw4_press = digitalRead(SW4);
+
+    if(sw1_press){
+        if(D1_on == false){
+            D1_on = true;
+            D1_change = true;
+        }
+    }else{
+        if(D1_on){
+            D1_on = false;
+            D1_change = true;
+        }
+    }
+
+    if(sw2_press){
+        if(D2_on == false){
+            D2_on = true;
+            D2_change = true;
+        }
+    }else{
+        if(D2_on){
+            D2_on = false;
+            D2_change = true;
+        }
+    }
+
+    if(sw3_press){
+        if(D3_on == false){
+            D3_on = true;
+            D3_change = true;
+        }
+    }else{
+        if(D3_on){
+            D3_on = false;
+            D3_change = true;
+        }
+    }
+
+    if(sw4_press){
+        if(D4_on == false){
+            D4_on = true;
+            D4_change = true;
+        }
+    }else{
+        if(D4_on){
+            D4_on = false;
+            D4_change = true;
+        }
+    }
+}
+
+void handleLeds(){
+    if(D1_change){
+        digitalWrite(D1, D1_on ? HIGH : LOW);
+        D1_change = false;
+    }
+
+   if(D2_change){
+        digitalWrite(D2, D2_on ? HIGH : LOW);
+        D2_change = false;
+    }
+
+    if(D3_change){
+        digitalWrite(D3, D3_on ? HIGH : LOW);
+        D3_change = false;
+    }
+
+    if(D4_change){
+        digitalWrite(D4, D4_on ? HIGH : LOW);
+        D4_change = false;
+    }
+}
+
 void loop()
 {
-    
+
     if(slave.available() > 0){
         slave.pop();
     }
+
+    handleButtons();
+    handleLeds();
 
     if(slave.remained() >= N_QUEUES){
         return;
