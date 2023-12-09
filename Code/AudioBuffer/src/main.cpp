@@ -181,7 +181,7 @@ void handleButtons() {
         if(D3_on == false){
             D3_on = true;
             D3_change = true;
-            setAudioFile("/SultansOfSwing.bwav");
+            setAudioFile("/merged.bwav");
         }
          if(D1_on || D2_on || D4_on){
             D1_on = false;
