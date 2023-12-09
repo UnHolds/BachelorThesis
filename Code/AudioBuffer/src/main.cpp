@@ -66,6 +66,18 @@ void fill_buffer(int queue_id)
     digitalWrite(LED_BUILTIN, LOW);
 }
 
+void setAudioFile(const char* filename){
+    File tmp_audio_file = SD.open(filename, FILE_READ);
+
+    if (!tmp_audio_file)
+    {
+        return;
+    }
+
+    tmp_audio_file.seek(0);
+    audio_file = tmp_audio_file;
+}
+
 void setup_buffers()
 {
     rx_buffer = slave.allocDMABuffer(BUFFER_SIZE);
@@ -101,15 +113,13 @@ void setup_sd_card()
     {
         return;
     }
-    audio_file = SD.open("/CantinaBand60.bwav", FILE_READ);
 
-    if (!audio_file)
-    {
-        return;
-    }
-
-    audio_file.seek(0);
+    D1_on = true;
+    D1_change = true;
+    setAudioFile("/CacciatoreDellaNotte.bwav");
 }
+
+
 
 void setup()
 {
@@ -125,8 +135,8 @@ void setup()
     pinMode(D3, OUTPUT);
     pinMode(D4, OUTPUT);
 
-    //pinMode(LED_BUILTIN, OUTPUT);
-    //digitalWrite(LED_BUILTIN, LOW);
+    pinMode(LED_BUILTIN, OUTPUT);
+    digitalWrite(LED_BUILTIN, LOW);
     setup_sd_card();
     setup_buffers();
     delay(1000);
@@ -143,47 +153,57 @@ void handleButtons() {
         if(D1_on == false){
             D1_on = true;
             D1_change = true;
+            setAudioFile("/CacciatoreDellaNotte.bwav");
         }
-    }else{
-        if(D1_on){
-            D1_on = false;
-            D1_change = true;
+        if(D2_on || D3_on || D4_on){
+            D2_on = false;
+            D2_change = true;
+            D3_on = false;
+            D3_change = true;
+            D4_on = false;
+            D4_change = true;
         }
-    }
-
-    if(sw2_press){
+    } else if(sw2_press){
         if(D2_on == false){
             D2_on = true;
             D2_change = true;
+            setAudioFile("/CantinaBand.bwav");
         }
-    }else{
-        if(D2_on){
-            D2_on = false;
-            D2_change = true;
+         if(D1_on|| D3_on || D4_on){
+            D1_on = false;
+            D1_change = true;
+            D3_on = false;
+            D3_change = true;
+            D4_on = false;
+            D4_change = true;
         }
-    }
-
-    if(sw3_press){
+    } else if(sw3_press){
         if(D3_on == false){
             D3_on = true;
             D3_change = true;
+            setAudioFile("/SultansOfSwing.bwav");
         }
-    }else{
-        if(D3_on){
-            D3_on = false;
-            D3_change = true;
+         if(D1_on || D2_on || D4_on){
+            D1_on = false;
+            D1_change = true;
+            D2_on = false;
+            D2_change = true;
+            D4_on = false;
+            D4_change = true;
         }
-    }
-
-    if(sw4_press){
+    } else if(sw4_press){
         if(D4_on == false){
             D4_on = true;
             D4_change = true;
+            setAudioFile("/NeverGonnaGiveYouUp.bwav");
         }
-    }else{
-        if(D4_on){
-            D4_on = false;
-            D4_change = true;
+         if(D1_on || D2_on || D3_on){
+            D1_on = false;
+            D1_change = true;
+            D2_on = false;
+            D2_change = true;
+            D3_on = false;
+            D3_change = true;
         }
     }
 }
