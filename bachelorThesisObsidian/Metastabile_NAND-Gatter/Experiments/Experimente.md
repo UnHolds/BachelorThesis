@@ -146,8 +146,18 @@ In diesem Experiment werden die Inputs einzeln beschalten via DACs. Die Versorgu
 
 #### Ergebnis
 
-#TODO bilder hier einfügen 
+Hier einige Auszüge, für alle Daten die "csv" files beachten.
 
+![[automated_inverted_rs_ff_diffrent_input_161.png]]
+
+
+![[automated_inverted_rs_ff_diffrent_input_165.png]]
+
+
+![[automated_inverted_rs_ff_diffrent_input_168.png]]
+
+
+![[automated_inverted_rs_ff_diffrent_input_173.png]]
 
 
 ### Experiment 3
