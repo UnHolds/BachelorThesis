@@ -107,13 +107,25 @@ Dieses Experiment wurde zweimal durchgeführt. Beim ersten Mal, ohne dass LEDs a
 
 Hier einige Auszüge, für alle Daten die "csv" files beachten.
 
+##### Ohne LED
 
-#TODO hier bilder einfügen
+![[automated_same_input_rs_ff_5V_no_led.png]]
 
-#### Steckbrett Aufbau
+![[automated_same_input_rs_ff_255_no_led.png]]
 
-#TODO insert image
+![[automated_same_input_rs_ff_190_no_led.png]]
 
+![[automated_same_input_rs_ff_134_no_led.png]]
+
+##### Mit LED
+
+![[automated_same_input_rs_ff_5V_with_led.png]]
+
+![[automated_same_input_rs_ff_254_with_led.png]]
+
+![[automated_same_input_rs_ff_190_with_led.png]]
+
+![[automated_same_input_rs_ff_134_with_led.png]]
 
 ### Experiment 2
 
@@ -136,9 +148,6 @@ In diesem Experiment werden die Inputs einzeln beschalten via DACs. Die Versorgu
 
 #TODO bilder hier einfügen 
 
-#### Steckbrett Aufbau
-
-Gleich wie bei [[Metastabile_NAND-Gatter/Experiments/Experimente#Experiment 1|Experiment 1]]
 
 
 ### Experiment 3
@@ -211,9 +220,11 @@ Output 1 Low
 Output 2 Low
 ![[scope_10_measure_output_2_low.png]]
 
-#### Steckbrett Aufbau
+#### Aufbau
 
-#TODO insert image 
+![[steckbrett_oszi_inverted_rs-ff_1.jpg| 500]]
+
+![[steckbrett_oszi_inverted_rs-ff_2.jpg| 500]]
 
 ### Erkenntnisse
 
