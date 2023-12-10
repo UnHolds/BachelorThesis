@@ -8,7 +8,7 @@ nargs = len(sys.argv)
 
 filename = ""
 
-num_values = 255
+num_values = 256
 
 if nargs == 1:
     filename = askopenfilename()
@@ -48,7 +48,7 @@ lineOutputB, = ax.plot(vInput, getVoutB(num_values), lw=2)
 lineInput, = ax.plot(vInput, vInput, lw=2)
 ax.set_xlabel('Input [V]')
 ax.set_ylabel('Output [V]')
-vccDacText = ax.text(3, 5.2, 'VCC DAC [V]:' + str(vVccDac[num_values]))
+vccDacText = ax.text(3, 4.3 if num_values == 255 else 5.3, 'VCC DAC [V]:' + str(vVccDac[num_values]))
 
 # adjust the main plot to make room for the sliders
 fig.subplots_adjust(left=0.25, bottom=0.25)
