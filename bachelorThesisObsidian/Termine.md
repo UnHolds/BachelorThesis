@@ -7,3 +7,8 @@
 * Platine bestücken
 * Gatter testen & Dokumentieren & Erklären
 	* R-S Latch - metastable input
+
+20.10.2023 10:00
+* Steckbrettaufbau für LED
+* Test-Platine
+* Adapter Platine (optional)
