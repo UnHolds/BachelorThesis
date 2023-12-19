@@ -5,7 +5,7 @@
 #include "ESP32DMASPISlave.h"
 
 #define CS_PIN_SD_CARD 5
-#define BUFFER_SIZE 1024
+#define BUFFER_SIZE 4096
 #define N_QUEUES 4
 
 //Buttons
@@ -103,7 +103,7 @@ void setup_buffers()
 
 void setup_sd_card()
 {
-    if (!SD.begin(CS_PIN_SD_CARD, SPI, 1000000))
+    if (!SD.begin(CS_PIN_SD_CARD, SPI, 2000000))
     {
         return;
     }
@@ -195,7 +195,7 @@ void handleButtons() {
         if(D4_on == false){
             D4_on = true;
             D4_change = true;
-            setAudioFile("/NeverGonnaGiveYouUp.bwav");
+            setAudioFile("/Merge5.bwav");
         }
          if(D1_on || D2_on || D3_on){
             D1_on = false;

@@ -2,7 +2,7 @@
 #include "SPI.h"
 #include <ESP32DMASPIMaster.h>
 
-#define BUFFER_SIZE 1024
+#define BUFFER_SIZE 4096
 #define N_QUEUES 4
 
 SPIClass *vspi = new SPIClass(VSPI);
@@ -44,6 +44,10 @@ bool D8_change = false;
 #define CS4 26
 #define CS5 27
 
+//channel
+uint8_t** channel;
+uint8_t* pinNums;
+
 void setup_buffers()
 {
     tx_buffer = master.allocDMABuffer(BUFFER_SIZE);
@@ -66,6 +70,14 @@ void setup_buffers()
     }
 
     master.yield();
+}
+
+void setupChannelBuffer(){
+        channel = (uint8_t**) malloc(5 * sizeof(uint8_t*));
+        for(int i = 0; i < 5; i++){
+            channel[i] = (uint8_t*) malloc(5 * sizeof(uint8_t));
+        }
+        pinNums = (uint8_t*) malloc(5 * sizeof(uint8_t));
 }
 
 void setup()
@@ -95,6 +107,9 @@ void setup()
     pinMode(SW5, INPUT);
     pinMode(SW6, INPUT);
 
+    //setup buffer
+    setupChannelBuffer();
+
 
     //Serial.begin(115200);
     pinMode(VSPI_IOMUX_PIN_NUM_CS, OUTPUT);
@@ -106,6 +121,43 @@ void setup()
     setup_buffers();
     delay(1000);
 
+}
+
+void update_audio_buffer_queue(){
+    //queue new music data
+    if(audio_index == BUFFER_SIZE){
+        audio_index = 8;
+        master.queue(tx_buffer, audio_buffer[current_buffer], BUFFER_SIZE);
+        current_buffer++;
+        current_buffer %= N_QUEUES;
+        master.pop_first();
+    }
+}
+
+void send2(uint8_t** pins, uint8_t* numPins, uint8_t numChannel){
+    vspi->beginTransaction(SPISettings(4000000, MSBFIRST, SPI_MODE0));
+    digitalWrite(vspi->pinSS(), LOW);
+
+    for(int channel = 0; channel < numChannel; channel++){
+        for(int pin = 0; pin < numPins[channel]; pin++){
+            digitalWrite(pins[channel][pin], LOW);
+        }
+
+        uint16_t tdata = audio_buffer[current_buffer][audio_index] << 4;
+        tdata |= ACTIVE;
+        tdata &= MASK;
+        vspi->transfer16(tdata);
+
+        for(int pin = 0; pin < numPins[channel]; pin++){
+            digitalWrite(pins[channel][pin], HIGH);
+        }
+
+        audio_index++;
+        update_audio_buffer_queue();
+    }
+
+    digitalWrite(vspi->pinSS(), HIGH);
+    vspi->endTransaction();
 }
 
 void send(const uint8_t pins[], int numPins)
@@ -223,7 +275,40 @@ void handleSend(){
         send(pins2 ,2);
     }
 
+    if(mode == 4) {
+        uint8_t pins1[] = {CS1};
+        send(pins1 ,1);
+    }
+
+    if(mode == 5){
+        channel[0][0] = CS1;
+        channel[0][1] = CS2;
+        channel[1][0] = CS3;
+        channel[1][1] = CS4;
+        //channel[0][4] = CS5;
+        pinNums[0] = 2;
+        pinNums[1] = 2;
+        send2(channel, pinNums, 2);
+    }
+
+    if(mode == 6){
+        channel[0][0] = CS1;
+        channel[1][0] = CS2;
+        channel[2][0] = CS3;
+        channel[3][0] = CS4;
+        channel[4][0] = CS5;
+
+        pinNums[0] = 1;
+        pinNums[1] = 1;
+        pinNums[2] = 1;
+        pinNums[3] = 1;
+        pinNums[4] = 1;
+        send2(channel, pinNums, 5);
+    }
+
 }
+
+
 
 void loop()
 {
@@ -235,14 +320,6 @@ void loop()
         handleSend();
         handleButtons();
         handleLeds();
-
-        //queue new music data
-        if(audio_index == BUFFER_SIZE){
-            audio_index = 8;
-            master.queue(tx_buffer, audio_buffer[current_buffer], BUFFER_SIZE);
-            current_buffer++;
-            current_buffer %= N_QUEUES;
-            master.pop_first();
-        }
+        update_audio_buffer_queue();
     }
 }
