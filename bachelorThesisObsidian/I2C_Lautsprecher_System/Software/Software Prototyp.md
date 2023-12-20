@@ -33,27 +33,27 @@ void send(const uint8_t pins[], int numPins) {
 
 Gesamte Zeit für die Übertragung: (`pins[] = {CS1, CS2, CS3, CS4, CS5}`)
 
-#TODO scope_3
+![[Measurement_total_transfer_time_all_pins.png]]
 
 Zeit: 7.56us
 
 Zeitverzögerung CS Pin schalten (`pins[] = {CS1, CS2, CS3, CS4, CS5}`)
 
-#TODO scope_0
+![[Measurement_switch_cs_until_transfer_all_pins.png]]
 
 Time-Delay: 2.92us
 
 Gesamte Zeit für die Übertragung: (`pins[] = {CS1}`)
 
-#TODO scope_5
+![[Measurement_total_transfer_time_one_pin.png]]
 
 Zeit: 6.06u.s
 
 Zeitverzögerung CS Pin schalten (`pins[] = {CS1}`)
 
-#TODO scope_4
+![[Measurement_switch_cs_until_transfer_one_pin.png]]
 
-Time-Delay: 1.42us
+Time-Delay: 1.36us
 
 
 
@@ -72,7 +72,7 @@ send(pins2 ,2);
 ```
 
 
-#TODO scope_6
+![[Measurement_two_transfers_time_between_old.png]]
 
 Zeit zwischen Übertragungen: 12.8us
 
@@ -111,12 +111,14 @@ void send2(uint8_t** pins, uint8_t* numPins, uint8_t numChannel){
 
 #### Messung
 
-#TODO scope_8
+![[Measurement_two_transfer_time_between_new.png]]
 
 
 
 Diese neue Funktion erlaubt es nun 5 Kanäle gleichzeitig anzusteuern.
-#TODO scope_9
 
+![[Measurement_five_signals_total_time.png]]
 
+Total Time: 30.7us
 
+Durch die obige Berechnung wissen wir, dass theoretisch ca. 45us zur Verfügung stehen. Wenn 30.7us für 5 Signale benötigt werden bedeutet, dass das maximal $\frac{45us}{\frac{30.7us}{5}}=7.32\approx7$ Signale übertragen werden können, bei einer Abtastrate von 22050Hz. Um dies noch ein bisschen zu verbessern, könnte die Frequenz des SPIs erhöht werden. Dies könnte jedoch zu einer instabilen Übertragung führen.
