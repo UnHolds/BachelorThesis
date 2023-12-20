@@ -121,4 +121,20 @@ Diese neue Funktion erlaubt es nun 5 Kanäle gleichzeitig anzusteuern.
 
 Total Time: 30.7us
 
-Durch die obige Berechnung wissen wir, dass theoretisch ca. 45us zur Verfügung stehen. Wenn 30.7us für 5 Signale benötigt werden bedeutet, dass das maximal $\frac{45us}{\frac{30.7us}{5}}=7.32\approx7$ Signale übertragen werden können, bei einer Abtastrate von 22050Hz. Um dies noch ein bisschen zu verbessern, könnte die Frequenz des SPIs erhöht werden. Dies könnte jedoch zu einer instabilen Übertragung führen.
+Durch die obige Berechnung wissen wir, dass theoretisch ca. 45us zur Verfügung stehen. Wenn 30.7us für 5 Signale benötigt werden bedeutet, dass das maximal $\frac{45us}{\frac{30.7us}{5}}=7.32\approx7$ S
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ignale übertragen werden können, bei einer Abtastrate von 22050Hz. Um dies noch ein bisschen zu verbessern, könnte die Frequenz des SPIs erhöht werden. Dies könnte jedoch zu einer instabilen Übertragung führen.

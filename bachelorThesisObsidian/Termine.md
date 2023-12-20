@@ -12,3 +12,10 @@
 * Steckbrettaufbau für LED
 * Test-Platine
 * Adapter Platine (optional)
+
+17.01.2023 10:00
+* Ampelschaltung -> Poti-Test
+* SPISpeaker -> MOSI Widerstand
+* Ampelschaltung Schematic + PCB
+* Adapter Platine PCB
+*  AudioController PCB routen (optional)
