@@ -21,7 +21,7 @@
     (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 54aaf8ce-9cef-4d9e-b542-6ed0990fab79))
   (fp_arc (start 2.032 13.716) (mid 0 15.748) (end -2.032 13.716)
     (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp b782f362-db81-4a94-a599-34bdab932ad8))
-  (fp_circle (center 0 0) (end 4.5 0)
+  (fp_circle (center 0 0) (end 4.75 0)
     (stroke (width 0.05) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 0217e25b-d121-4248-b8ca-a31d101931df))
   (pad "1" thru_hole oval (at 0 -12) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 30d17a02-8479-4f48-a4db-c390f115582b))
   (pad "2" smd custom (at 0 9) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask")
