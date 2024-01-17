@@ -14,8 +14,8 @@
 * Adapter Platine (optional)
 
 17.01.2023 10:00
-* Ampelschaltung -> Poti-Test
+* Ampelschaltung -> Poti-Test (done)
 * SPISpeaker -> MOSI Widerstand
 * Ampelschaltung Schematic + PCB
-* Adapter Platine PCB
+* Adapter Platine PCB (done need to be ordered)
 *  AudioController PCB routen (optional)

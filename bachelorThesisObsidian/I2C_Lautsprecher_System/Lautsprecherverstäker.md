@@ -81,4 +81,6 @@ E1 Out 0 value={round(V(In,0)/(Vcc / States)) * Vcc / States}
 [[Speaker Prototyp 1.0]]
 [[Audio Controller Prototyp 1.0]]
 
+## MOSI Widerstand
 
+Widerstand auf Audio Controller: $4 * 10\ohm\ (parallel)= 2.5\ohm$ 
