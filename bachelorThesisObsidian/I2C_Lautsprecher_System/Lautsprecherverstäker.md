@@ -83,4 +83,32 @@ E1 Out 0 value={round(V(In,0)/(Vcc / States)) * Vcc / States}
 
 ## MOSI Widerstand
 
+Widerstand 1k = scope_0 scope_1 scope_2
+
+
 Widerstand auf Audio Controller: $4 * 10\ohm\ (parallel)= 2.5\ohm$ 
+ scope_3
+
+
+scope_4  = 3 * 10ohm para
+
+scope_5 = 2 * 10 ohm para
+
+scope_6 = 10 ohm
+
+scope_7 = 100ohm  (scope_8 = with 5 speaker)
+
+scope_9 2x 100 ohm  (scope_10 = with 5 speakers)
+
+scope_11 3* 100ohm (scope_12 = with 5 speakers)
+dead at 126 ohm scope_13
+min work = 512ohm
+220 dead
+330 störung
+
+
+
+jede box 2k 
+messung 4 angeschlossen: scope_14 scope_15
+
+messung 5 angeschlossen: scope_16 scope_17

@@ -15,7 +15,7 @@
 
 17.01.2023 10:00
 * Ampelschaltung -> Poti-Test (done)
-* SPISpeaker -> MOSI Widerstand
+* SPISpeaker -> MOSI Widerstand (done)
 * Ampelschaltung Schematic + PCB
 * Adapter Platine PCB (done need to be ordered)
 *  AudioController PCB routen (optional)

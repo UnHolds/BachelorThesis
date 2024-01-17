@@ -25,3 +25,9 @@ Realisation mit JK-FF
 | 1        | 1        | 0      | 0 | 0 |
 | 1        | 1        | 1      | 1 | 1 |
 
+
+scope_18 HIGH
+scope_19 LOW
+scope_20 instable 
+scope_21 lowest instable
+scope_22 highest instable 
