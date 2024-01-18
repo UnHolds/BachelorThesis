@@ -83,24 +83,38 @@ E1 Out 0 value={round(V(In,0)/(Vcc / States)) * Vcc / States}
 
 ## MOSI Widerstand
 
+![[res_1k_series_freq_amp.png]]
 Widerstand 1k = scope_0 scope_1 scope_2
 
 
+![[res_2_5_series_freq_amp.png]]
 Widerstand auf Audio Controller: $4 * 10\ohm\ (parallel)= 2.5\ohm$ 
- scope_3
 
-
+![[res_3x10_series_freq_amp.png]]
 scope_4  = 3 * 10ohm para
 
+![[res_2x10_series_freq_amp.png]]
 scope_5 = 2 * 10 ohm para
 
+![[res_10_series_freq_anm.png]]
 scope_6 = 10 ohm
 
+
+![[res_100_series_freq_amp.png]]
+![[res_100_series_freq_amp_speaker.png]]
 scope_7 = 100ohm  (scope_8 = with 5 speaker)
 
+![[res_2x100_series_freq_amp.png]]
+![[res_2x100_series_freq_amp_speaker.png]]
 scope_9 2x 100 ohm  (scope_10 = with 5 speakers)
 
+![[res_3x100_series_freq_amp.png]]
+![[res_3x100_series_freq_amp_speaker.png]]
 scope_11 3* 100ohm (scope_12 = with 5 speakers)
+
+
+
+![[res_3x100_load_128_dead.png]]
 dead at 126 ohm scope_13
 min work = 512ohm
 220 dead
@@ -108,7 +122,12 @@ min work = 512ohm
 
 
 
+![[res_3x100_2k_per_speaker_4_speaker_amp.png]]
+![[res_3x100_2k_per_speaker_4_speaker_freq.png]]
 jede box 2k 
 messung 4 angeschlossen: scope_14 scope_15
 
+
+![[res_3x100_2k_per_speaker_5_speaker_freq.png]]
+![[res_3x100_2k_per_speaker_5_speaker_amp.png]]
 messung 5 angeschlossen: scope_16 scope_17
