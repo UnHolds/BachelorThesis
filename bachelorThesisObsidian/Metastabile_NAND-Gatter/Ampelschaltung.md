@@ -26,8 +26,19 @@ Realisation mit JK-FF
 | 1        | 1        | 1      | 1 | 1 |
 
 
+
+![[ampel_high.png]]
 scope_18 HIGH
+
+![[ampel_low.png]]
 scope_19 LOW
+
+![[ampel_instable.png]]
 scope_20 instable 
+
+![[ampel_instable_lowest.png]]
 scope_21 lowest instable
-scope_22 highest instable 
+
+
+![[ampel_instable_highest.png]]
+scope_22 highest instable q
