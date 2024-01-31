@@ -3,6 +3,7 @@
 #include "SD.h"
 #include "SPI.h"
 #include "ESP32DMASPISlave.h"
+#include <FastLED.h>
 
 #define CS_PIN_SD_CARD 5
 #define BUFFER_SIZE 4096
@@ -15,18 +16,16 @@
 #define SW4 21
 
 // LEDs
+bool change = false;
 bool D1_on = false;
-bool D1_change = false;
 bool D2_on = false;
-bool D2_change = false;
 bool D3_on = false;
-bool D3_change = false;
 bool D4_on = false;
-bool D4_change = false;
 #define D1 27
 #define D2 26
 #define D3 25
 #define D4 22
+CRGB leds[4];
 
 File audio_file;
 ESP32DMASPI::Slave slave;
@@ -114,8 +113,12 @@ void setup_sd_card()
         return;
     }
 
+    leds[0] = CRGB(255,0,0);
+    leds[1] = CRGB(0,0,0);
+    leds[2] = CRGB(0,0,0);
+    leds[3] = CRGB(0,0,0);
+    change = true;
     D1_on = true;
-    D1_change = true;
     setAudioFile("/CacciatoreDellaNotte.bwav");
 }
 
@@ -133,7 +136,8 @@ void setup()
     pinMode(D1, OUTPUT);
     pinMode(D2, OUTPUT);
     pinMode(D3, OUTPUT);
-    pinMode(D4, OUTPUT);
+    //pinMode(D4, OUTPUT);
+    FastLED.addLeds<WS2812B, D4, RGB>(leds, 4);
 
     pinMode(LED_BUILTIN, OUTPUT);
     digitalWrite(LED_BUILTIN, LOW);
@@ -152,81 +156,68 @@ void handleButtons() {
     if(sw1_press){
         if(D1_on == false){
             D1_on = true;
-            D1_change = true;
-            setAudioFile("/CacciatoreDellaNotte.bwav");
-        }
-        if(D2_on || D3_on || D4_on){
             D2_on = false;
-            D2_change = true;
             D3_on = false;
-            D3_change = true;
             D4_on = false;
-            D4_change = true;
+            change = true;
+            int c = random(1,8);
+            leds[0] = CRGB(random(256) * ((c >> 2) & 1),random(256) * ((c >> 1) & 1),random(256) * ((c >> 0) & 1));
+            leds[1] = CRGB(0,0,0);
+            leds[2] = CRGB(0,0,0);
+            leds[3] = CRGB(0,0,0);
+            setAudioFile("/CacciatoreDellaNotte.bwav");
         }
     } else if(sw2_press){
         if(D2_on == false){
             D2_on = true;
-            D2_change = true;
-            setAudioFile("/CantinaBand.bwav");
-        }
-         if(D1_on|| D3_on || D4_on){
             D1_on = false;
-            D1_change = true;
             D3_on = false;
-            D3_change = true;
             D4_on = false;
-            D4_change = true;
+            change = true;
+            int c = random(1,8);
+            leds[0] = CRGB(0,0,0);
+            leds[1] = CRGB(random(256) * ((c >> 2) & 1),random(256) * ((c >> 1) & 1),random(256) * ((c >> 0) & 1));
+            leds[2] = CRGB(0,0,0);
+            leds[3] = CRGB(0,0,0);
+            setAudioFile("/CantinaBand.bwav");
         }
     } else if(sw3_press){
         if(D3_on == false){
             D3_on = true;
-            D3_change = true;
+            D1_on = false;
+            D2_on = false;
+            D4_on = false;
+            change = true;
+            int c = random(1,8);
+            leds[0] = CRGB(0,0,0);
+            leds[1] = CRGB(0,0,0);
+            leds[2] = CRGB(random(256) * ((c >> 2) & 1),random(256) * ((c >> 1) & 1),random(256) * ((c >> 0) & 1));
+            leds[3] = CRGB(0,0,0);
             setAudioFile("/merged.bwav");
         }
-         if(D1_on || D2_on || D4_on){
-            D1_on = false;
-            D1_change = true;
-            D2_on = false;
-            D2_change = true;
-            D4_on = false;
-            D4_change = true;
-        }
+
     } else if(sw4_press){
         if(D4_on == false){
             D4_on = true;
-            D4_change = true;
+            D1_on = false;
+            D2_on = false;
+            D3_on = false;
+            change = true;
+            int c = random(1,8);
+            leds[0] = CRGB(0,0,0);
+            leds[1] = CRGB(0,0,0);
+            leds[2] = CRGB(0,0,0);
+            leds[3] = CRGB(random(256) * ((c >> 2) & 1),random(256) * ((c >> 1) & 1),random(256) * ((c >> 0) & 1));
             setAudioFile("/Merge5.bwav");
         }
-         if(D1_on || D2_on || D3_on){
-            D1_on = false;
-            D1_change = true;
-            D2_on = false;
-            D2_change = true;
-            D3_on = false;
-            D3_change = true;
-        }
+
     }
 }
 
 void handleLeds(){
-    if(D1_change){
-        digitalWrite(D1, D1_on ? HIGH : LOW);
-        D1_change = false;
-    }
-
-   if(D2_change){
-        digitalWrite(D2, D2_on ? HIGH : LOW);
-        D2_change = false;
-    }
-
-    if(D3_change){
-        digitalWrite(D3, D3_on ? HIGH : LOW);
-        D3_change = false;
-    }
-
-    if(D4_change){
-        digitalWrite(D4, D4_on ? HIGH : LOW);
-        D4_change = false;
+    if(change){
+        FastLED.show();
+        change = false;
     }
 }
 

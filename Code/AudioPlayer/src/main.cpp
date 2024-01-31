@@ -1,6 +1,7 @@
 #include <Arduino.h>
 #include "SPI.h"
 #include <ESP32DMASPIMaster.h>
+#include <FastLED.h>
 
 #define BUFFER_SIZE 4096
 #define N_QUEUES 4
@@ -27,12 +28,11 @@ bool sw6_pressed = false;
 int mode = 0;
 
 // LEDs
+CRGB leds[4];
+bool change = true;
 bool D5_on = false;
-bool D5_change = false;
 bool D7_on = false;
-bool D7_change = false;
 bool D8_on = false;
-bool D8_change = false;
 #define D5 32
 #define D7 33
 #define D8 02
@@ -98,10 +98,13 @@ void setup()
     //setup diodes
     pinMode(D5, OUTPUT);
     pinMode(D8, OUTPUT);
-    pinMode(D7, OUTPUT);
+    //pinMode(D7, OUTPUT);
     digitalWrite(D5, LOW);
     digitalWrite(D8, LOW);
-    digitalWrite(D7, LOW);
+    //digitalWrite(D7, LOW);
+
+
+    FastLED.addLeds<WS2812B, D7, RGB>(leds, 4);
 
     //setup buttons
     pinMode(SW5, INPUT);
@@ -109,6 +112,8 @@ void setup()
 
     //setup buffer
     setupChannelBuffer();
+
+    change = true;
 
 
     //Serial.begin(115200);
@@ -187,6 +192,7 @@ void handleButtons() {
     if(sw5_press && !sw5_pressed){
         sw5_pressed = true;
         mode = (mode + 1) % 8;
+        change = true;
     }else if(!sw5_press){
         sw5_pressed = false;
     }
@@ -194,61 +200,25 @@ void handleButtons() {
     if(sw6_press && !sw6_pressed){
         sw6_pressed = true;
         mode = (mode + 8 - 1) % 8;
+        change = true;
     }else if(!sw6_press){
         sw6_pressed = false;
     }
 
-    if(mode & 0b1){
-        if(!D5_on){
-            D5_on = true;
-            D5_change = true;
-        }
-    }else{
-         if(D5_on){
-            D5_on = false;
-            D5_change = true;
-        }
-    }
-
-    if(mode & 0b10){
-        if(!D7_on){
-            D7_on = true;
-            D7_change = true;
-        }
-    }else{
-         if(D7_on){
-            D7_on = false;
-            D7_change = true;
-        }
-    }
-
-    if(mode & 0b100){
-        if(!D8_on){
-            D8_on = true;
-            D8_change = true;
-        }
-    }else{
-         if(D8_on){
-            D8_on = false;
-            D8_change = true;
-        }
+    if(change){
+        int c = random(1,8);
+        int node = mode + 1;
+        leds[0] = CRGB(random(256) * ((c >> 2) & 1) * ((node >> 0) & 1),random(256) * ((c >> 1) & 1)  * ((node >> 0) & 1),random(256) * ((c >> 0) & 1)  * ((node >> 0) & 1));
+        leds[1] = CRGB(random(256) * ((c >> 2) & 1) * ((node >> 1) & 1),random(256) * ((c >> 1) & 1)  * ((node >> 1) & 1),random(256) * ((c >> 0) & 1)  * ((node >> 1) & 1));
+        leds[2] = CRGB(random(256) * ((c >> 2) & 1) * ((node >> 2) & 1),random(256) * ((c >> 1) & 1)  * ((node >> 2) & 1),random(256) * ((c >> 0) & 1)  * ((node >> 2) & 1));
+        leds[3] = CRGB(random(256) * ((c >> 2) & 1) * ((node >> 3) & 1),random(256) * ((c >> 1) & 1)  * ((node >> 3) & 1),random(256) * ((c >> 0) & 1)  * ((node >> 3) & 1));
     }
 }
 
 void handleLeds(){
-    if(D5_change){
-        digitalWrite(D5, D5_on ? HIGH : LOW);
-        D5_change = false;
-    }
-
-    if(D8_change){
-        digitalWrite(D8, D8_on ? HIGH : LOW);
-        D8_change = false;
-    }
-
-    if(D7_change){
-        digitalWrite(D7, D7_on ? HIGH : LOW);
-        D7_change = false;
+    if(change){
+        FastLED.show();
+        change = false;
     }
 }
 
