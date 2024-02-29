@@ -15,24 +15,24 @@
 #define SW3 4
 #define SW4 21
 
-// LEDs
-bool change = false;
-bool D1_on = false;
-bool D2_on = false;
-bool D3_on = false;
-bool D4_on = false;
-#define D1 27
-#define D2 26
-#define D3 25
-#define D4 22
-CRGB leds[4];
+#define COM_C1 32
+#define COM_C2 25
+#define COM_C3 26
+#define COM_C4 27
 
+#define WS2812_PIN 22
+
+CRGB leds[8];
+bool led_change = false;
 File audio_file;
 ESP32DMASPI::Slave slave;
 
 uint8_t *audio_buffer[N_QUEUES];
 uint8_t *rx_buffer;
 int next_buffer = 0;
+
+int mode = 0;
+bool mode_change = true;
 
 void fill_buffer(int queue_id)
 {
@@ -100,6 +100,12 @@ void setup_buffers()
     }
 }
 
+void set_leds_black(){
+    for(int i = 0; i < 8; i++){
+        leds[i] = CRGB(0,0,0);
+    }
+}
+
 void setup_sd_card()
 {
     if (!SD.begin(CS_PIN_SD_CARD, SPI, 2000000))
@@ -113,12 +119,11 @@ void setup_sd_card()
         return;
     }
 
+    set_leds_black();
     leds[0] = CRGB(255,0,0);
-    leds[1] = CRGB(0,0,0);
-    leds[2] = CRGB(0,0,0);
-    leds[3] = CRGB(0,0,0);
-    change = true;
-    D1_on = true;
+    led_change = true;
+    mode = 0;
+    mode_change = true;
     setAudioFile("/CacciatoreDellaNotte.bwav");
 }
 
@@ -132,13 +137,14 @@ void setup()
     pinMode(SW3, INPUT);
     pinMode(SW4, INPUT);
 
-    // LEDs
-    pinMode(D1, OUTPUT);
-    pinMode(D2, OUTPUT);
-    pinMode(D3, OUTPUT);
-    //pinMode(D4, OUTPUT);
-    FastLED.addLeds<WS2812B, D4, RGB>(leds, 4);
+    pinMode(COM_C1, OUTPUT);
+    pinMode(COM_C2, OUTPUT);
+    pinMode(COM_C3, OUTPUT);
+    pinMode(COM_C4, OUTPUT);
 
+    FastLED.addLeds<WS2812B, WS2812_PIN, RGB>(leds, 4);
+
+    //Serial.begin(115200);
     pinMode(LED_BUILTIN, OUTPUT);
     digitalWrite(LED_BUILTIN, LOW);
     setup_sd_card();
@@ -154,70 +160,72 @@ void handleButtons() {
     int sw4_press = digitalRead(SW4);
 
     if(sw1_press){
-        if(D1_on == false){
-            D1_on = true;
-            D2_on = false;
-            D3_on = false;
-            D4_on = false;
-            change = true;
+        if(leds[0] == CRGB(0,0,0)){
             int c = random(1,8);
             leds[0] = CRGB(random(256) * ((c >> 2) & 1),random(256) * ((c >> 1) & 1),random(256) * ((c >> 0) & 1));
             leds[1] = CRGB(0,0,0);
             leds[2] = CRGB(0,0,0);
             leds[3] = CRGB(0,0,0);
             setAudioFile("/CacciatoreDellaNotte.bwav");
+            led_change = true;
+            mode = 0;
+            mode_change = true;
         }
     } else if(sw2_press){
-        if(D2_on == false){
-            D2_on = true;
-            D1_on = false;
-            D3_on = false;
-            D4_on = false;
-            change = true;
+        if(leds[1] == CRGB(0,0,0)){
             int c = random(1,8);
             leds[0] = CRGB(0,0,0);
             leds[1] = CRGB(random(256) * ((c >> 2) & 1),random(256) * ((c >> 1) & 1),random(256) * ((c >> 0) & 1));
             leds[2] = CRGB(0,0,0);
             leds[3] = CRGB(0,0,0);
             setAudioFile("/CantinaBand.bwav");
+            led_change = true;
+            mode = 0;
+            mode_change = true;
         }
     } else if(sw3_press){
-        if(D3_on == false){
-            D3_on = true;
-            D1_on = false;
-            D2_on = false;
-            D4_on = false;
-            change = true;
+        if(leds[2] == CRGB(0,0,0)){
             int c = random(1,8);
             leds[0] = CRGB(0,0,0);
             leds[1] = CRGB(0,0,0);
             leds[2] = CRGB(random(256) * ((c >> 2) & 1),random(256) * ((c >> 1) & 1),random(256) * ((c >> 0) & 1));
             leds[3] = CRGB(0,0,0);
             setAudioFile("/merged.bwav");
+            led_change = true;
+            mode = 5;
+            mode_change = true;
         }
 
     } else if(sw4_press){
-        if(D4_on == false){
-            D4_on = true;
-            D1_on = false;
-            D2_on = false;
-            D3_on = false;
-            change = true;
+        if(leds[3] == CRGB(0,0,0)){
             int c = random(1,8);
             leds[0] = CRGB(0,0,0);
             leds[1] = CRGB(0,0,0);
             leds[2] = CRGB(0,0,0);
             leds[3] = CRGB(random(256) * ((c >> 2) & 1),random(256) * ((c >> 1) & 1),random(256) * ((c >> 0) & 1));
             setAudioFile("/Merge5.bwav");
+            led_change = true;
+            mode = 6;
+            mode_change = true;
         }
 
     }
 }
 
 void handleLeds(){
-    if(change){
+    if(led_change){
         FastLED.show();
-        change = false;
+        led_change = false;
+    }
+}
+
+void set_mode() {
+    if(mode_change){
+        mode_change = false;
+        digitalWrite(COM_C1, (mode & 0b1) > 0);
+        digitalWrite(COM_C2, (mode & 0b10) > 0);
+        digitalWrite(COM_C3, (mode & 0b100) > 0);
+        digitalWrite(COM_C4, (mode & 0b1000) > 0);
     }
 }
 
@@ -229,6 +237,7 @@ void loop()
     }
 
     handleButtons();
+    set_mode();
     handleLeds();
 
     if(slave.remained() >= N_QUEUES){

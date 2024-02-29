@@ -20,23 +20,12 @@ uint8_t *tx_buffer;
 #define GAIN_1 0x2000
 #define ACTIVE 0x1000
 
-// Buttons
-#define SW5 34
-bool sw5_pressed = false;
-#define SW6 35
-bool sw6_pressed = false;
 int mode = 0;
 
 // LEDs
 CRGB leds[4];
-bool change = true;
-bool D5_on = false;
-bool D7_on = false;
-bool D8_on = false;
-#define D5 32
-#define D7 33
-#define D8 02
-
+bool led_change = true;
+#define WS2812_PIN 32
 //define CS pins
 #define CS1 21
 #define CS2 22
@@ -47,6 +36,17 @@ bool D8_on = false;
 //channel
 uint8_t** channel;
 uint8_t* pinNums;
+
+#define COM_C1 36
+#define COM_C2 33
+#define COM_C3 34
+#define COM_C4 35
+uint8_t com_idx = 0;
+uint8_t com1_read[8];
+uint8_t com2_read[8];
+uint8_t com3_read[8];
+uint8_t com4_read[8];
+long com_timing = millis();
 
 void setup_buffers()
 {
@@ -94,29 +94,24 @@ void setup()
     digitalWrite(CS4, HIGH);
     digitalWrite(CS5, HIGH);
 
+    //setup com pins
+    pinMode(COM_C1, INPUT);
+    pinMode(COM_C2, INPUT);
+    pinMode(COM_C3, INPUT);
+    pinMode(COM_C4, INPUT);
 
-    //setup diodes
-    pinMode(D5, OUTPUT);
-    pinMode(D8, OUTPUT);
-    //pinMode(D7, OUTPUT);
-    digitalWrite(D5, LOW);
-    digitalWrite(D8, LOW);
-    //digitalWrite(D7, LOW);
-
-
-    FastLED.addLeds<WS2812B, D7, RGB>(leds, 4);
-
-    //setup buttons
-    pinMode(SW5, INPUT);
-    pinMode(SW6, INPUT);
+    FastLED.addLeds<WS2812B, WS2812_PIN, RGB>(leds, 4);
+    leds[0] = CRGB(0,0,0);
+    leds[1] = CRGB(0,0,0);
+    leds[2] = CRGB(0,0,0);
+    leds[3] = CRGB(0,0,0);
+    led_change = true;
+    mode = -1;
 
     //setup buffer
     setupChannelBuffer();
 
-    change = true;
-
-
-    //Serial.begin(115200);
+    Serial.begin(115200);
     pinMode(VSPI_IOMUX_PIN_NUM_CS, OUTPUT);
     vspi->begin(VSPI_IOMUX_PIN_NUM_CLK, VSPI_IOMUX_PIN_NUM_MISO, VSPI_IOMUX_PIN_NUM_MOSI, VSPI_IOMUX_PIN_NUM_CS);
     digitalWrite(vspi->pinSS(), HIGH);
@@ -184,41 +179,64 @@ void send(const uint8_t pins[], int numPins)
     audio_index++;
 }
 
-void handleButtons() {
+void handleComPins() {
 
-    int sw5_press = digitalRead(SW5);
-    int sw6_press = digitalRead(SW6);
-
-    if(sw5_press && !sw5_pressed){
-        sw5_pressed = true;
-        mode = (mode + 1) % 8;
-        change = true;
-    }else if(!sw5_press){
-        sw5_pressed = false;
+    if(com_timing + 100 > millis()){
+        return;
     }
 
-    if(sw6_press && !sw6_pressed){
-        sw6_pressed = true;
-        mode = (mode + 8 - 1) % 8;
-        change = true;
-    }else if(!sw6_press){
-        sw6_pressed = false;
+    com1_read[com_idx] = digitalRead(COM_C1);
+    com2_read[com_idx] = digitalRead(COM_C2);
+    com3_read[com_idx] = digitalRead(COM_C3);
+    com4_read[com_idx] = digitalRead(COM_C4);
+    com_idx = (com_idx + 1) % 8;
+
+    uint8_t avg_com1 = 0;
+    uint8_t avg_com2 = 0;
+    uint8_t avg_com3 = 0;
+    uint8_t avg_com4 = 0;
+
+    for(int i = 0; i < 8; i++){
+        avg_com1 += com1_read[i];
+        avg_com2 += com2_read[i];
+        avg_com3 += com3_read[i];
+        avg_com4 += com4_read[i];
     }
 
-    if(change){
-        int c = random(1,8);
-        int node = mode + 1;
-        leds[0] = CRGB(random(256) * ((c >> 2) & 1) * ((node >> 0) & 1),random(256) * ((c >> 1) & 1)  * ((node >> 0) & 1),random(256) * ((c >> 0) & 1)  * ((node >> 0) & 1));
-        leds[1] = CRGB(random(256) * ((c >> 2) & 1) * ((node >> 1) & 1),random(256) * ((c >> 1) & 1)  * ((node >> 1) & 1),random(256) * ((c >> 0) & 1)  * ((node >> 1) & 1));
-        leds[2] = CRGB(random(256) * ((c >> 2) & 1) * ((node >> 2) & 1),random(256) * ((c >> 1) & 1)  * ((node >> 2) & 1),random(256) * ((c >> 0) & 1)  * ((node >> 2) & 1));
-        leds[3] = CRGB(random(256) * ((c >> 2) & 1) * ((node >> 3) & 1),random(256) * ((c >> 1) & 1)  * ((node >> 3) & 1),random(256) * ((c >> 0) & 1)  * ((node >> 3) & 1));
+    int mode_new = ((avg_com4 == 8) << 3) | ((avg_com3 == 8) << 2) | ((avg_com2 == 8) << 1) | (avg_com1 == 8);
+    Serial.println(mode_new);
+
+    if(mode != mode_new){
+        mode = mode_new;
+        leds[0] = CRGB(0,0,0);
+        leds[1] = CRGB(0,0,0);
+        leds[2] = CRGB(0,0,0);
+        leds[3] = CRGB(0,0,0);
+        if(mode  == 0){
+            leds[0] = CRGB(0,255,0);
+        }
+        if(mode & 0b1){
+            leds[0] = CRGB(0,0,255);
+        }
+        if(mode & 0b10){
+            leds[1] = CRGB(0,0,255);
+        }
+        if(mode & 0b100){
+            leds[2] = CRGB(0,0,255);
+        }
+        if(mode & 0b1000){
+            leds[3] = CRGB(0,0,255);
+        }
+        led_change = true;
     }
+
+    com_timing = millis();
 }
 
 void handleLeds(){
-    if(change){
+    if(led_change){
         FastLED.show();
-        change = false;
+        led_change = false;
     }
 }
 
@@ -288,7 +306,7 @@ void loop()
     {
         timing = currentTime;
         handleSend();
-        handleButtons();
+        handleComPins();
         handleLeds();
         update_audio_buffer_queue();
     }
