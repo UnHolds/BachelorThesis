@@ -6,8 +6,8 @@
 
   (paper "A3")
   (title_block
-    (date "2023-12-01")
-    (rev "V1.0")
+    (date "2024-03-02")
+    (rev "V2.0")
     (comment 1 "Author: Alexander Hold")
   )
 
@@ -404,8 +404,8 @@
       (net 2 "GND") (pintype "passive") (tstamp d9f242ef-44cf-4a73-a347-accf6a9c2065))
     (pad "9" thru_hole circle (at -3.302 2.794 90) (size 2.5 2.5) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp e22e49f4-7183-4e29-8273-eeb5ecc2e122))
     (pad "9" thru_hole circle (at 12.192 2.794 90) (size 2.5 2.5) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp cbb49e63-44f2-46a1-a158-e5df361fcac8))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Amphenol_54602-x08_Horizontal.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/3dModels/RJ45.step"
+      (offset (xyz 4.5 3.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -647,6 +647,11 @@
       (options (clearance outline) (anchor circle))
       (primitives
       ) (tstamp 56058e11-2e0e-4cbe-b1ef-1f2f16fd2065))
+    (model "${KIPRJMOD}/3dModels/BNC-Connector.step"
+      (offset (xyz 0 0 0.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (layer "F.Cu")
@@ -1403,6 +1408,11 @@
       (options (clearance outline) (anchor circle))
       (primitives
       ) (tstamp ff6fce26-519b-46fd-b246-582052598f19))
+    (model "${KIPRJMOD}/3dModels/BNC-Connector.step"
+      (offset (xyz 0 0 0.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (footprint "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type055_RT01502HDWU_1x02_P5.00mm_Horizontal" (layer "F.Cu")
@@ -1503,6 +1513,11 @@
     (pad "2" thru_hole circle (at 5 0 270) (size 2.5 2.5) (drill 1.3) (layers "*.Cu" "*.Mask")
       (net 31 "Net-(J25-Pin_2)") (pinfunction "Pin_2") (pintype "passive") (tstamp 94a5542d-e81e-49ba-8948-7440b95f60ae))
     (model "${KICAD6_3DMODEL_DIR}/TerminalBlock_MetzConnect.3dshapes/TerminalBlock_MetzConnect_Type055_RT01502HDWU_1x02_P5.00mm_Horizontal.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ":KICAD7_3DMODEL_DIR:TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1976,6 +1991,11 @@
       (options (clearance outline) (anchor circle))
       (primitives
       ) (tstamp e3462321-b2e8-4899-b772-32ad0ce96a92))
+    (model "${KIPRJMOD}/3dModels/BNC-Connector.step"
+      (offset (xyz 0 0 0.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (footprint "Library:BNC_Connector" (layer "F.Cu")
@@ -2024,6 +2044,11 @@
       (options (clearance outline) (anchor circle))
       (primitives
       ) (tstamp f1948a0d-70b9-4dc2-820d-c5a118363139))
+    (model "${KIPRJMOD}/3dModels/BNC-Connector.step"
+      (offset (xyz 0 0 0.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (footprint "PCM_Espressif:ESP32-DevKitC" (layer "F.Cu")
@@ -2319,8 +2344,8 @@
       (net 2 "GND") (pintype "passive") (tstamp 15aa2c9a-5ba0-4f6e-a454-65704e63aa9a))
     (pad "9" thru_hole circle (at -3.302 2.794 90) (size 2.5 2.5) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp 1966e9d8-1f61-4386-86c8-ec0124e940a3))
     (pad "9" thru_hole circle (at 12.192 2.794 90) (size 2.5 2.5) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp ecf5eb83-d48b-4bab-8a10-1e542b02a06d))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Amphenol_54602-x08_Horizontal.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/3dModels/RJ45.step"
+      (offset (xyz 4.5 3.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -2525,8 +2550,8 @@
       (net 2 "GND") (pintype "passive") (tstamp cf916168-bbc2-48e4-ba45-7885714103ee))
     (pad "9" thru_hole circle (at -3.302 2.794 90) (size 2.5 2.5) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp 31864212-d49e-4909-96ed-0877bbffe3c5))
     (pad "9" thru_hole circle (at 12.192 2.794 90) (size 2.5 2.5) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp de29008e-d3c3-4565-afaa-39b4f26faf2a))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Amphenol_54602-x08_Horizontal.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/3dModels/RJ45.step"
+      (offset (xyz 4.5 3.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -4753,6 +4778,11 @@
       (options (clearance outline) (anchor circle))
       (primitives
       ) (tstamp 0ffb6bda-29d4-4685-bc87-f6f283acdacc))
+    (model "${KIPRJMOD}/3dModels/BNC-Connector.step"
+      (offset (xyz 0 0 0.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
@@ -5769,8 +5799,8 @@
       (net 2 "GND") (pintype "passive") (tstamp d3936c2c-a24e-4d91-8fdd-87508cdf6008))
     (pad "9" thru_hole circle (at -3.302 2.794 90) (size 2.5 2.5) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp d6af9957-3888-4a5b-93a4-a3ba83c37f32))
     (pad "9" thru_hole circle (at 12.192 2.794 90) (size 2.5 2.5) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp 39f24b2b-550a-45db-9c9d-90e44d914050))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Amphenol_54602-x08_Horizontal.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/3dModels/RJ45.step"
+      (offset (xyz 4.5 3.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -5931,6 +5961,21 @@
       (net 23 "/SD_SCK") (pinfunction "SCK") (pintype "passive") (tstamp e25d0f39-6c40-45f1-85fc-98d730e8ee49))
     (pad "6" thru_hole oval (at -2 6.35 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 24 "/SD_CS") (pinfunction "CS") (pintype "passive") (tstamp 66c0bd52-6d6b-45f7-9f52-e503fb20b8c5))
+    (model "${KIPRJMOD}/3dModels/SD_Card_Module.stp"
+      (offset (xyz 15.5 0 10))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
+    (model ":KICAD7_3DMODEL_DIR:Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x06_P2.54mm_Vertical.step"
+      (offset (xyz -2 6.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ":KICAD7_3DMODEL_DIR:Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl"
+      (offset (xyz -2 -6.5 10))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 0))
+    )
   )
 
   (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (layer "F.Cu")
@@ -6381,8 +6426,8 @@
       (net 2 "GND") (pintype "passive") (tstamp 22aff0d9-e7c2-4099-8c0d-9df8c78603d0))
     (pad "9" thru_hole circle (at -3.302 2.794 90) (size 2.5 2.5) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp 0303c8a8-670b-493e-a917-a4e8a280dcbe))
     (pad "9" thru_hole circle (at 12.192 2.794 90) (size 2.5 2.5) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp ead0c590-c9cf-4ab1-bf9d-cc975b15a121))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Amphenol_54602-x08_Horizontal.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/3dModels/RJ45.step"
+      (offset (xyz 4.5 3.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -6668,6 +6713,11 @@
       (net 31 "Net-(J25-Pin_2)") (pinfunction "B") (pintype "passive") (tstamp 018ba05e-31c7-4c4e-8282-77be56acd003))
     (pad "3" thru_hole oval (at 6 0) (size 5 7) (drill 4) (layers "*.Cu" "*.Mask")
       (net 89 "unconnected-(SW7-C-Pad3)") (pinfunction "C") (pintype "passive+no_connect") (tstamp 04633390-0b15-4621-8b77-af69564da309))
+    (model "${KIPRJMOD}/3dModels/ToggleSwitch 3Pin.step"
+      (offset (xyz 0 0 10.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
@@ -6827,10 +6877,10 @@
       (net 5 "/MOSI") (pinfunction "2") (pintype "passive") (tstamp 50a25366-a5ef-4304-a9d0-c368344e29f1))
     (pad "3" thru_hole circle (at 0 -5) (size 1.62 1.62) (drill 0.9) (layers "*.Cu" "*.Mask")
       (net 2 "GND") (pinfunction "3") (pintype "passive") (tstamp 9eb205a7-785c-4bb6-852f-839906b422af))
-    (model "${KICAD6_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Piher_PT-6-V_Vertical.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/3dModels/potti.step"
+      (offset (xyz 2.5 2.5 4))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 180 0 -90))
     )
   )
 
@@ -7689,6 +7739,11 @@
       (options (clearance outline) (anchor circle))
       (primitives
       ) (tstamp 3de11746-d00d-4663-9c91-88abc972132c))
+    (model "${KIPRJMOD}/3dModels/BNC-Connector.step"
+      (offset (xyz 0 0 0.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (layer "F.Cu")
@@ -8078,6 +8133,11 @@
       (options (clearance outline) (anchor circle))
       (primitives
       ) (tstamp eaab6455-78c9-416b-b515-356028eed488))
+    (model "${KIPRJMOD}/3dModels/BNC-Connector.step"
+      (offset (xyz 0 0 0.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (layer "F.Cu")
@@ -8769,6 +8829,15 @@
   (gr_text "CS Measure" (at 228.319 121.282) (layer "F.SilkS") (tstamp fda4030f-8fd8-4b8b-9f3e-e2734b6cc655)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
+  (dimension (type aligned) (layer "User.1") (tstamp 0a41fe5f-e04a-4d55-be1d-e355f03567cd)
+    (pts (xy 135 58) (xy 135 53))
+    (height -19.25)
+    (gr_text "5,0000 mm" (at 114.6 55.5 90) (layer "User.1") (tstamp 0a41fe5f-e04a-4d55-be1d-e355f03567cd)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
+    (style (thickness 0.15) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
+  )
   (dimension (type aligned) (layer "User.1") (tstamp bbd120fb-f31b-42fa-8c6f-1557c84e22dd)
     (pts (xy 130 53) (xy 130 223))
     (height 8)
@@ -8786,6 +8855,15 @@
     )
     (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
     (style (thickness 0.1) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
+  )
+  (dimension (type aligned) (layer "User.1") (tstamp f9b6b50a-0ca3-4f41-965d-9d7bfca99dc1)
+    (pts (xy 135 58) (xy 130 58))
+    (height 13.25)
+    (gr_text "5,0000 mm" (at 132.5 43.6) (layer "User.1") (tstamp f9b6b50a-0ca3-4f41-965d-9d7bfca99dc1)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
+    (style (thickness 0.15) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
   )
 
   (segment (start 160.85 201.35) (end 160.85 195.15) (width 1) (layer "F.Cu") (net 1) (tstamp 0034ec64-0d44-4d48-989c-e87bed536709))

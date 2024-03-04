@@ -264,6 +264,11 @@
       (net 14 "Net-(SW3-B)") (pinfunction "B") (pintype "passive") (tstamp fe831fb9-f3ac-4ed6-b9ec-991876847f49))
     (pad "3" thru_hole oval (at 6 0 90) (size 5 7) (drill 4) (layers "*.Cu" "*.Mask")
       (net 1 "GND") (pinfunction "C") (pintype "passive") (tstamp f7bb25c8-b261-4841-9634-57ec041bc7b6))
+    (model "C:/Users/alexh/Documents/BachelorThesis/KiCad/AudioController/3dModels/ToggleSwitch 3Pin.step"
+      (offset (xyz 0 0 10.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
@@ -811,6 +816,11 @@
       (net 21 "Net-(J5-Pin_1)") (pinfunction "B") (pintype "passive") (tstamp 0f55defb-6ae4-4b40-bdc6-884d9e0d5ab0))
     (pad "3" thru_hole oval (at 6 0 90) (size 5 7) (drill 4) (layers "*.Cu" "*.Mask")
       (net 15 "Net-(SW4-C)") (pinfunction "C") (pintype "passive") (tstamp 8b011cc7-0166-4078-913e-d123f7517ad2))
+    (model "C:/Users/alexh/Documents/BachelorThesis/KiCad/AudioController/3dModels/ToggleSwitch 3Pin.step"
+      (offset (xyz 0 0 10.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
@@ -990,10 +1000,10 @@
       (net 15 "Net-(SW4-C)") (pinfunction "2") (pintype "passive") (tstamp 248a93ff-c12a-48be-8837-06a3a30c1c17))
     (pad "3" thru_hole circle (at 0 5) (size 1.8 1.8) (drill 1) (layers "*.Cu" "*.Mask")
       (net 1 "GND") (pinfunction "3") (pintype "passive") (tstamp 3380fbe9-d455-45a2-b7ab-1b5ee9ee7023))
-    (model "${KICAD6_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Alpha_RD901F-40-00D_Single_Vertical.wrl"
-      (offset (xyz 0 0 0))
+    (model "C:/Users/alexh/Documents/BachelorThesis/KiCad/AudioController/3dModels/RD901F-40-15R1.step"
+      (offset (xyz 7.5 -2.5 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -1499,6 +1509,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KICAD6_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-14_W7.62mm.wrl"
+      (offset (xyz 0 0 4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "MountingHole:MountingHole_3.2mm_M3" (layer "F.Cu")
@@ -1751,6 +1766,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ":KICAD7_3DMODEL_DIR:TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Package_DIP:DIP-14_W7.62mm_Socket" (layer "F.Cu")
@@ -1852,6 +1872,11 @@
       (net 20 "+3.3V") (pinfunction "VCC") (pintype "power_in") (tstamp 20209ca4-3095-4c34-bc0d-52b43e7016ef))
     (model "${KICAD6_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-14_W7.62mm_Socket.wrl"
       (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KICAD6_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-14_W7.62mm.wrl"
+      (offset (xyz 0 0 4))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
