@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="112.19999999999388mm" height="112.19999999999987mm" viewBox="0 0 112.19999999999388 112.19999999999987" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<g id="Shape2DView001" transform="translate(56.100000,56.100000) scale(1,-1)">
+<path id="Shape2DView001_nwe0000"  d="M -49.999999999997 55.0 L 49.999999999997 55.0 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
+<path id="Shape2DView001_nwe0001"  d="M -49.999999999997 55.0 A 5 5 0 0 1 -55 50" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
+<path id="Shape2DView001_nwe0002"  d="M 49.999999999997 55.0 A 5 5 0 0 0 55 50" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
+<path id="Shape2DView001_nwe0003"  d="M -54.999999999997 -50.0 L -54.999999999997 50.0 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
+<path id="Shape2DView001_nwe0004"  d="M 54.999999999997 50.0 L 54.999999999997 -50.0 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
+<path id="Shape2DView001_nwe0005"  d="M -54.999999999997 -50.0 A 5 5 0 0 1 -50 -55" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
+<path id="Shape2DView001_nwe0006"  d="M 54.999999999997 -50.0 A 5 5 0 0 0 50 -55" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
+<path id="Shape2DView001_nwe0007"  d="M 49.999999999997 -55.0 L -49.999999999997 -55.0 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
+<circle cx="-45.0" cy="-45.0" r="1.5" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none"/>
+<circle cx="45.0" cy="-45.0" r="1.5" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none"/>
+<circle cx="-45.0" cy="45.0" r="1.5" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none"/>
+<circle cx="45.0" cy="45.0" r="1.5" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none"/>
+<title>b'BottomLine'</title>
+</g>
+</svg>
