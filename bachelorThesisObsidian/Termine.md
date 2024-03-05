@@ -19,3 +19,9 @@
 * Ampelschaltung Schematic + PCB (done needs to be ordered)
 * Adapter Platine PCB (done need to be ordered)
 *  AudioController PCB routen (optional)
+
+05.03.2024
+* Fertige Platinenen
+
+12.03.2024
+* Folien Prolog V1 fertig
