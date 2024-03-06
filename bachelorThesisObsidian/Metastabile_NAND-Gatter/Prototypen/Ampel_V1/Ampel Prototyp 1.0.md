@@ -1,6 +1,6 @@
 ### Schematic
 
-!![[Metastabile_NAND-Gatter/Prototypen/Ampel_V1/images/Schematic_Prototyp_V1.PNG]]
+![[Metastabile_NAND-Gatter/Prototypen/Ampel_V1/images/Schematic_Prototyp_V1.PNG]]
 ### PCB
 
 ![[Metastabile_NAND-Gatter/Prototypen/Ampel_V1/images/PCB_Prototyp_V1.PNG]]
