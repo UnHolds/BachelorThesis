@@ -1,0 +1,304 @@
+\begin{frame}[allowframebreaks]
+	\frametitle{Computer?}
+	\framesubtitle{Das passiert in der Hardware, wenn ich einen Befehl
+	eingebe.}
+
+	\begin{block}{Die Frage ist doch:}
+		Muss man wissen was in der Hardware passiert?
+	\end{block}
+	\note{
+		Wissen muss man es nicht immer.
+		Genau dafür gibt es die Abstraktion:
+		Man muss nicht alles wissen.
+		Aber: öfters ist es gut um einen Fehler zu finden, etwas selber zu
+		entwerfen oder die Leistung zu steigern
+	}
+
+	\framebreak
+
+	\begin{block}{Machen wir ein kleines Hardwareprojekt und schauen nach!}
+		Dabei werden wir
+		\begin{itemize}
+			\item sehen dass doch viel mehr hinter einem kleinen Gadget
+				steckt als man denken mag.
+			\item einen ersten Eindruck gewinnen, wie ein Computer aufgebaut ist und was denn so alles
+				passiert wenn man damit interagiert.
+			\item uns punktuell anschauen welche Kompetenzen man im Informatikstudium, am Beispiel
+				der Technischen Informatik, erwirbt.
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\section{Das Projekt}
+\begin{frame}
+	\frametitle{Projekt Handy}
+
+	\note{
+				% Die Notes sind mehr als Aussagen/Gedanken des Vortragenden zu
+				% sehen.
+		Es wird zwar kein Smartphone, ist aber noch immer ein Computer im
+		eigentlichen Sinne.
+	}
+
+	\begin{figure}
+		\centering
+		\includegraphics[width=.7\textwidth]{images/phone_almost.jpg}
+		\caption{Ein Handy?}
+	\end{figure}
+
+	\pause
+
+	\begin{center}
+		Was brauchen wir dafür?
+	\end{center}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Projekt Handy --- Display}
+
+	\begin{figure}
+		\centering
+		\includegraphics[height=.5\textheight]{images/pitft.jpg}
+		\caption{PiTFT by Adafruit CC BY-SA 3.0}
+	\end{figure}
+
+	\vspace{-0.5cm}
+
+	\begin{itemize}
+		\item \SI{2.8}{\inch} TFT + resistiver Touchscreen.
+		\item 320$\times$240 Pixel mit je 16 Bit Farbinformation.
+		\item ansprechbar über SPI Interface.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Projekt Handy --- Display}
+
+	\begin{itemize}
+		\item Jedes Computersystem hat in irgendeiner Form eine Interaktion mit
+			dem Benutzer.
+		\item Das kann im einfachsten Fall  Taster + LED sein.
+		\item In unserem Fall ist ein Touchscreen im Einsatz.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Projekt Handy --- Mobilfunk}
+			% Wir brauchen eine Anbindung an das Mobilnetz
+	\begin{figure}
+		\centering
+		\includegraphics[height=.55\textheight]{images/modem.jpg}
+		\caption{EFCom Pro GPRS/GSM Module}
+	\end{figure}
+%\end{frame}
+
+	\vspace{-0.5cm}
+
+%\begin{frame}
+%	\frametitle{Projekt Handy -- Mobilfunk}
+	\begin{itemize}
+		\item SIM900 Quad-Band GSM/GPRS Module.
+		\item ansprechbar über serielle Schnittstelle und AT-Commands.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Projekt Handy --- Mobilfunk}
+
+	\begin{block}{Computer kommunizieren und interagieren typischerweise}
+		\begin{itemize}
+			\item mit dem Benutzer\\
+			per ``User Interface''
+			\item \emph{mit anderen Computern} \\
+			``Vernetzung'', ``verteilte Systeme''
+			\item mit der Umwelt\\
+			 per Sensor/Aktor, ``Embedded Systems''
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Projekt Handy --- Steuerung}
+	\begin{figure}
+		\centering
+		\includegraphics[height=.55\textheight]{images/rpi.jpg}
+		\caption{Raspberry Pi B}
+	\end{figure}
+%\end{frame}
+\vspace{-0,5cm}
+%\begin{frame}
+%	\frametitle{Projekt Handy -- Steuerung}
+	\begin{itemize}
+		\item Broadcom BCM2835 @ \SI{700}{\mega\hertz} ARM11 core,
+			\SI{256}{\mega\byte}  RAM.
+		\item 26 Pin Header für Erweiterungen \ldots
+		\item bietet SPI und serielle Schnittstelle.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Projekt Handy --- Steuerung}
+
+	\begin{itemize}
+		\item Macht die ``Intelligenz'' im System aus.
+		\item Ermöglicht die Programmierung entsprechend der Anwendung (Handy, Alarmmelder, Anrufbeantworter, \ldots).
+		\item Führt passende Ansteuerung von Touchscreen und Modem durch.
+		\item Macht aus der Summe der Teile ein Handy.
+	\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{Projekt Handy --- Energie}
+	Jeder Computer braucht eine Energiequelle; \\
+	in unserem Fall soll sie portabel sein.
+	\begin{figure}
+		\centering
+		\includegraphics[height=.4\textheight]{images/akku.jpg}
+		\caption{Akkupack}
+	\end{figure}
+	\vspace{-0.5cm}
+	\begin{itemize}
+		\item Akkupack mit integrierter Ladeelektronik.
+		\item \SI{2200}{mAh}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Projekt Handy --- Kostenaufstellung}
+	\note{Kicken?}
+	\begin{center}
+		\begin{tabular}{rl} \toprule
+			Preis (\euro) & Komponente \\ \midrule
+			35 & Raspberry Pi\\
+			35 & Adafruit PiTFT\\
+			40 & EFCom GPRS/GSM Module\\
+			15 & Akku\\
+			5 & Kleinteile\\\cmidrule(lr){1-2}
+			130 & Gesamt\\
+			\bottomrule
+		\end{tabular}
+	\end{center}
+\end{frame}
+
+\liveDemo{Projekt Handy --- Putting it all together}
+
+\begin{frame}
+    \centering
+	\begin{block}{Quiz:}
+		Wie nennt man die kleinste Informationseinheit, die ein Computer
+		verarbeitet?
+		\begin{enumerate}
+			\item PIN
+			\item BIT
+			\item LED
+			\item PUK
+		\end{enumerate}
+	\end{block}
+
+	\medskip
+
+	\uncover<2->{
+		\huge
+		\thetelefonnumber
+	}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Was wissen wir eigentlich über \ldots}
+			% Prüfungsfach Programmierung
+
+			% Ansteuerung des Displays und Interaktion mit dem Modem
+
+	\begin{block}{\ldots den Rechner?}
+		\begin{itemize}
+			\item Ein Rechner umfasst Prozessor, Speicher und Peripherie.
+			\item Der Prozessor versteht Befehle und kann daher programmiert werden.
+			\item Nicht jeder Prozessor ist gleich, je nach Hersteller versteht er
+				andere Befehle.
+			\item Wie der Prozessor auf Hardware Ebene genau funktioniert, werden
+				wir uns morgen genauer ansehen.
+			\item Für unser Projekt ist uns das egal, durch die Verwendung
+				einer \alert<2->{Programmiersprache} abstrahieren wir das
+				alles weg und \alert<2->{arbeiten prozessorunabhängig} (soweit
+				es geht).
+
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}
+			% Abstraktion: Wie der Touch funktioniert ist egal, wir bekommen von
+			% einem Treiber nur gesagt wo gedrückt wurde und reagieren darauf
+
+	\begin{block}{\ldots den Touchscreen?}
+		\begin{itemize}
+			\item Wie wird der Druck des Fingers erkannt?
+			\item Durch Änderung der Kapazität an einer bestimmten Koordinate
+			\item oder durch einen Spannungsabfall.
+
+			\item Aber: Wie genau, ist uns eigentlich egal (Abstraktion!).
+			\item \alert<2->{Wir bekommen nur die Information wo gedrückt wurde.}
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}
+	\begin{block}{\ldots das Display?}
+		\begin{itemize}
+			\item Wie kommt ein Zeichen auf das Display?
+			\item Spannung steuert, wie ein Flüssigkristall die Polarisationsrichtung von Licht beeinflusst.
+			\item \alert<2->{Wir sagen nur, was wo am Display sein soll.}
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+
+\begin{frame}
+
+	\begin{block}{\ldots das Modem?}
+		\begin{itemize}
+			\item Wie funktioniert eigentlich die Funkübertragung?
+			\item Über kontrollierte (modulierte) elektromagnetische
+				Wellenausbreitung.
+			\item Wie wandelt das Modem digitale Daten in elektromagnetische
+				Wellen um?
+			\item Wieder abstrahieren wir diese ``Details'' weg: \alert<2->{wir
+					übergeben dem Modem Daten zum Senden.}
+		\end{itemize}
+	\end{block}
+%	Stellt eine Schnittstelle zwischen dem analogen Mobilfunk und der
+%	digitalen Signalverarbeitung dar.
+%	Genaue funktionsweise wird im ET-Studium vermittelt, im BTI werden nur
+%	Grundlagen der Elektrotechnik gebracht.
+%	Jedoch ist das Modem ein ASIC (Application Specific Integrated
+%	Ciruit) die sehr wohl behandelt werden.
+
+			% Abstraktion: zwei Kabel reichen aus um viel mehr zu steuern
+			% Experimentreihe: Das Kabel
+\end{frame}
+
+\begin{frame}
+			% Prüfungsfach Signale und Systeme
+
+	\begin{block}{\ldots das Audiointerface?}
+		\begin{itemize}
+	%		\item Neben Datendiensten ist die Sprachtelefonie noch immer eine wichtige Funktion eines Mobiltelefons
+			\item Wie kommt die Sprache eigentlich von A nach B?
+			\item Ein Mikrofon wandelt die Schallwellen in ein elektrisches
+				Signal um.
+			\item Und wie erhalten wir aus diesem elektrischen Signal einen Datenwert, der
+				weiter verarbeitet werden kann?
+			\item Dazu gibt es eigene Analog/Digital Konverter, die nach
+				verschiedenen Prinzipien arbeiten.
+			\item Doch auch diese Details nehmen uns darunter liegende Ebenen
+				(HW Module, Treiber) ab, \alert<2->{wir betrachten die Signale
+				einfach als digitale Daten, die wir verarbeiten.}
+		\end{itemize}
+	\end{block}
+	\note{
+		Behandlung der Daten wird von Chip gemacht; erleichtert die Arbeit
+		Aliasing Demo?
+	}
+\end{frame}
+

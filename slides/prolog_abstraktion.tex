@@ -1,0 +1,53 @@
+\documentclass[aspectratio=1610,hyperref={bookmarks=false}]{beamer}
+\usepackage{pgfpages}
+%\setbeameroption{show notes on second screen=right}
+
+\usepackage{prolog}
+\usepackage{eurosym}
+\usepackage{booktabs}
+
+%\usepackage{media9}
+
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{circuits.logic}
+\usetikzlibrary{circuits.logic.US}
+
+\usepackage{etex}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.10}
+
+% align caption text; no text under 'Abbildung'
+\usepackage[format=hang,justification=raggedright,compatibility=false]{caption}
+
+\usepackage[binary-units]{siunitx}
+\DeclareSIUnit[number-unit-product = {}]{\inch}{\textquotedbl}
+\DeclareSIUnit[number-unit-product = {}]{\ppb}{ppb}
+\sisetup{
+	exponent-product = \cdot,
+	per-mode=fraction,
+	range-phrase = --,
+	group-minimum-digits = 4,
+}
+
+\newcommand{\thetelefonnumber}{0681 842 554 90}
+
+\begin{document}
+	\titleFrame{Computer?}{Das passiert in der Hardware,\\ wenn ich einen
+		Befehl eingebe.}
+
+	\include{intro}
+
+	\include{thePi}
+
+	\include{sigproc}
+
+	\include{kabel}
+
+
+	\include{chips}
+
+	\include{studienplanTI}
+
+	\include{zusammenfassung}
+\end{document}

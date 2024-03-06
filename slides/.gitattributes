@@ -1,0 +1,5 @@
+# Auto CRLF conversion
+* text=auto
+
+# Nicer .tex diffs
+*.tex diff=tex

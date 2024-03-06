@@ -1,0 +1,59 @@
+\begin{tikzpicture}
+	\usetikzlibrary{calc}
+	\usetikzlibrary{shapes.geometric}
+	\usetikzlibrary{arrows,arrows.new}
+
+	\tikzstyle {arrowDec}=[decoration={markings,mark=at position 1 with {\arrow[scale=4,black]{latex}};}]
+
+	\tikzstyle {measure}=[-angle 60 new, arrow head=2mm, line width=0.75pt]
+
+	\coordinate (osz) at (4.5,4);
+	\coordinate (oszVp) at ($ (osz) + (1,1.5) $);
+
+	\coordinate (fg1) at (0,0);
+	\coordinate (fg2) at (0,2.5);
+
+	\coordinate (cablePos) at (7,2.25);
+
+
+	\draw[line width=1pt] (osz)  rectangle ++(5,4);
+	\draw (oszVp) rectangle ++(3,2);
+
+	\draw ($(oszVp) + (0.495,0.5)$) {[rounded corners] -- ++(1,0) -- ++(0.1,1) }-- ++(1,0);
+
+	\node[draw,circle] (oszCon1) at ($(osz) + (1.25,0.5)$) {};
+	\node[draw,circle] (oszCon2) at ($(osz) + (2.5,0.5)$) {};
+	\node[draw,circle] (oszCon3) at ($(osz) + (3.75,0.5)$) {};
+
+	\draw[line width=1pt] (fg1) rectangle ++(1.75,2);
+	\draw[line width=1pt] (fg2) rectangle ++(1.75,2);
+
+	\coordinate (fg1out) at ($(fg1) + (1.75,1)$);
+	\coordinate (fg2out) at ($(fg2) + (1.75,1)$);
+
+	\draw ($(fg1) + (0.375,1.2)$) -- ++(0.5,0) -- ++(0,0.5) -- ++(0.5,0);
+	\draw ($(fg2) + (0.375,1.2)$) -- ++(0.5,0) -- ++(0,0.5) -- ++(0.5,0);
+
+	\node[align=center] (fg1t) at ($(fg1) + (0.875,0.55)$) {\SI{1}{\kilo\hertz}};
+	\node[align=center] (fg2t) at ($(fg2) + (0.875,0.55)$)  {\SI{600}{\hertz} \\ \SI{6}{\mega\hertz}};
+
+	\node[draw, line width=0.8pt, style={cylinder}, minimum height=6.5cm, minimum width=0.5cm] (cable) at (cablePos) {};
+	\draw ($(cable.west) + (0,-0.4)$) -- +(0,-0.5) coordinate (m1);
+	\draw ($(cable.east) + (0,-0.4)$) -- +(0,-0.5) coordinate (m2);
+
+	\draw[<->] ($(m1) + (0,0.1)$) -- node [below] {\SI{6}{\meter}} ($(m2) + (0,0.1)$);
+
+
+	\draw[out=180, in=0, blue] ($(cable.west) + (0,-0.1)$) to (fg1out);
+	\draw[out=180, in=0, brown] ($(cable.west) + (0,+0.1)$) to coordinate[pos=0.15] (grab1) (fg2out);
+
+
+	\draw[out=0, in=200, blue] ($(cable.east) + (0,-0.1)$) to coordinate[pos=0.9] (grab3) +(1.5,0.5);
+	\draw[out=0, in=195, brown] ($(cable.east) + (0,+0.1)$) to coordinate (grab2) +(1,0.8);
+
+
+	\draw[measure] (oszCon1) -- (grab1);
+	\draw[measure] (oszCon2) -- (grab2);
+	\draw[measure,in=95,out=-20] (oszCon3) to (grab3);
+
+\end{tikzpicture}
