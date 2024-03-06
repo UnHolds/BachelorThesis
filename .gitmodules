@@ -1,0 +1,4 @@
+[submodule "slides"]
+	path = slides
+	url = git@git.ecs.tuwien.ac.at:prolog/slides_abstraktion.git
+	branch = master
