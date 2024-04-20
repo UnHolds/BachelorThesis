@@ -25,11 +25,11 @@ Update 14.04.2024
 [x] - Folie 27: "ein ganzes Handy zusammenbauen" ist jetzt nicht mehr richtig
 
 Folien:
-* Schaltschwelle strichliert schwarz
+* [x] Schaltschwelle strichliert schwarz
 Text:
-* check static 3.3V NAND
-* Schaltpläne
-* verbesserte schaltung anstelle von neuer version nand päd
+* [y] check static 3.3V NAND
+* [x] Schaltpläne
+* [x] verbesserte schaltung anstelle von neuer version nand päd
 * Kurzfassung + Abstract
 * Struktur
-* Remove Background
+* [x] Remove Background
