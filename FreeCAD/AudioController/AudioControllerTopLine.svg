@@ -1,127 +1,1028 @@
-<?xml version="1.0"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="173.4mm" height="173.40000000004022mm" viewBox="0 0 173.4 173.40000000004022" xmlns="http://www.w3.org/2000/svg" version="1.1">
-<g id="Shape2DView" transform="translate(86.700000,86.700000) scale(1,-1)">
-<path id="Shape2DView_nwe0000"  d="M -85.0 85.0000000000201 L -76.0 85.0000000000201 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0001"  d="M -76.0 85.0000000000201 L -76.0 11.000000000020094 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0002"  d="M -85.0 1.9999999999799059 L -85.0 85.0000000000201 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0003"  d="M -85.0 1.9999999999799059 L -65.0 1.9999999999799059 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0004"  d="M -76.0 11.000000000020094 L 76.0 11.000000000020094 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0005"  d="M -65.0 1.9999999999799059 L -65.0 -58.000000000020094 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0006"  d="M 76.0 85.0000000000201 L 76.0 11.000000000020094 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0007"  d="M -65.0 -58.000000000020094 L -85.0 -58.000000000020094 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0008"  d="M 76.0 85.0000000000201 L 85.0 85.0000000000201 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0009"  d="M -85.0 -85.0000000000201 L -85.0 -58.000000000020094 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0010"  d="M 85.0 85.0000000000201 L 85.0 -85.0000000000201 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0011"  d="M -56.0 -85.0000000000201 L -85.0 -85.0000000000201 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0012"  d="M 85.0 -85.0000000000201 L -1.0 -85.0000000000201 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0013"  d="M -56.0 -85.00000000002011 L -56.0 -67.00000000002011 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0014"  d="M -1.0 -85.0000000000201 L -1.0 -80.0000000000201 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0015"  d="M -56.0 -67.00000000002011 L -51.0 -67.00000000002011 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0016"  d="M -1.0 -80.0000000000201 L 8.000000000000002 -80.0000000000201 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0017"  d="M -51.0 -67.00000000002011 L -51.0 -74.00000000002011 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0018"  d="M 8.000000000000002 -80.0000000000201 L 8.000000000000002 -73.0000000000201 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0019"  d="M -51.0 -74.00000000002011 L -47.0 -74.00000000002011 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0020"  d="M 8.000000000000002 -73.0000000000201 L -0.9999999999999982 -73.0000000000201 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0021"  d="M -47.0 -74.00000000002011 L -47.0 -85.00000000002011 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0022"  d="M -0.9999999999999982 -73.0000000000201 L -0.9999999999999982 -42.000000000020094 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0023"  d="M -28.0 -85.0000000000201 L -47.0 -85.0000000000201 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0024"  d="M -0.9999999999999982 -42.000000000020094 L -28.0 -42.000000000020094 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0025"  d="M -28.0 -42.000000000020094 L -28.0 -85.0000000000201 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<circle cx="-80.0" cy="-80.0" r="1.5" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none"/>
-<path id="Shape2DView_nwe0027"  d="M -73.0 -79.0000000000201 L -73.0 -65.0000000000201 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0028"  d="M -64.0 -79.0000000000201 L -73.0 -79.0000000000201 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0029"  d="M -73.0 -65.0000000000201 L -64.0 -65.0000000000201 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0030"  d="M -64.0 -65.0000000000201 L -64.0 -79.0000000000201 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0031"  d="M -58.0 -3.9999999999898 L -58.0 -20.000000000020094 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0032"  d="M -58.0 -3.9999999999898 L -54.0 -3.9999999999898 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0033"  d="M -58.0 -20.000000000020094 L -62.0 -20.000000000020094 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0034"  d="M -54.0 -19.9999999999898 L -54.0 -3.9999999999898 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0035"  d="M -62.0 -20.000000000020094 L -62.0 -49.000000000020094 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0036"  d="M -49.0 -19.9999999999898 L -54.0 -19.9999999999898 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0037"  d="M -62.0 -49.000000000020094 L -58.0 -49.000000000020094 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0038"  d="M -49.0 -48.999999999989804 L -49.0 -19.9999999999898 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0039"  d="M -58.0 -49.000000000020094 L -58.0 -63.00000001420853 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0040"  d="M -54.0 -49.00000001420853 L -49.0 -48.999999999989804 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0041"  d="M -58.0 -63.00000001420853 L -54.0 -63.00000001420853 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0042"  d="M -54.0 -63.00000001420853 L -54.0 -49.00000001420853 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0043"  d="M 11.000000000000002 -76.0000000000201 L 41.0 -76.0000000000201 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0044"  d="M 11.000000000000002 -34.000000000020094 L 11.000000000000002 -76.0000000000201 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0045"  d="M 41.0 -76.0000000000201 L 41.0 -17.000000000020094 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0046"  d="M -0.9999999999999979 -34.000000000020094 L 11.000000000000002 -34.000000000020094 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0047"  d="M 41.0 -17.000000000020094 L 10.999999999912042 -17.000000000020094 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0048"  d="M -0.9999999999999979 -26.000000000020094 L -0.9999999999999979 -34.000000000020094 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0049"  d="M 10.99999999991204 -17.000000000020094 L 10.99999999991204 3.999999999979906 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0050"  d="M -45.000000000087965 -26.000000000020094 L -1.0 -26.000000000020094 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0051"  d="M 10.99999999991204 3.999999999979906 L -45.000000000087965 3.999999999979906 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0052"  d="M -45.000000000087965 3.999999999979906 L -45.000000000087965 -26.000000000020094 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0053"  d="M 50.999999999937145 -69.00000000001194 L 50.999999999937145 -61.00000000001193 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0054"  d="M 56.999999999937145 -69.00000000001194 L 50.999999999937145 -69.00000000001194 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0055"  d="M 50.999999999937145 -61.00000000001193 L 56.999999999937145 -61.00000000001193 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0056"  d="M 56.999999999937145 -61.00000000001193 L 56.999999999937145 -69.00000000001194 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<circle cx="80.0" cy="-80.0" r="1.5" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none"/>
-<path id="Shape2DView_nwe0058"  d="M 62.000000000008164 -69.0000000000201 L 62.000000000008164 -61.00000000001193 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0059"  d="M 68.0 -69.0000000000201 L 62.000000000008164 -69.0000000000201 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0060"  d="M 62.000000000008164 -61.00000000001193 L 68.0 -61.00000000001193 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0061"  d="M 68.0 -61.00000000001193 L 68.0 -69.0000000000201 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0062"  d="M 74.00000000000668 -69.0000000000201 L 74.00000000000668 -61.000000000020094 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0063"  d="M 81.0 -69.0000000000201 L 74.00000000000668 -69.0000000000201 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0064"  d="M 81.0 -61.000000000020094 L 81.0 -69.0000000000201 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0065"  d="M 74.00000000000668 -61.000000000020094 L 81.0 -61.000000000020094 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0066"  d="M 50.99999999999123 -55.66666666666317 L 50.99999999999123 -47.66666666667255 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0067"  d="M 56.99999999988304 -55.66666666666317 L 50.99999999999123 -55.66666666666317 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0068"  d="M 50.99999999999123 -47.66666666667255 L 56.99999999988304 -47.66666666667255 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0069"  d="M 56.99999999988304 -47.66666666667255 L 56.99999999988304 -55.66666666666317 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0070"  d="M 62.00000000001693 -55.66666666667255 L 62.00000000001693 -47.66666666667255 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0071"  d="M 67.99999999999123 -55.66666666667255 L 62.00000000001693 -55.66666666667255 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0072"  d="M 62.00000000001693 -47.66666666667255 L 67.99999999999123 -47.66666666667255 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0073"  d="M 67.99999999999123 -47.66666666667255 L 67.99999999999123 -55.66666666667255 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0074"  d="M 74.00000000000668 -55.66666666668676 L 74.00000000000668 -47.66666666668676 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0075"  d="M 81.0000000000019 -55.66666666668676 L 74.00000000000668 -55.66666666668676 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0076"  d="M 74.00000000000668 -47.66666666668676 L 81.0000000000019 -47.66666666668676 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0077"  d="M 81.0000000000019 -47.66666666668676 L 81.0000000000019 -55.66666666668676 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0078"  d="M 50.9999999999819 -42.333333333323786 L 50.9999999999819 -34.33333333333317 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0079"  d="M 56.99999999989237 -42.333333333323786 L 50.9999999999819 -42.333333333323786 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0080"  d="M 50.9999999999819 -34.33333333333317 L 56.99999999989237 -34.33333333333317 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0081"  d="M 56.99999999989237 -34.33333333333317 L 56.99999999989237 -42.333333333323786 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0082"  d="M 50.99999999997283 -28.999999999984404 L 50.99999999997283 -21.000000000011937 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0083"  d="M 56.99999999990144 -28.999999999984404 L 50.99999999997283 -28.999999999984404 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0084"  d="M 50.99999999997283 -21.000000000011937 L 56.99999999990144 -21.000000000011937 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0085"  d="M 56.99999999990144 -21.000000000011937 L 56.99999999990144 -28.999999999984404 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0086"  d="M 62.00000000002626 -42.33333333331451 L 62.00000000002626 -34.33333333333317 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0087"  d="M 67.9999999999819 -42.33333333331451 L 62.00000000002626 -42.33333333331451 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0088"  d="M 62.00000000002626 -34.33333333333317 L 67.9999999999819 -34.33333333333317 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0089"  d="M 67.9999999999819 -34.33333333333317 L 67.9999999999819 -42.33333333331451 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0090"  d="M 74.00000000000668 -42.33333333335343 L 74.00000000000668 -34.33333333335343 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0091"  d="M 81.00000000001242 -42.33333333335343 L 74.00000000000668 -42.33333333335343 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0092"  d="M 74.00000000000668 -34.33333333335343 L 81.00000000001242 -34.33333333335343 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0093"  d="M 81.00000000001242 -34.33333333335343 L 81.00000000001242 -42.33333333335343 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0094"  d="M 62.000000000035335 -28.99999999999328 L 62.000000000035335 -21.000000000011937 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0095"  d="M 67.99999999997283 -28.99999999999328 L 62.000000000035335 -28.99999999999328 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0096"  d="M 62.000000000035335 -21.000000000011937 L 67.99999999997283 -21.000000000011937 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0097"  d="M 67.99999999997283 -21.000000000011937 L 67.99999999997283 -28.99999999999328 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0098"  d="M 74.00000000000668 -29.000000000020094 L 74.00000000000668 -21.000000000020094 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0099"  d="M 81.00000000000668 -29.000000000020094 L 74.00000000000668 -29.000000000020094 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0100"  d="M 74.00000000000668 -21.000000000020094 L 81.00000000000668 -21.000000000020094 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0101"  d="M 81.00000000000668 -21.000000000020094 L 81.00000000000668 -29.000000000020094 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0102"  d="M 39.0 -6.000000000020091 L 39.0 1.9999999999799094 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0103"  d="M 45.0 -6.000000000020091 L 39.0 -6.000000000020091 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0104"  d="M 39.0 1.9999999999799094 L 45.0 1.9999999999799094 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0105"  d="M 45.0 1.9999999999799094 L 45.0 -6.000000000020091 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0106"  d="M 49.666666666666664 -6.000000000020091 L 49.666666666666664 1.9999999999799094 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0107"  d="M 55.666666666666664 -6.000000000020091 L 49.666666666666664 -6.000000000020091 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0108"  d="M 49.666666666666664 1.9999999999799094 L 55.666666666666664 1.9999999999799094 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0109"  d="M 55.666666666666664 1.9999999999799094 L 55.666666666666664 -6.000000000020091 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0110"  d="M 60.333333333333336 -6.000000000020091 L 60.333333333333336 1.9999999999799094 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0111"  d="M 66.33333333333333 -6.000000000020091 L 60.333333333333336 -6.000000000020091 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0112"  d="M 60.333333333333336 1.9999999999799094 L 66.33333333333333 1.9999999999799094 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0113"  d="M 66.33333333333333 1.9999999999799094 L 66.33333333333333 -6.000000000020091 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0114"  d="M 71.0 -6.000000000020091 L 71.0 1.9999999999799094 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0115"  d="M 77.0 -6.000000000020091 L 71.0 -6.000000000020091 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0116"  d="M 71.0 1.9999999999799094 L 77.0 1.9999999999799094 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<path id="Shape2DView_nwe0117"  d="M 77.0 1.9999999999799094 L 77.0 -6.000000000020091 " stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
-<circle cx="-80.0" cy="80.0" r="1.5" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none"/>
-<circle cx="80.0" cy="80.0" r="1.5" stroke="#191919" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none"/>
-<title>b'TopLine'</title>
-</g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="173.4mm"
+   height="173.40000000004022mm"
+   viewBox="0 0 173.4 173.40000000004022"
+   version="1.1"
+   id="svg129"
+   sodipodi:docname="AudioControllerTopLine.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs133" />
+  <sodipodi:namedview
+     id="namedview131"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="130.4612"
+     inkscape:cy="333.7544"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg129" />
+  <g
+     id="Shape2DView"
+     transform="translate(86.700000,86.700000) scale(1,-1)"
+     style="stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-width:0.26458333;stroke-dasharray:none">
+    <path
+       id="Shape2DView_nwe0000"
+       d="M -85.0 85.0000000000201 L -76.0 85.0000000000201 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0001"
+       d="M -76.0 85.0000000000201 L -76.0 11.000000000020094 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0002"
+       d="M -85.0 1.9999999999799059 L -85.0 85.0000000000201 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0003"
+       d="M -85.0 1.9999999999799059 L -65.0 1.9999999999799059 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0004"
+       d="M -76.0 11.000000000020094 L 76.0 11.000000000020094 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0005"
+       d="M -65.0 1.9999999999799059 L -65.0 -58.000000000020094 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0006"
+       d="M 76.0 85.0000000000201 L 76.0 11.000000000020094 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0007"
+       d="M -65.0 -58.000000000020094 L -85.0 -58.000000000020094 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0008"
+       d="M 76.0 85.0000000000201 L 85.0 85.0000000000201 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0009"
+       d="M -85.0 -85.0000000000201 L -85.0 -58.000000000020094 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0010"
+       d="M 85.0 85.0000000000201 L 85.0 -85.0000000000201 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0011"
+       d="M -57.5 -85.0000000000201 L -85.0 -85.0000000000201 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0012"
+       d="M 85.0 -85.0000000000201 L -1.0 -85.0000000000201 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0013"
+       d="M -57.5 -85.00000000002011 L -57.5 -67.00000000002011 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0014"
+       d="M -1.0 -85.0000000000201 L -1.0 -80.0000000000201 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0015"
+       d="M -57.5 -67.00000000002011 L -52.5 -67.00000000002011 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0016"
+       d="M -1.0 -80.0000000000201 L 8.000000000000002 -80.0000000000201 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0017"
+       d="M -52.5 -67.00000000002011 L -52.5 -74.00000000002011 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0018"
+       d="M 8.000000000000002 -80.0000000000201 L 8.000000000000002 -73.0000000000201 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0019"
+       d="M -52.5 -74.00000000002011 L -46.5 -74.00000000002011 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0020"
+       d="M 8.000000000000002 -73.0000000000201 L -0.9999999999999982 -73.0000000000201 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0021"
+       d="M -46.5 -74.00000000002011 L -46.5 -85.00000000002011 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0022"
+       d="M -0.9999999999999982 -73.0000000000201 L -0.9999999999999982 -42.000000000020094 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0023"
+       d="M -28.0 -85.0000000000201 L -46.5 -85.0000000000201 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0024"
+       d="M -0.9999999999999982 -42.000000000020094 L -28.0 -42.000000000020094 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0025"
+       d="M -28.0 -42.000000000020094 L -28.0 -85.0000000000201 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <circle
+       cx="-80.0"
+       cy="-80.0"
+       r="1.5"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       id="circle28" />
+    <path
+       id="Shape2DView_nwe0027"
+       d="M -73.0 -79.0000000000201 L -73.0 -65.0000000000201 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0028"
+       d="M -64.0 -79.0000000000201 L -73.0 -79.0000000000201 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0029"
+       d="M -73.0 -65.0000000000201 L -64.0 -65.0000000000201 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0030"
+       d="M -64.0 -65.0000000000201 L -64.0 -79.0000000000201 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0031"
+       d="M -58.0 -3.9999999999898 L -58.0 -20.000000000020094 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0032"
+       d="M -58.0 -3.9999999999898 L -54.0 -3.9999999999898 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0033"
+       d="M -58.0 -20.000000000020094 L -62.0 -20.000000000020094 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0034"
+       d="M -54.0 -19.9999999999898 L -54.0 -3.9999999999898 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0035"
+       d="M -62.0 -20.000000000020094 L -62.0 -49.000000000020094 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0036"
+       d="M -49.0 -19.9999999999898 L -54.0 -19.9999999999898 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0037"
+       d="M -62.0 -49.000000000020094 L -58.0 -49.000000000020094 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0038"
+       d="M -49.0 -48.999999999989804 L -49.0 -19.9999999999898 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0039"
+       d="M -58.0 -49.000000000020094 L -58.0 -63.00000001420853 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0040"
+       d="M -54.0 -49.00000001420853 L -49.0 -48.999999999989804 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0041"
+       d="M -58.0 -63.00000001420853 L -54.0 -63.00000001420853 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0042"
+       d="M -54.0 -63.00000001420853 L -54.0 -49.00000001420853 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0043"
+       d="M 11.000000000000002 -76.0000000000201 L 41.0 -76.0000000000201 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0044"
+       d="M 11.000000000000002 -34.000000000020094 L 11.000000000000002 -76.0000000000201 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0045"
+       d="M 41.0 -76.0000000000201 L 41.0 -17.000000000020094 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0046"
+       d="M -0.9999999999999979 -34.000000000020094 L 11.000000000000002 -34.000000000020094 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0047"
+       d="M 41.0 -17.000000000020094 L 10.999999999912042 -17.000000000020094 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0048"
+       d="M -0.9999999999999979 -26.000000000020094 L -0.9999999999999979 -34.000000000020094 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0049"
+       d="M 10.99999999991204 -17.000000000020094 L 10.99999999991204 3.999999999979906 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0050"
+       d="M -45.000000000087965 -26.000000000020094 L -1.0 -26.000000000020094 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0051"
+       d="M 10.99999999991204 3.999999999979906 L -45.000000000087965 3.999999999979906 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0052"
+       d="M -45.000000000087965 3.999999999979906 L -45.000000000087965 -26.000000000020094 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0053"
+       d="M 50.999999999937145 -69.00000000001194 L 50.999999999937145 -61.00000000001193 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0054"
+       d="M 56.999999999937145 -69.00000000001194 L 50.999999999937145 -69.00000000001194 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0055"
+       d="M 50.999999999937145 -61.00000000001193 L 56.999999999937145 -61.00000000001193 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0056"
+       d="M 56.999999999937145 -61.00000000001193 L 56.999999999937145 -69.00000000001194 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <circle
+       cx="80.0"
+       cy="-80.0"
+       r="1.5"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       id="circle60" />
+    <path
+       id="Shape2DView_nwe0058"
+       d="M 62.000000000008164 -69.0000000000201 L 62.000000000008164 -61.00000000001193 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0059"
+       d="M 68.0 -69.0000000000201 L 62.000000000008164 -69.0000000000201 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0060"
+       d="M 62.000000000008164 -61.00000000001193 L 68.0 -61.00000000001193 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0061"
+       d="M 68.0 -61.00000000001193 L 68.0 -69.0000000000201 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0062"
+       d="M 74.00000000000668 -69.0000000000201 L 74.00000000000668 -61.000000000020094 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0063"
+       d="M 81.0 -69.0000000000201 L 74.00000000000668 -69.0000000000201 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0064"
+       d="M 81.0 -61.000000000020094 L 81.0 -69.0000000000201 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0065"
+       d="M 74.00000000000668 -61.000000000020094 L 81.0 -61.000000000020094 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0066"
+       d="M 50.99999999999123 -55.66666666666317 L 50.99999999999123 -47.66666666667255 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0067"
+       d="M 56.99999999988304 -55.66666666666317 L 50.99999999999123 -55.66666666666317 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0068"
+       d="M 50.99999999999123 -47.66666666667255 L 56.99999999988304 -47.66666666667255 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0069"
+       d="M 56.99999999988304 -47.66666666667255 L 56.99999999988304 -55.66666666666317 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0070"
+       d="M 62.00000000001693 -55.66666666667255 L 62.00000000001693 -47.66666666667255 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0071"
+       d="M 67.99999999999123 -55.66666666667255 L 62.00000000001693 -55.66666666667255 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0072"
+       d="M 62.00000000001693 -47.66666666667255 L 67.99999999999123 -47.66666666667255 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0073"
+       d="M 67.99999999999123 -47.66666666667255 L 67.99999999999123 -55.66666666667255 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0074"
+       d="M 74.00000000000668 -55.66666666668676 L 74.00000000000668 -47.66666666668676 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0075"
+       d="M 81.0000000000019 -55.66666666668676 L 74.00000000000668 -55.66666666668676 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0076"
+       d="M 74.00000000000668 -47.66666666668676 L 81.0000000000019 -47.66666666668676 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0077"
+       d="M 81.0000000000019 -47.66666666668676 L 81.0000000000019 -55.66666666668676 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0078"
+       d="M 50.9999999999819 -42.333333333323786 L 50.9999999999819 -34.33333333333317 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0079"
+       d="M 56.99999999989237 -42.333333333323786 L 50.9999999999819 -42.333333333323786 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0080"
+       d="M 50.9999999999819 -34.33333333333317 L 56.99999999989237 -34.33333333333317 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0081"
+       d="M 56.99999999989237 -34.33333333333317 L 56.99999999989237 -42.333333333323786 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0082"
+       d="M 50.99999999997283 -28.999999999984404 L 50.99999999997283 -21.000000000011937 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0083"
+       d="M 56.99999999990144 -28.999999999984404 L 50.99999999997283 -28.999999999984404 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0084"
+       d="M 50.99999999997283 -21.000000000011937 L 56.99999999990144 -21.000000000011937 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0085"
+       d="M 56.99999999990144 -21.000000000011937 L 56.99999999990144 -28.999999999984404 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0086"
+       d="M 62.00000000002626 -42.33333333331451 L 62.00000000002626 -34.33333333333317 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0087"
+       d="M 67.9999999999819 -42.33333333331451 L 62.00000000002626 -42.33333333331451 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0088"
+       d="M 62.00000000002626 -34.33333333333317 L 67.9999999999819 -34.33333333333317 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0089"
+       d="M 67.9999999999819 -34.33333333333317 L 67.9999999999819 -42.33333333331451 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0090"
+       d="M 74.00000000000668 -42.33333333335343 L 74.00000000000668 -34.33333333335343 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0091"
+       d="M 81.00000000001242 -42.33333333335343 L 74.00000000000668 -42.33333333335343 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0092"
+       d="M 74.00000000000668 -34.33333333335343 L 81.00000000001242 -34.33333333335343 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0093"
+       d="M 81.00000000001242 -34.33333333335343 L 81.00000000001242 -42.33333333335343 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0094"
+       d="M 62.000000000035335 -28.99999999999328 L 62.000000000035335 -21.000000000011937 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0095"
+       d="M 67.99999999997283 -28.99999999999328 L 62.000000000035335 -28.99999999999328 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0096"
+       d="M 62.000000000035335 -21.000000000011937 L 67.99999999997283 -21.000000000011937 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0097"
+       d="M 67.99999999997283 -21.000000000011937 L 67.99999999997283 -28.99999999999328 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0098"
+       d="M 74.00000000000668 -29.000000000020094 L 74.00000000000668 -21.000000000020094 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0099"
+       d="M 81.00000000000668 -29.000000000020094 L 74.00000000000668 -29.000000000020094 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0100"
+       d="M 74.00000000000668 -21.000000000020094 L 81.00000000000668 -21.000000000020094 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0101"
+       d="M 81.00000000000668 -21.000000000020094 L 81.00000000000668 -29.000000000020094 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0102"
+       d="M 39.0 -6.0000000000201 L 39.0 1.9999999999798996 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0103"
+       d="M 46.0 -6.0000000000201 L 39.0 -6.0000000000201 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0104"
+       d="M 39.0 1.9999999999798996 L 46.0 1.9999999999798996 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0105"
+       d="M 46.0 1.9999999999798996 L 46.0 -6.0000000000201 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0106"
+       d="M 48.666666666666664 -6.000000000020101 L 48.666666666666664 1.9999999999798987 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0107"
+       d="M 55.666666666666664 -6.000000000020101 L 48.666666666666664 -6.000000000020101 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0108"
+       d="M 48.666666666666664 1.9999999999798992 L 55.666666666666664 1.9999999999798992 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0109"
+       d="M 55.666666666666664 1.9999999999798992 L 55.666666666666664 -6.000000000020101 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0110"
+       d="M 58.333333333333336 -6.0000000000200995 L 58.333333333333336 1.9999999999799005 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0111"
+       d="M 65.33333333333333 -6.0000000000200995 L 58.333333333333336 -6.0000000000200995 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0112"
+       d="M 58.333333333333336 1.9999999999799 L 65.33333333333333 1.9999999999799 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0113"
+       d="M 65.33333333333333 1.9999999999799 L 65.33333333333333 -6.0000000000200995 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0114"
+       d="M 68.0 -6.0000000000201 L 68.0 1.9999999999798996 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0115"
+       d="M 75.0 -6.0000000000201 L 68.0 -6.0000000000201 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0116"
+       d="M 68.0 1.9999999999798994 L 75.0 1.9999999999798994 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <path
+       id="Shape2DView_nwe0117"
+       d="M 75.0 1.9999999999798994 L 75.0 -6.0000000000201 "
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline" />
+    <circle
+       cx="-80.0"
+       cy="80.0"
+       r="1.5"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       id="circle122" />
+    <circle
+       cx="80.0"
+       cy="80.0"
+       r="1.5"
+       stroke="#191919"
+       stroke-width="0.35 px"
+       style="stroke-width:0.26458333;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;stroke:#ff0000;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       id="circle124" />
+    <title
+       id="title126">b'TopView'</title>
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:7.05556px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
+     x="-131.3683"
+     y="143.38235"
+     id="text2269-5-2"
+     transform="rotate(-90)"><tspan
+       sodipodi:role="line"
+       id="tspan2267-8-8"
+       style="stroke-width:0.264583"
+       x="-131.3683"
+       y="143.38235">3</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:7.05556px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
+     x="-117.99146"
+     y="143.38235"
+     id="text2269-5-1"
+     transform="rotate(-90)"><tspan
+       sodipodi:role="line"
+       id="tspan2267-8-6"
+       style="stroke-width:0.264583"
+       x="-117.99146"
+       y="143.38235">4</tspan></text>
+  <path
+     id="path1927"
+     style="vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
+     d="m 155.81477,123.07273 c -0.0354,0 -0.0641,0.0286 -0.0641,0.0641 v 0.6656 c 0,0.0354 0.0286,0.0641 0.0641,0.0641 h 1.61075 c -0.55248,0.90337 -1.85621,2.99775 -1.85621,2.99775 l 4.23229,-0.0413 -1.8712,-2.9564 h 1.59319 c 0.0354,0 0.0636,-0.0286 0.0636,-0.0641 v -0.6656 c 0,-0.0354 -0.0281,-0.0641 -0.0636,-0.0641 z" />
+  <path
+     id="path1927-5"
+     style="vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
+     d="m 159.60982,153.71822 c 0.0354,0 0.0641,-0.0286 0.0641,-0.0641 v -0.6656 c 0,-0.0354 -0.0286,-0.0641 -0.0641,-0.0641 h -1.61075 c 0.55248,-0.90337 1.85621,-2.99775 1.85621,-2.99775 l -4.23229,0.0413 1.8712,2.9564 H 155.901 c -0.0354,0 -0.0636,0.0286 -0.0636,0.0641 v 0.6656 c 0,0.0354 0.0281,0.0641 0.0636,0.0641 z" />
+  <path
+     id="path1927-2"
+     style="vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
+     d="M 157.86582 135.76174 C 157.87382 135.78164 155.76414 139.17032 155.76414 139.17032 L 159.99695 139.12898 L 157.86582 135.76174 z M 155.81168 139.53257 C 155.77624 139.53257 155.7476 139.56121 155.7476 139.59665 L 155.7476 140.26379 C 155.7476 140.29923 155.77624 140.32787 155.81168 140.32787 L 159.98093 140.32787 C 160.01637 140.32787 160.04449 140.29923 160.04449 140.26379 L 160.04449 139.59665 C 160.04449 139.56121 160.01637 139.53257 159.98093 139.53257 L 155.81168 139.53257 z " />
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:7.05556px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
+     x="-98.803932"
+     y="131.78287"
+     id="text2269"
+     transform="rotate(-90)"><tspan
+       sodipodi:role="line"
+       id="tspan2267"
+       style="stroke-width:0.264583"
+       x="-98.803932"
+       y="131.78287">M1</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:7.05556px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
+     x="-98.315094"
+     y="141.69855"
+     id="text2269-7"
+     transform="rotate(-90)"><tspan
+       sodipodi:role="line"
+       id="tspan2267-5"
+       style="stroke-width:0.264583"
+       x="-98.315094"
+       y="141.69855">M2</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:7.05556px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
+     x="-98.253647"
+     y="151.24008"
+     id="text2269-6"
+     transform="rotate(-90)"><tspan
+       sodipodi:role="line"
+       id="tspan2267-7"
+       style="stroke-width:0.264583"
+       x="-98.253647"
+       y="151.24008">M3</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:7.05556px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
+     x="-98.066559"
+     y="160.81093"
+     id="text2269-4"
+     transform="rotate(-90)"><tspan
+       sodipodi:role="line"
+       id="tspan2267-0"
+       style="stroke-width:0.264583"
+       x="-98.066559"
+       y="160.81093">M4</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:7.05556px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
+     x="-157.80928"
+     y="143.33559"
+     id="text2269-5"
+     transform="rotate(-90)"><tspan
+       sodipodi:role="line"
+       id="tspan2267-8"
+       style="stroke-width:0.264583"
+       x="-157.80928"
+       y="143.33559">1</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:7.05556px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
+     x="-144.61954"
+     y="143.14848"
+     id="text2269-52"
+     transform="rotate(-90)"><tspan
+       sodipodi:role="line"
+       id="tspan2267-9"
+       style="stroke-width:0.264583"
+       x="-144.61954"
+       y="143.14848">2</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:7.05556px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
+     x="-157.93491"
+     y="154.32704"
+     id="text2269-5-8"
+     transform="rotate(-90)"><tspan
+       sodipodi:role="line"
+       id="tspan2267-8-0"
+       style="stroke-width:0.264583"
+       x="-157.93491"
+       y="154.32704">5</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:7.05556px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
+     x="-144.79192"
+     y="154.23349"
+     id="text2269-5-4"
+     transform="rotate(-90)"><tspan
+       sodipodi:role="line"
+       id="tspan2267-8-67"
+       style="stroke-width:0.264583"
+       x="-144.79192"
+       y="154.23349">6</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:7.05556px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
+     x="-131.228"
+     y="154.32704"
+     id="text2269-5-86"
+     transform="rotate(-90)"><tspan
+       sodipodi:role="line"
+       id="tspan2267-8-1"
+       style="stroke-width:0.264583"
+       x="-131.228"
+       y="154.32704">7</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:7.05556px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
+     x="-118.03824"
+     y="154.18672"
+     id="text2269-5-5"
+     transform="rotate(-90)"><tspan
+       sodipodi:role="line"
+       id="tspan2267-8-05"
+       style="stroke-width:0.264583"
+       x="-118.03824"
+       y="154.18672">8</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:7.05556px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
+     x="-112.0514"
+     y="160.22034"
+     id="text2269-5-82"
+     transform="rotate(-90)"><tspan
+       sodipodi:role="line"
+       id="tspan2267-8-82"
+       style="stroke-width:0.264583"
+       x="-112.0514"
+       y="160.22034">B</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:8.46667px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
+     x="26.288145"
+     y="171.11227"
+     id="text2269-5-48"><tspan
+       sodipodi:role="line"
+       id="tspan2267-8-4"
+       style="font-size:8.46667px;stroke-width:0.264583"
+       x="26.288145"
+       y="171.11227">-</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:8.46667px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
+     x="42.886024"
+     y="171.84525"
+     id="text2269-5-48-9"><tspan
+       sodipodi:role="line"
+       id="tspan2267-8-4-7"
+       style="font-size:8.46667px;stroke-width:0.264583"
+       x="42.886024"
+       y="171.84525">+</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:3.52778px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
+     x="39.600685"
+     y="160.04398"
+     id="text2269-5-48-2"><tspan
+       sodipodi:role="line"
+       id="tspan2267-8-4-4"
+       style="font-size:3.52778px;stroke-width:0.264583"
+       x="39.600685"
+       y="160.04398">Power</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:3.52778px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
+     x="72.349419"
+     y="127.77634"
+     id="text2269-5-48-2-3"><tspan
+       sodipodi:role="line"
+       id="tspan2267-8-4-4-4"
+       style="font-size:3.52778px;stroke-width:0.264583"
+       x="72.349419"
+       y="127.77634">SD-Card</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:3.52778px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
+     x="64.477715"
+     y="115.94917"
+     id="text2269-5-48-2-3-6"><tspan
+       sodipodi:role="line"
+       id="tspan2267-8-4-4-4-0"
+       style="font-size:3.52778px;stroke-width:0.264583"
+       x="64.477715"
+       y="115.94917">Audio Player</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:3.52778px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
+     x="-131.89134"
+     y="96.48938"
+     id="text2269-5-48-2-3-6-2"
+     transform="rotate(-90)"><tspan
+       sodipodi:role="line"
+       id="tspan2267-8-4-4-4-0-9"
+       style="font-size:3.52778px;stroke-width:0.264583"
+       x="-131.89134"
+       y="96.48938">Audio Buffer</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:3.52778px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
+     x="18.230413"
+     y="150.76582"
+     id="text2269-5-48-2-3-6-28"><tspan
+       sodipodi:role="line"
+       id="tspan2267-8-4-4-4-0-6"
+       style="font-size:3.52778px;stroke-width:0.264583"
+       x="18.230413"
+       y="150.76582">ON</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:3.52778px;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold';text-align:center;text-anchor:middle;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.264583;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
+     x="18.164267"
+     y="169.02206"
+     id="text2269-5-48-2-3-6-9"><tspan
+       sodipodi:role="line"
+       id="tspan2267-8-4-4-4-0-8"
+       style="font-size:3.52778px;stroke-width:0.264583"
+       x="18.164267"
+       y="169.02206">OFF</tspan></text>
 </svg>
