@@ -11,9 +11,16 @@ for f in files:
     opend_files.append(open(f, "rb"))
 
 
+
+## file format
+#{song_num}_{mode}_{name}.bwav
+
 new_file = [val for tup in zip(*list(map(lambda x: x.read(), opend_files))) for val in tup]
 
-with open("output.bwav", "wb") as f_o:
+output_file = f'00_{2 if len(files) > 1 else 1}_output.bwav'
+
+
+with open(output_file, "wb") as f_o:
             f_o.write(bytes(new_file))
 
 for f in opend_files:
