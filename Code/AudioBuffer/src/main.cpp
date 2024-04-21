@@ -4,16 +4,17 @@
 #include "SPI.h"
 #include "ESP32DMASPISlave.h"
 #include <FastLED.h>
+#include <vector>
 
 #define CS_PIN_SD_CARD 5
 #define BUFFER_SIZE 4096
 #define N_QUEUES 4
 
 //Buttons
-#define SW1 35
-#define SW2 34
-#define SW3 4
-#define SW4 21
+#define MISC_BUTTON 35
+#define NEXT_SONG_BUTTON 34
+#define PLAY_PAUSE_BUTTON 4
+#define PREVIOUS_SONG_BUTTON 21
 
 #define COM_C1 32
 #define COM_C2 25
@@ -22,7 +23,15 @@
 
 #define WS2812_PIN 22
 
-CRGB leds[8];
+/*
+##### MODE ######
+0 = OFF
+1 = Single ALL
+2 = 5 Different
+*/
+
+#define NUM_LEDS 8
+CRGB leds[NUM_LEDS];
 bool led_change = false;
 File audio_file;
 ESP32DMASPI::Slave slave;
@@ -33,10 +42,13 @@ int next_buffer = 0;
 
 int mode = 0;
 bool mode_change = true;
+std::vector<String> songs;
+int num_songs = 0;
+int current_song = 0;
+bool play = false;
 
 void fill_buffer(int queue_id)
 {
-    digitalWrite(LED_BUILTIN, HIGH);
     if (audio_file.available() <= 0)
     {
         audio_file.seek(0);
@@ -48,6 +60,16 @@ void fill_buffer(int queue_id)
 
     int available_data = audio_file.available();
     int bytes_to_read = BUFFER_SIZE - 8;
+
+    //handle pause
+    if(play == false){
+        for(int i = 0; i < bytes_to_read; i++){
+            audio_buffer[queue_id][i + 8] = 0;
+        }
+        return;
+    }
+
+
     int remaining_data = 0;
     if (available_data < BUFFER_SIZE - 8)
     {
@@ -62,10 +84,9 @@ void fill_buffer(int queue_id)
         audio_file.seek(0);
         audio_file.read(audio_buffer[queue_id] + bytes_to_read + 8, remaining_data);
     }
-    digitalWrite(LED_BUILTIN, LOW);
 }
 
-void setAudioFile(const char* filename){
+void setAudioFile(String filename){
     File tmp_audio_file = SD.open(filename, FILE_READ);
 
     if (!tmp_audio_file)
@@ -101,7 +122,7 @@ void setup_buffers()
 }
 
 void set_leds_black(){
-    for(int i = 0; i < 8; i++){
+    for(int i = 0; i < NUM_LEDS; i++){
         leds[i] = CRGB(0,0,0);
     }
 }
@@ -119,12 +140,27 @@ void setup_sd_card()
         return;
     }
 
+    File root = SD.open("/");
+    File file = root.openNextFile();
+    num_songs = 0;
+    while(file){
+        String name = file.name();
+        if(file.isDirectory() == false && name.endsWith(".bwav")){
+            songs.push_back(file.path());
+            num_songs++;
+        }
+        file.close();
+        file = root.openNextFile();
+    }
+    root.close();
+
+    setAudioFile(songs[current_song]);
+
     set_leds_black();
-    leds[0] = CRGB(255,0,0);
+    leds[0] = CRGB(0,0,128);
     led_change = true;
-    mode = 0;
+    mode = songs[current_song][3] - 30;
     mode_change = true;
-    setAudioFile("/CacciatoreDellaNotte.bwav");
 }
 
 
@@ -132,10 +168,10 @@ void setup_sd_card()
 void setup()
 {
     //Buttons
-    pinMode(SW1, INPUT);
-    pinMode(SW2, INPUT);
-    pinMode(SW3, INPUT);
-    pinMode(SW4, INPUT);
+    pinMode(MISC_BUTTON, INPUT);
+    pinMode(NEXT_SONG_BUTTON, INPUT);
+    pinMode(PLAY_PAUSE_BUTTON, INPUT);
+    pinMode(PREVIOUS_SONG_BUTTON, INPUT);
 
     pinMode(COM_C1, OUTPUT);
     pinMode(COM_C2, OUTPUT);
@@ -152,63 +188,43 @@ void setup()
     delay(1000);
 }
 
+bool butten_pressed = false;
+
 void handleButtons() {
 
-    int sw1_press = digitalRead(SW1);
-    int sw2_press = digitalRead(SW2);
-    int sw3_press = digitalRead(SW3);
-    int sw4_press = digitalRead(SW4);
+    int misc_press = digitalRead(MISC_BUTTON);
+    int next_press = digitalRead(NEXT_SONG_BUTTON);
+    int play_pause_press = digitalRead(PLAY_PAUSE_BUTTON);
+    int previous_press = digitalRead(PREVIOUS_SONG_BUTTON);
 
-    if(sw1_press){
-        if(leds[0] == CRGB(0,0,0)){
-            int c = random(1,8);
-            leds[0] = CRGB(random(256) * ((c >> 2) & 1),random(256) * ((c >> 1) & 1),random(256) * ((c >> 0) & 1));
-            leds[1] = CRGB(0,0,0);
-            leds[2] = CRGB(0,0,0);
-            leds[3] = CRGB(0,0,0);
-            setAudioFile("/CacciatoreDellaNotte.bwav");
-            led_change = true;
-            mode = 0;
-            mode_change = true;
-        }
-    } else if(sw2_press){
-        if(leds[1] == CRGB(0,0,0)){
-            int c = random(1,8);
-            leds[0] = CRGB(0,0,0);
-            leds[1] = CRGB(random(256) * ((c >> 2) & 1),random(256) * ((c >> 1) & 1),random(256) * ((c >> 0) & 1));
-            leds[2] = CRGB(0,0,0);
-            leds[3] = CRGB(0,0,0);
-            setAudioFile("/CantinaBand.bwav");
-            led_change = true;
-            mode = 0;
-            mode_change = true;
-        }
-    } else if(sw3_press){
-        if(leds[2] == CRGB(0,0,0)){
-            int c = random(1,8);
-            leds[0] = CRGB(0,0,0);
-            leds[1] = CRGB(0,0,0);
-            leds[2] = CRGB(random(256) * ((c >> 2) & 1),random(256) * ((c >> 1) & 1),random(256) * ((c >> 0) & 1));
-            leds[3] = CRGB(0,0,0);
-            setAudioFile("/merged.bwav");
-            led_change = true;
-            mode = 5;
-            mode_change = true;
-        }
+    if(!misc_press && !next_press && !play_pause_press && !previous_press){
+        butten_pressed = false;
+    }
 
-    } else if(sw4_press){
-        if(leds[3] == CRGB(0,0,0)){
-            int c = random(1,8);
-            leds[0] = CRGB(0,0,0);
-            leds[1] = CRGB(0,0,0);
-            leds[2] = CRGB(0,0,0);
-            leds[3] = CRGB(random(256) * ((c >> 2) & 1),random(256) * ((c >> 1) & 1),random(256) * ((c >> 0) & 1));
-            setAudioFile("/Merge5.bwav");
-            led_change = true;
-            mode = 6;
-            mode_change = true;
-        }
+    //handle double press
+    if(butten_pressed){
+        return;
+    }
 
+    if(previous_press || next_press) {
+        current_song = (current_song + num_songs - 1 * previous_press + 1 * next_press) % num_songs;
+        setAudioFile(songs[current_song]);
+        led_change = true;
+        mode = songs[current_song][3] - 30;
+        mode_change = true;
+        set_leds_black();
+        leds[current_song % NUM_LEDS] = CRGB(0,0,128);
+        butten_pressed = true;
+    }
+
+    if(play_pause_press){
+        play = !play;
+        butten_pressed = true;
+    }
+
+    if(misc_press){
+        butten_pressed = true;
+        //todo do something
     }
 }
 
@@ -229,6 +245,19 @@ void set_mode() {
     }
 }
 
+bool blink_led_on = true;
+void blink(){
+    if(blink_led_on){
+        leds[current_song % NUM_LEDS] = CRGB(0,0,0);
+    }else{
+        leds[current_song % NUM_LEDS] = CRGB(0,0,128);
+    }
+    blink_led_on = !blink_led_on;
+    led_change = true;
+}
+
+long last_millis = millis();
+
 void loop()
 {
 
@@ -239,6 +268,11 @@ void loop()
     handleButtons();
     set_mode();
     handleLeds();
+    if(last_millis + 750 < millis() && play == false){
+        blink();
+        last_millis = millis();
+    }
+
 
     if(slave.remained() >= N_QUEUES){
         return;

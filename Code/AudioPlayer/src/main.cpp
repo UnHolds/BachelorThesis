@@ -213,19 +213,19 @@ void handleComPins() {
         leds[2] = CRGB(0,0,0);
         leds[3] = CRGB(0,0,0);
         if(mode  == 0){
-            leds[0] = CRGB(0,255,0);
+            leds[0] = CRGB(0,0,0);
         }
         if(mode & 0b1){
-            leds[0] = CRGB(0,0,255);
+            leds[0] = CRGB(0,0,128);
         }
         if(mode & 0b10){
-            leds[1] = CRGB(0,0,255);
+            leds[1] = CRGB(0,0,128);
         }
         if(mode & 0b100){
-            leds[2] = CRGB(0,0,255);
+            leds[2] = CRGB(0,0,128);
         }
         if(mode & 0b1000){
-            leds[3] = CRGB(0,0,255);
+            leds[3] = CRGB(0,0,128);
         }
         led_change = true;
     }
@@ -242,44 +242,16 @@ void handleLeds(){
 
 void handleSend(){
     if(mode == 0){
-        uint8_t pins[] = {CS1, CS2, CS3, CS4, CS5};
-        send(pins ,5);
-    }
-
-    if(mode == 1){
         uint8_t pins[] = {};
         send(pins ,0);
     }
 
+    if(mode == 1){
+        uint8_t pins[] = {CS1, CS2, CS3, CS4, CS5};
+        send(pins, 5);
+    }
+
     if(mode == 2){
-        uint8_t pins[] = {CS1, CS3, CS5};
-        send(pins ,3);
-    }
-
-    if(mode == 3){
-        uint8_t pins1[] = {CS1, CS2};
-        send(pins1 ,2);
-        uint8_t pins2[] = {CS3, CS4};
-        send(pins2 ,2);
-    }
-
-    if(mode == 4) {
-        uint8_t pins1[] = {CS1};
-        send(pins1 ,1);
-    }
-
-    if(mode == 5){
-        channel[0][0] = CS1;
-        channel[0][1] = CS2;
-        channel[1][0] = CS3;
-        channel[1][1] = CS4;
-        //channel[0][4] = CS5;
-        pinNums[0] = 2;
-        pinNums[1] = 2;
-        send2(channel, pinNums, 2);
-    }
-
-    if(mode == 6){
         channel[0][0] = CS1;
         channel[1][0] = CS2;
         channel[2][0] = CS3;
