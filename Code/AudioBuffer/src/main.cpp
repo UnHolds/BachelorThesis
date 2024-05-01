@@ -159,7 +159,7 @@ void setup_sd_card()
     set_leds_black();
     leds[0] = CRGB(0,0,128);
     led_change = true;
-    mode = songs[current_song][3] - 30;
+    mode = songs[current_song][4] - 48;
     mode_change = true;
 }
 
@@ -210,7 +210,7 @@ void handleButtons() {
         current_song = (current_song + num_songs - 1 * previous_press + 1 * next_press) % num_songs;
         setAudioFile(songs[current_song]);
         led_change = true;
-        mode = songs[current_song][3] - 30;
+        mode = songs[current_song][4] - 48;
         mode_change = true;
         set_leds_black();
         leds[current_song % NUM_LEDS] = CRGB(0,0,128);
@@ -219,6 +219,8 @@ void handleButtons() {
 
     if(play_pause_press){
         play = !play;
+        leds[current_song % NUM_LEDS] = CRGB(0,0,128);
+        led_change = true;
         butten_pressed = true;
     }
 

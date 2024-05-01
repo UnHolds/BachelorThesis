@@ -111,7 +111,7 @@ void setup()
     //setup buffer
     setupChannelBuffer();
 
-    Serial.begin(115200);
+    //Serial.begin(115200);
     pinMode(VSPI_IOMUX_PIN_NUM_CS, OUTPUT);
     vspi->begin(VSPI_IOMUX_PIN_NUM_CLK, VSPI_IOMUX_PIN_NUM_MISO, VSPI_IOMUX_PIN_NUM_MOSI, VSPI_IOMUX_PIN_NUM_CS);
     digitalWrite(vspi->pinSS(), HIGH);
@@ -204,7 +204,6 @@ void handleComPins() {
     }
 
     int mode_new = ((avg_com4 == 8) << 3) | ((avg_com3 == 8) << 2) | ((avg_com2 == 8) << 1) | (avg_com1 == 8);
-    Serial.println(mode_new);
 
     if(mode != mode_new){
         mode = mode_new;
