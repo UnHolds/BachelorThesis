@@ -47,3 +47,4 @@ Versand Gesamt: 115,55€
 Summe mit Versand: 304,18€
 Summe ohne Versand: 188,63€
 Summe Einkauf: 416,04€
+

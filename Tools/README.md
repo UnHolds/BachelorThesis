@@ -4,6 +4,13 @@
 
 This tool can be used to transform `.wav` files into `.bwav` files.
 
+Important: `.wav` files need to have a sample rate of 22050Hz and a resolution
+of 32-bit float.
+
+To get songs with different tracks for each instrument/vocal one could use the website:
+https://multitracksearch.cambridge-mt.com/ms-mtk-search.htm
+On this website are multiple songs where each track is in a separate file.
+
 ## BinaryWavMerger.py
 
 This tool merges multiple `.bwav` files into one.

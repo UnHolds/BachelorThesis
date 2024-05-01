@@ -1,9 +1,9 @@
 
-file_1 = "../Code/AudioBuffer/audio_binary/SultansOfSwing.bwav"
-file_2 = "../Code/AudioBuffer/audio_binary/CacciatoreDellaNotte.bwav"
-file_3 = "../Code/AudioBuffer/audio_binary/CantinaBand.bwav"
-file_4 = "../Code/AudioBuffer/audio_binary/NeverGonnaGiveYouUp.bwav"
-file_5 = "../Code/AudioBuffer/audio_binary/TheImperialMarch.bwav"
+file_1 = r"bass.bwav"
+file_2 = r"drums.bwav"
+file_3 = r"guitar.bwav"
+file_4 = r"piano_organ.bwav"
+file_5 = r"vox.bwav"
 
 files = [file_1, file_2, file_3, file_4, file_5]
 opend_files = []

@@ -2,7 +2,7 @@ from scipy.io import wavfile
 
 max_amplitude = 0.7
 offset = 2.5
-path = '../Code/AudioPlayer/audio/TheImperialMarch.wav'
+path = r'\vox.wav'
 
 samplerate, data = wavfile.read(path)
 
